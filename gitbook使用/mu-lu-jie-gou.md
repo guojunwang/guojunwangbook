@@ -16,6 +16,7 @@ GitBook使用简单的目录结构。摘要中列出的所有Markdown / Asciidoc
     ├── README.md
     └── something.md
 ```
+README.md 和 SUMMARY.md 是两个必须文件，README.md 是对书籍的简单介绍：
 概述这些功能是什么：
 
 
