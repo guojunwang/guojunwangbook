@@ -39,29 +39,36 @@
 
 #language
 
-```json
+
 Gitbook使用的语言, 版本2.6.4中可选的语言如下：
 
-```
+```json
+
 en, ar, bn, cs, de, en, es, fa, fi, fr, he, it, ja, ko, no, pl, pt, ro, ru, sv, uk, vi, zh-hans, zh-tw
 ```
 
 配置使用简体中文
+```json
 
 "language" : "zh-hans",
+```
+
 gitbook
 
 指定使用的gitbook版本
 
+```json
 "gitbook" : "3.2.2",
 "gitbook" : ">=3.0.0"
+```
 root
 
 指定存放 GitBook 文件（除了 book.json）的根目录
 
+```json
 "root": "."
 links
-
+```
 在左侧导航栏添加链接信息
 
 "links" : {
@@ -87,7 +94,7 @@ links
 h1 , h2{
     border-bottom: 1px solid #EFEAEA;
 }
-plugins
+#plugins
 
 配置使用的插件
 
@@ -108,7 +115,7 @@ livereload
 "plugins": [
     "-search"
 ]
-pluginsConfig
+# pluginsConfig
 
 配置插件的属性
 
@@ -119,7 +126,7 @@ pluginsConfig
         "size":  1
     }
 }
-structure
+# structure
 
 指定 Readme、Summary、Glossary 和 Languages 对应的文件名，下面是这几个文件对应变量以及默认值：
 
