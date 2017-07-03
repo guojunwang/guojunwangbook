@@ -95,7 +95,7 @@ en, ar, bn, cs, de, en, es, fa, fi, fr, he, it, ja, ko, no, pl, pt, ro, ru, sv, 
     "epub": "styles/epub.css"
 }
 ```
-例如使<h1> <h2>标签有下边框， 可以在website.css中设置
+例如使h1、h2标签有下边框， 可以在website.css中设置
 
 
 ```json
@@ -109,23 +109,30 @@ h1 , h2{
 
 配置使用的插件
 
+```json
+
 "plugins": [
     "disqus"
 ]
+```
+
+
 添加新插件之后需要运行gitbook install来安装新的插件
 
 Gitbook默认带有5个插件：
 
-highlight
-search
-sharing
-font-settings
-livereload
+* highlight
+* search
+* sharing
+* font-settings
+* livereload
 如果要去除自带的插件， 可以在插件名称前面加-
 
+```json
 "plugins": [
     "-search"
 ]
+```
 # pluginsConfig
 
 配置插件的属性
