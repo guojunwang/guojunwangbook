@@ -5,15 +5,22 @@ GitBook使用简单的目录结构。摘要中列出的所有Markdown / Asciidoc
 一个基本的GitBook通常看起来像这样：
 
 ```
-var
+.
+├── book.json
+├── README.md
+├── SUMMARY.md
+├── chapter-1/
+|   ├── README.md
+|   └── something.md
+└── chapter-2/
+    ├── README.md
+    └── something.md
 ```
+概述这些功能是什么：
 
 
 
 
-```
-var a = 0;
-```
 
 ## 测试
 
