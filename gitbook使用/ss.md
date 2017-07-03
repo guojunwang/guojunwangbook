@@ -18,8 +18,9 @@
 #title
 
 设置书本的标题
-
+```
 "title" : "Gitbook Use"
+```
 #author
 
 作者的相关信息
