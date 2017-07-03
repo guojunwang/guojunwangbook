@@ -19,7 +19,7 @@
 
 设置书本的标题
 
-```BASH
+```bash
 "title" : "Gitbook Use"
 ```
 #author
