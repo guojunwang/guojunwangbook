@@ -53,7 +53,7 @@ en, ar, bn, cs, de, en, es, fa, fi, fr, he, it, ja, ko, no, pl, pt, ro, ru, sv, 
 "language" : "zh-hans",
 ```
 
-gitbook
+#gitbook
 
 指定使用的gitbook版本
 
@@ -61,21 +61,26 @@ gitbook
 "gitbook" : "3.2.2",
 "gitbook" : ">=3.0.0"
 ```
-root
+# root
 
 指定存放 GitBook 文件（除了 book.json）的根目录
 
 ```json
 "root": "."
-links
 ```
+
+#links
+
 在左侧导航栏添加链接信息
+
+```json
 
 "links" : {
     "sidebar" : {
         "Home" : "http://zhangjikai.com"
     }
 }
+```
 #styles
 
 自定义页面样式， 默认情况下各generator对应的css文件
