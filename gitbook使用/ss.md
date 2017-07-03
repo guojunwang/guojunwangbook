@@ -137,6 +137,8 @@ Gitbook默认带有5个插件：
 
 配置插件的属性
 
+```json
+
 "pluginsConfig": {
     "fontsettings": {
         "theme": "sepia",
@@ -144,6 +146,7 @@ Gitbook默认带有5个插件：
         "size":  1
     }
 }
+```
 # structure
 
 指定 Readme、Summary、Glossary 和 Languages 对应的文件名，下面是这几个文件对应变量以及默认值：
