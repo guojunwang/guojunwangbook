@@ -4,13 +4,14 @@
   * [介绍](安装/README.md)
   * [使用](安装/README.md)
 * [vue](an-zhuang.md)
-* react
+* [react](react.md)
 * [python](cha-jian.md)
 * php
 * jsp
-* 服务器
+* [服务器](fu-wu-qi.md)
 * 爬虫
 * css
 * js及其库
 * [生活](sheng-huo.md)
+* chrome插件
 
