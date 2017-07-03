@@ -5,6 +5,7 @@
   * [目录结构](gitbook使用/mu-lu-jie-gou.md)
   * [Markdown](gitbook使用/使用.md)
   * [插件](gitbook使用/插件.md)
+  * [配置](gitbook使用/ss.md)
 * [vue](an-zhuang.md)
 * [react](react.md)
 * [python](cha-jian.md)
