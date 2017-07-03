@@ -1,10 +1,10 @@
 # Summary
 
 * [gitbook使用](README.md)
-  * [介绍](gitbook使用/介绍.md)
   * [使用](gitbook使用/使用.md)
+    * 目录结构
+  * [介绍](gitbook使用/介绍.md)
   * [插件](gitbook使用/插件.md)
-
 * [vue](an-zhuang.md)
 * [react](react.md)
 * [python](cha-jian.md)
