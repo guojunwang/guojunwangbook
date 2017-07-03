@@ -151,9 +151,17 @@ Gitbook默认带有5个插件：
 
 指定 Readme、Summary、Glossary 和 Languages 对应的文件名，下面是这几个文件对应变量以及默认值：
 
-变量	含义和默认值
+| 变量 | 含义和默认值| Cool |
+| ------------- :|:-------------:| -----:|
+| col 3 is | right-aligned | $1600 |
+| col 2 is | centered | $12 |
+| zebra stripes | are neat | $1 |
+	
+| 变量 | 含义和默认值|
 
-structure.readme	Readme file name (defaults to README.md)
-structure.summary	Summary file name (defaults to SUMMARY.md)
-structure.glossary	Glossary file name (defaults to GLOSSARY.md)
-structure.languages	Languages file name (defaults to LANGS.md)
+| ------------- :|:-------------:|
+
+| structure.readme | 	Readme file name (defaults to README.md)|
+| structure.summary | 	Summary file name (defaults to  SUMMARY.md)|
+| structure.glossary | 	Glossary file name (defaults to GLOSSARY.md)|
+|structure.languages |	Languages file name (defaults to LANGS.md)|
