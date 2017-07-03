@@ -84,6 +84,7 @@ en, ar, bn, cs, de, en, es, fa, fi, fr, he, it, ja, ko, no, pl, pt, ro, ru, sv, 
 #styles
 
 自定义页面样式， 默认情况下各generator对应的css文件
+
 ```json
 
 "styles": {
@@ -96,9 +97,14 @@ en, ar, bn, cs, de, en, es, fa, fi, fr, he, it, ja, ko, no, pl, pt, ro, ru, sv, 
 ```
 例如使<h1> <h2>标签有下边框， 可以在website.css中设置
 
+
+```json
+
 h1 , h2{
     border-bottom: 1px solid #EFEAEA;
 }
+```
+
 #plugins
 
 配置使用的插件
