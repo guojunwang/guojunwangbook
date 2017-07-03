@@ -4,7 +4,7 @@
 
 * [title - 标题](#title)
 * author - 作者信息
-* description - 书本描述
+* [description - 书本描述](#description)
 * language - 使用的语言
 * gitbook - 指定gitbook版本
 * root - 指定存放 GitBook 文件的根目录
