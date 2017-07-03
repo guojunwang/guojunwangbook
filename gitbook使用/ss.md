@@ -19,7 +19,7 @@
 
 设置书本的标题
 
-```
+```json
 "title" : "Gitbook Use"
 ```
 #author
