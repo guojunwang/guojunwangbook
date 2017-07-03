@@ -2,7 +2,7 @@
 
 记录Gitbook的一些配置信息
 
-* [title - 标题]试试
+* [title - 标题](#title)
 * author - 作者信息
 * description - 书本描述
 * language - 使用的语言
