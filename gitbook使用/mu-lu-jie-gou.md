@@ -8,3 +8,9 @@ GitBook使用简单的目录结构。摘要中列出的所有Markdown / Asciidoc
 
 
 
+```
+var a = 0;
+```
+
+
+
