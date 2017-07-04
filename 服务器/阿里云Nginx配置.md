@@ -8,3 +8,4 @@
 ![](/服务器/images/阿里云Nginx位置.png)
 
 然后在conf目录下创建一个vhosts 目录,  这个目录是用来存放不同站点的配置文件的
+![](/服务器/images/vhosts.png)
