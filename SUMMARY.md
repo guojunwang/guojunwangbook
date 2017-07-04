@@ -11,8 +11,8 @@
 * [python](cha-jian.md)
 * php
 * jsp
-* [服务器](fu-wu-qi.md)
-  * [阿里云Nginx配置](fu-wu-qi/a-li-yun.md)
+* [服务器](服务器.md)
+  * [阿里云Nginx配置](服务器/阿里云Nginx配置.md)
 * 爬虫
 * css
 * js及其库
