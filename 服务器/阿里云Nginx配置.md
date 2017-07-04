@@ -17,4 +17,37 @@
 
 ![](/服务器/images/Nginx加入配置.png) 
 
-然后，在vhosts 目录下写 你对应站点的 conf 文件了。下面给出一个范例,我以配置guojunwang为例
+然后，在vhosts 目录下写 你对应站点的 conf 文件了。下面给出一个范例,我以配置guojunwang为例  
+复制一份默认default.conf文件修改为guojunwang.conf
+![](/assets/guojunwangconf.png)
+
+```
+server {
+        listen       80;
+		# 这个表示 网站域名, 可以是二级甚至多级域名  
+        server_name  localhost;
+		# 表示默认索引文件 
+		index index.html index.htm index.php;
+		# 该站点对应的网站根目录所在
+		root /alidata/www/default;
+		# 这里可配置代理
+		location ~ .*\.(php|php5)?$
+		{
+			#fastcgi_pass  unix:/tmp/php-cgi.sock;
+			fastcgi_pass  127.0.0.1:9000;
+			fastcgi_index index.php;
+			include fastcgi.conf;
+		}
+		location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$
+		{
+			expires 30d;
+		}
+		location ~ .*\.(js|css)?$
+		{
+			expires 1h;
+		}
+		#伪静态规则
+		include /alidata/server/nginx/conf/rewrite/default.conf;
+		access_log  /alidata/log/nginx/access/default.log;
+}
+```
