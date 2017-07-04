@@ -21,6 +21,7 @@
 复制一份默认default.conf文件修改为guojunwang.conf
 ![](/assets/guojunwangconf.png)
 
+默认配置
 ```conf
 server {
         listen       80;
