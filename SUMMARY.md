@@ -12,6 +12,7 @@
 * php
 * jsp
 * [服务器](fu-wu-qi.md)
+  * [阿里云Nginx配置](fu-wu-qi/a-li-yun.md)
 * 爬虫
 * css
 * js及其库
