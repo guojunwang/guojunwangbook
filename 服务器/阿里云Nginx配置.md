@@ -21,7 +21,7 @@
 复制一份默认default.conf文件修改为guojunwang.conf
 ![](/assets/guojunwangconf.png)
 
-```
+```conf
 server {
         listen       80;
 		# 这个表示 网站域名, 可以是二级甚至多级域名  
