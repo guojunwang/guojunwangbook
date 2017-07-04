@@ -12,6 +12,8 @@
 
 ![](/服务器/images/vhosts.png)
 
-然后在nginx.conf 最后 加入一行include /alidata/server/nginx/conf/vhosts/*.conf;
-![](/assets/Nginx加入配置.png)
+然后在nginx.conf 最后 加入一行include /alidata/server/nginx/conf/vhosts/*.conf;  
+这行表示将 vhosts 下面所有的 conf 文件包含进来
+
+![](/服务器/images/Nginx加入配置.png) 
 
