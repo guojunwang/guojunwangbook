@@ -52,4 +52,4 @@ server {
 		access_log  /alidata/log/nginx/access/default.log;
 }
 ```
-把打包后的前端网站放到 /alidata/www目录下，我这里放我自己为公司做的一个商户端commercials-bos项目的目录，root 那里修改为/alidata/www/commercials-bos，server_name 我配置一个guojunwang.ytljn.com的域名
+把打包后的前端网站放到 /alidata/www目录下，我这里放我自己为公司做的一个商户端commercials-bos项目的目录，root 那里修改为/alidata/www/commercials-bos，server_name 我配置一个guojunwang.ytljn.com的域名，伪静态规则根据自己情况修改
