@@ -53,3 +53,35 @@ server {
 }
 ```
 把打包后的前端网站放到 /alidata/www目录下，我这里放我自己为公司做的一个商户端commercials-bos项目的目录，root 那里修改为/alidata/www/commercials-bos，server_name 我配置一个guojunwang.ytljn.com的域名，伪静态规则和access_log根据自己情况修改
+
+修改后的配置文件
+```
+server {
+        listen       80;
+		# 这个表示 网站域名, 可以是二级甚至多级域名  
+        server_name  guojunwang.ytljn.com;
+		# 表示默认索引文件 
+		index index.html index.htm index.php;
+		# 该站点对应的网站根目录所在
+		root /alidata/www/commercials-bos;
+		# 这里可配置代理
+		location ~ .*\.(php|php5)?$
+		{
+			#fastcgi_pass  unix:/tmp/php-cgi.sock;
+			fastcgi_pass  127.0.0.1:9000;
+			fastcgi_index index.php;
+			include fastcgi.conf;
+		}
+		location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$
+		{
+			expires 30d;
+		}
+		location ~ .*\.(js|css)?$
+		{
+			expires 1h;
+		}
+		#伪静态规则
+		include /alidata/server/nginx/conf/rewrite/phpwind.conf;
+		access_log  /alidata/log/nginx/access/phpwind.log;
+}
+```
