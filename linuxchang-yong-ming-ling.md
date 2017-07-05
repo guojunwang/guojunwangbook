@@ -23,4 +23,5 @@ kill -信号类型 '/usr/local/nginx/logs/nginx.pid'
   
 判断配置文件是否正确  
 ./nginx -t  
+
 ```
