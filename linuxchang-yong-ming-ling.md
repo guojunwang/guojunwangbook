@@ -5,6 +5,8 @@
 
 cp
 ## Nginx常用命令
+
+```linux
 启动  
 ./nginx  
   
@@ -21,3 +23,4 @@ kill -信号类型 '/usr/local/nginx/logs/nginx.pid'
   
 判断配置文件是否正确  
 ./nginx -t  
+```
