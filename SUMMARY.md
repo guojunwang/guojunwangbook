@@ -20,4 +20,5 @@
 * chrome插件
   * Linux常用命令
 * [Linux常用命令](linuxchang-yong-ming-ling.md)
+* [常用词汇](chang-yong-ci-hui.md)
 
