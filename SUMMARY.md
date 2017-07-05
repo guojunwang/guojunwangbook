@@ -13,9 +13,11 @@
 * jsp
 * [服务器](服务器.md)
   * [阿里云Nginx配置](服务器/阿里云Nginx配置.md)
-* 爬虫
+* [爬虫](pa-chong.md)
 * css
 * js及其库
 * [生活](sheng-huo.md)
 * chrome插件
+  * Linux常用命令
+* [Linux常用命令](linuxchang-yong-ming-ling.md)
 
