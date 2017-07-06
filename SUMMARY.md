@@ -21,4 +21,5 @@
   * Linux常用命令
 * [Linux常用命令](linuxchang-yong-ming-ling.md)
 * [常用词汇](chang-yong-ci-hui.md)
+* [网站建设须知](wang-zhan-jian-she-xu-zhi.md)
 
