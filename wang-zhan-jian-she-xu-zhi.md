@@ -1,3 +1,5 @@
+
+## 网站域名被墙（被封锁、被屏蔽、被和谐）最好的解决方法
 ## 网站存在敏感目录
 
 [网站存在敏感目录](http://blog.csdn.net/rightfa/article/details/50363617)
