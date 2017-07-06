@@ -6,5 +6,7 @@
 
 ##网站哪些是敏感信息
 
+## 过滤ip 屏蔽攻击的ip禁止访问
+
 ## [过滤](http://dun.163.com/)
 ##  [新广告法违规词、敏感词在线检测工具](http://blog.csdn.net/enweitech/article/details/53780872)
