@@ -18,7 +18,7 @@
 * css
 * js及其库
 * [生活](sheng-huo.md)
-* chrome插件
+* [chrome插件](chromecha-jian.md)
   * Linux常用命令
 * [Linux常用命令](linuxchang-yong-ming-ling.md)
 * [常用词汇](chang-yong-ci-hui.md)
