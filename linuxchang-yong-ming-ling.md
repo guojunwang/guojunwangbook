@@ -6,7 +6,8 @@
 ```linux
 ps -aux 
 ```
-单个进程是否运行，例如mysql
+
+查看某个进程或者服务是否存在，命令 ps -aux  ｜ grep xxx 例如mysql
 
 ```linux
 ps aux |grep mysqld
