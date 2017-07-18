@@ -13,6 +13,11 @@ ps -aux
 ps aux |grep mysqld
 ```
 
+### mysql版本查看
+
+```linux
+mysql -V
+```
 
 
 ## 复制
