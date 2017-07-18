@@ -2,9 +2,17 @@
 * [常用命令]()
 
 ### 查看进程
+所有进程
 ```linux
 ps -aux 
 ```
+单个进程是否运行，例如mysql
+
+```linux
+ps aux |grep mysqld
+```
+
+
 
 ## 复制
 
