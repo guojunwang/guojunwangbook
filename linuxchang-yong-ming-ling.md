@@ -1,6 +1,9 @@
 # Linux常用命令
 * [常用命令]()
 
+### 新建文件
+touch 
+
 ### 查看进程
 所有进程
 ```linux
@@ -18,7 +21,8 @@ ps aux |grep mysqld
 ```linux
 mysql -V
 ```
-
+###
+(service mysqld stop )
 
 ## 复制
 
