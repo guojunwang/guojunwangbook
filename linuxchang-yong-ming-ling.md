@@ -1,6 +1,11 @@
 # Linux常用命令
 * [常用命令]()
 
+### 查看进程
+```linux
+ps -aux 
+```
+
 ## 复制
 
 cp
@@ -25,3 +30,4 @@ kill -信号类型 '/usr/local/nginx/logs/nginx.pid'
 ./nginx -t  
 
 ```
+
