@@ -18,6 +18,9 @@ rpm -e --nodeps xxx                  #卸载不成功时使用此命令强制卸
 2.删除软件目录 rm -rf /usr/lib64/mysql
 还可以删除MySQL数据库目录：mysql的所有目录以及文件和其他配置和设置等。如果有，则删除。也必须考虑其他软件不去影响。
 1.查找：find / -name mysql
+2.删除相关文件目录：rm -rf /usr/lib64/mysql
+
+
 
 
 ```
@@ -26,7 +29,7 @@ rpm -e --nodeps xxx                  #卸载不成功时使用此命令强制卸
 
 
 
-2.删除相关文件目录：rm -rf /usr/lib64/mysql
+
 
 
 ## 查看软件存在的相关目录
