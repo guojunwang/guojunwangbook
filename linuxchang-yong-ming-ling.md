@@ -22,7 +22,16 @@ MySQL-server.x86_64   5.6.27-1.el6    installed
 [root@localhost usr]#
 
 ```
+方式2( -i  :不区分大小写)：
 
+``` linux
+
+[root@localhost usr]# rpm -qa | grep -i mysql
+MySQL-server-5.6.27-1.el6.x86_64
+MySQL-client-5.6.27-1.el6.x86_64
+MySQL-devel-5.6.27-1.el6.x86_64
+[root@localhost usr]# 
+```
 
 
 ### 新建文件
