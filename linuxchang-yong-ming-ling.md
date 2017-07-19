@@ -20,7 +20,7 @@ rpm -e --nodeps xxx                  #卸载不成功时使用此命令强制卸
 1.查找：find / -name mysql
 2.删除相关文件目录：rm -rf /usr/lib64/mysql
 
-
+卸载完以后用 rpm -qa|grep mariadb 或者 rpm -qa|grep mysql 查看结果
 
 
 ```
