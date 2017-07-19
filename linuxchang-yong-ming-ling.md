@@ -24,6 +24,21 @@ rpm -e --nodeps xxx                  #卸载不成功时使用此命令强制卸
 
 
 ```
+### 卸载Apache
+
+
+```
+1、停止httpd服务 
+ systemctl stop httpd #centos7以下httpd.service
+2、查看apache包 
+rpm -qa|grep httpd  
+3、卸载apache包 
+rpm -e xxx #一般使用此命令即可卸载成功
+rpm -e --nodeps xxx  #卸载不成功时使用此命令强制卸载
+
+```
+
+
 
 
 
