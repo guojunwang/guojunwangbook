@@ -1,6 +1,30 @@
 # Linux常用命令
 * [常用命令]()
 
+### CentOS7下MySQL的卸载
+1：查看MySQL是否安装:
+
+ 方式1:
+
+
+
+``` linux
+[root@localhost usr]# yum list installed mysql*
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirrors.yun-idc.com
+ * extras: mirror.neu.edu.cn
+ * updates: mirrors.yun-idc.com
+Installed Packages
+MySQL-client.x86_64   5.6.27-1.el6    installed
+MySQL-devel.x86_64    5.6.27-1.el6    installed
+MySQL-server.x86_64   5.6.27-1.el6    installed
+[root@localhost usr]#
+
+```
+
+
+
 ### 新建文件
 touch 
 
