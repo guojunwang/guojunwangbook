@@ -9,7 +9,7 @@
 
 ```
 rpm -qa | grep mysql               #查看MySQL是否安装 或者 yum list installed mysql*
-rpm -qa | grep mariadb
+rpm -qa | grep mariadb        #查看MySQL类型数据库mariadb是否安装
 
 rpm -e xxx                           #一般使用此命令即可卸载成功    
 rpm -e --nodeps xxx                  #卸载不成功时使用此命令强制卸载
