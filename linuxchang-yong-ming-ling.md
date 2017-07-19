@@ -1,5 +1,21 @@
 # Linux常用命令
 * [常用命令]()
+
+## mysql卸载
+
+编译安装MySQL前预准备：
+首先检查系统中是否存在使用rpm安装的mysql或者mariadb，如果有需要先删除后再编译安装。
+
+rpm -qa | grep mysql               #查看MySQL是否安装 或者 yum list installed mysql*
+
+rpm -qa | grep mariadb
+
+rpm -e xxx                           #一般使用此命令即可卸载成功    
+rpm -e --nodeps xxx                  #卸载不成功时使用此命令强制卸载
+还可以删除MySQL数据库目录：
+1.查看软件目录 whereis mysql
+2.删除rm -rf /usr/lib64/mysql
+
 ## 查看软件存在的相关目录
 
 whereis mysql
