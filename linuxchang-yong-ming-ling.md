@@ -1,6 +1,6 @@
 # Linux常用命令
 * [常用命令]()
-## 查看相关目录
+## 查看软件存在的相关目录
 
 whereis mysql
 ### CentOS7下MySQL的卸载
