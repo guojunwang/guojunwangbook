@@ -3,8 +3,9 @@
 ## 查看软件存在的相关目录
 
 whereis mysql
+输出例如：/usr/lib64/mysql
 移除目录
-rm -rf
+rm -rf /usr/lib64/mysql
 ### CentOS7下MySQL的卸载
 1：查看MySQL是否安装:
 
