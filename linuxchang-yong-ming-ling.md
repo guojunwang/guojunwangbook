@@ -32,7 +32,55 @@ MySQL-client-5.6.27-1.el6.x86_64
 MySQL-devel-5.6.27-1.el6.x86_64
 [root@localhost usr]# 
 ```
+2：卸载MySQL:
+卸载1：
+``` linux
 
+[root@localhost usr]# yum remove mysql mysql-server mysql-libs compat-mysql51
+[root@localhost usr]# rm -rf /var/lib/mysql
+[root@localhost usr]# rm /etc/my.cnf
+如果装了mysql-devel(其他一样add command)，卸载为：
+
+[root@Tony_ts_tian init.d]# yum remove mysql mysql-devel mysql-server mysql-libs compat-mysql51
+注（例如）:
+
+mysql-5.5.39-1.el6.remi.x86_64
+mysql-libs-5.5.39-1.el6.remi.x86_64
+compat-mysql51-5.1.54-1.el6.remi.x86_64
+mysql-server-5.5.39-1.el6.remi.x86_64
+
+```
+``` linux
+
+卸载2{继续，1，2选择一种（此处为介绍）：}:
+[root@localhost mysql]# rpm -aq | grep -i mysql
+MySQL-server-5.6.27-1.el6.x86_64
+MySQL-client-5.6.27-1.el6.x86_64
+MySQL-devel-5.6.27-1.el6.x86_64
+[root@localhost mysql]# rpm -e MySQL-server-5.6.27-1.el6.x86_64
+[root@localhost mysql]# rpm -e MySQL-client-5.6.27-1.el6.x86_64
+[root@localhost mysql]# rpm -e MySQL-devel-5.6.27-1.el6.x86_64
+[root@localhost rc.d]# cd /var/lib/
+[root@localhost lib]# rm -rf mysql/
+```
+
+注:删除MySQL数据库目录(关键) ，否则password不更新（默认安装，如果自定义安装路径和链接路径ln -s ……请删除。）
+  rm -rf /var/lib/mysql
+卸载3：
+[root@localhost usr]# whereis mysql
+mysql: /usr/lib64/mysql
+[root@localhost usr]# rm -rf /usr/lib64/mysql
+注：find / -name mysql
+注：清空相关mysql的所有目录以及文件和其他配置和设置等。如果有，则删除。也必须考虑其他软件不去影响。
+rm -rf /usr/lib/mysql
+rm -rf /usr/share/mysql
+卸载4：
+[root@localhost usr]# rm –rf /usr/my.cnf
+[root@localhost usr]# rm -rf /root/.mysql_sercret 
+卸载5（自启服务）：
+[root@localhost usr]# chkconfig --list | grep -i mysql
+[root@localhost usr]# chkconfig --del mysqld
+此处删除看自己设置:mysql/mysqld 
 
 ### 新建文件
 touch 
