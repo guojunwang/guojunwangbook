@@ -6,15 +6,28 @@
 编译安装MySQL前预准备：
 首先检查系统中是否存在使用rpm安装的mysql或者mariadb，如果有需要先删除后再编译安装。
 
-rpm -qa | grep mysql               #查看MySQL是否安装 或者 yum list installed mysql*
 
+```
+rpm -qa | grep mysql               #查看MySQL是否安装 或者 yum list installed mysql*
 rpm -qa | grep mariadb
 
 rpm -e xxx                           #一般使用此命令即可卸载成功    
 rpm -e --nodeps xxx                  #卸载不成功时使用此命令强制卸载
 还可以删除MySQL数据库目录：
 1.查看软件目录 whereis mysql
-2.删除rm -rf /usr/lib64/mysql
+2.删除软件目录 rm -rf /usr/lib64/mysql
+还可以删除MySQL数据库目录：mysql的所有目录以及文件和其他配置和设置等。如果有，则删除。也必须考虑其他软件不去影响。
+1.查找：find / -name mysql
+
+
+```
+
+
+
+
+
+2.删除相关文件目录：rm -rf /usr/lib64/mysql
+
 
 ## 查看软件存在的相关目录
 
@@ -25,6 +38,7 @@ rm -rf /usr/lib64/mysql
 
 注：find / -name mysql
 注：清空相关mysql的所有目录以及文件和其他配置和设置等。如果有，则删除。也必须考虑其他软件不去影响
+
 ### 查看Apache服务httpd是否开启
 netstat -tnlp
 
