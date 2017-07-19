@@ -9,6 +9,8 @@ rm -rf /usr/lib64/mysql
 
 注：find / -name mysql
 注：清空相关mysql的所有目录以及文件和其他配置和设置等。如果有，则删除。也必须考虑其他软件不去影响
+### 查看Apache服务是否开启
+netstat -tnlp
 ### CentOS7下MySQL的卸载
 1：查看MySQL是否安装:
 
