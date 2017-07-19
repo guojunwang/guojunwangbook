@@ -11,6 +11,10 @@ rm -rf /usr/lib64/mysql
 注：清空相关mysql的所有目录以及文件和其他配置和设置等。如果有，则删除。也必须考虑其他软件不去影响
 ### 查看Apache服务httpd是否开启
 netstat -tnlp
+
+##设置开机自启
+
+在rc.local文件中添加/usr/local/apache/bin/apachectl start，然后输入:wq保存退出。
 ### CentOS7下MySQL的卸载
 1：查看MySQL是否安装:
 
