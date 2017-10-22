@@ -24,7 +24,5 @@
 * [常用词汇](chang-yong-ci-hui.md)
 * [网站建设须知](wang-zhan-jian-she-xu-zhi.md)
 * [装系统后环境搭建](/系统重装后环境搭建/README.md)
-  * [111](zhuang-xi-tong-hou-huan-jing-da-jian/111.md)
-
-
+  * [环境搭建](系统重装后环境搭建/环境搭建.md)
 
