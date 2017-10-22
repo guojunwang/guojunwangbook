@@ -15,12 +15,16 @@
   * [阿里云Nginx配置](服务器/阿里云Nginx配置.md)
   * [阿里云服务器问题集锦](服务器/a-li-yun-fu-wu-qi-wen-ti-jie-jue.md)
 * [爬虫](pa-chong.md)
-* css
-* js及其库
+* [css](css.md)
+* [js及其库](jsji-qi-ku.md)
 * [生活](sheng-huo.md)
 * [chrome插件](chromecha-jian.md)
   * [Linux常用命令](chromecha-jian/linuxchang-yong-ming-ling.md)
 * [Linux常用命令](linuxchang-yong-ming-ling.md)
 * [常用词汇](chang-yong-ci-hui.md)
 * [网站建设须知](wang-zhan-jian-she-xu-zhi.md)
+* [装系统后环境搭建](/系统重装后环境搭建/README.md)
+  * [111](zhuang-xi-tong-hou-huan-jing-da-jian/111.md)
+
+
 
