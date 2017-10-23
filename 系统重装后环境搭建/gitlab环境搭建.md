@@ -36,6 +36,11 @@ github/gitlab环境搭建使用需要配置以下环境
 
 > 摘要: 我们在日常工作中会遇到公司有个gitlab，还有些自己的一些项目放在github上。这样就导致我们要配置不同的ssh-key对应不同的环境。所以这里配置多个SSH-Key
 
+ 
+ 第一个配置（公司gitlab SSH-Key配置）
+
+ ***
+
 ## git配置
 Git安装完成后，还需要进行一些基本信息设置
 
@@ -46,8 +51,7 @@ Git安装完成后，还需要进行一些基本信息设置
  ```
  如果出现带有: No such file or directory的提示，说明之前没有生成ssh密钥，如出现ssh-rsa开头，说明生成过ssh密钥，可以跳过2步骤
  
-2. 如果之前没有生成ssh密钥，本地创建ssh key秘钥，使用命令（公司SSH-Key
-配置）：
+2. 如果之前没有生成ssh密钥，本地创建ssh key秘钥，使用命令（）：
  
  ``` liunx
  ssh-keygen -t rsa -C "maguo@quanyibao.com" -f ~/.ssh/gitlab-rsa
