@@ -63,7 +63,29 @@ Git安装完成后，还需要进行一些基本信息设置
  在~/.ssh/目录会生成id-rsa和id-rsa.pub私钥和公钥。 我们将id-rsa.pub中的内容粘帖到公司gitlab服务器的SSH-key的配置中
 
  其中生成的文件，id_rsa为自己电脑上的私钥，id_rsa.pub为放在服务器上验证的公钥
-（3）将ssh的公钥放到gitlab上面，页面如下所示：
+ 
+ * 添加私钥
+ 
+ ``` liunx
+$ ssh-add ~/.ssh/gitlab-rsa
+```
+如果执行ssh-add时提示"Could not open a connection to your authentication agent"，可以现执行命令：
+
+$ ssh-agent bash
+然后再运行ssh-add命令。
+
+# 可以通过 ssh-add -l 来确私钥列表
+$ ssh-add -l
+# 可以通过 ssh-add -D 来清空私钥列表
+$ ssh-add -D
+4，修改配置文件 
+在 ~/.ssh 目录下新建一个config文件
+
+命令和手动创建都可以
+```
+touch config
+```
+
 
 
 　　a、设置用户名：git  config -- global  user.name  '你再github上注册的用户名';
