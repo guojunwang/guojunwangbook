@@ -103,7 +103,7 @@ Git安装完成后，还需要进行一些基本信息设置
  Host gitlab.com
     HostName 120.25.195.31
     PreferredAuthentications publickey
-    IdentityFile ~/.ssh/id_rsa
+    IdentityFile ~/.ssh/gitlab_rsa
  ```
 
  其中Host对应的名称是一个别名，命名可以随意，用来进行远程连接，当然使用真实的主机名称也是可以的。HostName和IdentityFile就是各自主机名称以及对应的秘钥文件了~
