@@ -92,9 +92,13 @@ $ ssh-add -D
 touch config
 ```
 
-在文件夹中添加
+在config文件中添加以下内容
 ```
-
+# gitlab
+Host gitlab.com
+    HostName 120.25.195.31
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_rsa
 ```
 
 ssh-add ~/.ssh/gitlab-rsa
