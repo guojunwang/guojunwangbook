@@ -39,7 +39,7 @@ github/gitlab环境搭建使用需要配置以下环境
 
 1、Git安装之后需要进行一些基本信息设置
 
-首先在本地创建ssh key；
+ 首先在本地创建ssh key；
 
 
 　　a、设置用户名：git  config -- global  user.name  '你再github上注册的用户名';
