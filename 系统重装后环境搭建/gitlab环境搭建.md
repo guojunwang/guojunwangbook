@@ -165,9 +165,9 @@ Git安装完成后，还需要进行一些基本信息设置
  ```
  # github
  Host github.com
-    HostName 120.25.195.31
+    HostName github.com
     PreferredAuthentications publickey
-    IdentityFile ~/.ssh/id_rsa
+    IdentityFile ~/.ssh/github-rsa
  ```
 
 
