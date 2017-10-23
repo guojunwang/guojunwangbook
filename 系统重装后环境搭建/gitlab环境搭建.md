@@ -97,13 +97,24 @@ Git安装完成后，还需要进行一些基本信息设置
     IdentityFile ~/.ssh/id_rsa
  ```
 
-其中Host对应的名称是一个别名，命名可以随意，用来进行远程连接，当然使用真实的主机名称也是可以的。HostName和IdentityFile就是各自主机名称以及对应的秘钥文件了~
+ 其中Host对应的名称是一个别名，命名可以随意，用来进行远程连接，当然使用真实的主机名称也是可以的。HostName和IdentityFile就是各自主机名称以及对应的秘钥文件了~
+ 
+5. 测试
 
-测试
 ``` bash
 ssh -T git@gitlab.com
 
 ```
+当你输入以上代码时，会有一段警告代码，如：
+
+
+```bash
+The authenticity of host '120.25.195.31 (120.25.195.31)' can't be established.
+ECDSA key fingerprint is SHA256:hvr5FcWTXeBO0fIQ8F9GuhAWCAQVT6GtD5Qx3d8SNVE.
+Are you sure you want to continue connecting (yes/no)?
+```
+
+
 
 如有其它错误可用以下命令查看具体出错信息，再根据信息来调试：
 
