@@ -47,7 +47,7 @@ Git安装完成后，还需要进行一些基本信息设置
 1. 注册GitLab或者GitHub账号
  * [gitlab官网](https://gitlab.com/users/sign_in)
  * [github官网](https://github.com/)
-
+ 
 2. 查看自己之前是否在本地生成过ssh密钥，输入以下命令：
 
  ``` liunx
