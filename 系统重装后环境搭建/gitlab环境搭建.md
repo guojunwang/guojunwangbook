@@ -62,7 +62,9 @@ Git安装完成后，还需要进行一些基本信息设置
 
  在~/.ssh/目录会生成id-rsa和gitlab-rsa.pub私钥和公钥。 我们将gitlab-rsa.pub中的内容粘帖到公司gitlab服务器的SSH-key的配置中
 
- 其中生成的文件，id_rsa为自己电脑上的私钥，id_rsa.pub为放在服务器上验证的公钥
+ 其中生成的文件，gitlab_rsa为自己电脑上的私钥，gitlab_rsa.pub为放在服务器上验证的公钥
+ 
+3. 把公钥文件内容放到 
  
 3. 添加私钥
  
