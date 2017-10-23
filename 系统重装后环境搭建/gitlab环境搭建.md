@@ -170,6 +170,12 @@ Git安装完成后，还需要进行一些基本信息设置
     IdentityFile ~/.ssh/github-rsa
  ```
 
+5. 测试
+
+ ``` bash
+ ssh -T git@github.com
+ 
+ ```
 
 
 
