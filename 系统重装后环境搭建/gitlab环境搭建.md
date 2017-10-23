@@ -78,13 +78,13 @@ $ ssh-add ~/.ssh/gitlab-rsa
 ```
 如果执行ssh-add时提示"Could not open a connection to your authentication agent"，可以现执行命令：
 
+``` liunx
 $ ssh-agent bash
-然后再运行ssh-add命令。
 
-# 可以通过 ssh-add -l 来确私钥列表
-$ ssh-add -l
-# 可以通过 ssh-add -D 来清空私钥列表
-$ ssh-add -D
+```
+
+可以通过 ssh-add -l 来确私钥列表，可以通过 ssh-add -D 来清空私钥列表
+
 4，修改配置文件 
 在 ~/.ssh 目录下新建一个config文件,命令和手动创建都可以
 命令方式
@@ -111,7 +111,6 @@ ssh -T git@gitlab.com
 
 如有其它错误可用以下命令查看具体出错信息，再根据信息来调试：
 
-运用ssh -T -v git@github.com查看具体出错信息，再根据信息来调试 
 ```bash
 ssh -T -v git@github.com
 ```
