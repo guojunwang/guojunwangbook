@@ -26,5 +26,5 @@
 * [装系统后环境搭建](/系统重装后环境搭建/README.md)
   * [软件下载](系统重装后环境搭建/软件下载.md)
   * [环境搭建](系统重装后环境搭建/环境搭建.md)
-* [github/gitlab环境搭建](githubgitlabhuan-jing-da-jian.md)
+  * [github/gitlab环境搭建](系统重装后环境搭建/gitlab环境搭建.md)
 
