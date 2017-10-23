@@ -149,9 +149,18 @@ Git安装完成后，还需要进行一些基本信息设置
 
 3. 添加私钥
 
-``` liunx
-$ ssh-add ~/.ssh/github-rsa
-```
+ ``` liunx
+ $ ssh-add ~/.ssh/github-rsa
+ ```
+如果执行ssh-add时提示"Could not open a connection to your authentication agent"，执行命令：
+
+ ``` liunx
+ $ ssh-agent bash
+
+ ```
+ 然后再运行$ ssh-add ~/.ssh/github-rsa
+
+
 
 　　a、设置用户名：git  config -- global  user.name  '你再github上注册的用户名';
 
