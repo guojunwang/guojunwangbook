@@ -44,7 +44,7 @@ github/gitlab环境搭建使用需要配置以下环境
 ## git配置
 Git安装完成后，还需要进行一些基本信息设置
 1. 注册GitLab或者GitHub账号
- * [下载 git Windows 版](https://git-scm.com/download/win)
+ * [gitlab官网](https://gitlab.com/users/sign_in)
  * [github官网](https://github.com/)
 
 1. 查看自己之前是否在本地生成过ssh密钥，输入以下命令：
