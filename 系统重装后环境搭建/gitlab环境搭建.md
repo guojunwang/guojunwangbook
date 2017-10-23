@@ -137,7 +137,7 @@ Git安装完成后，还需要进行一些基本信息设置
 
 第二个配置（自己项目`GitHub SSH-Key`配置）
 ***
-
+配置一样
 
 
 　　a、设置用户名：git  config -- global  user.name  '你再github上注册的用户名';
