@@ -103,15 +103,17 @@ Host gitlab.com
 
 其中Host对应的名称是一个别名，命名可以随意，用来进行远程连接，当然使用真实的主机名称也是可以的。HostName和IdentityFile就是各自主机名称以及对应的秘钥文件了~
 
+测试
+``` bash
+ssh -T git@gitlab.com
 
+```
+
+如有其它错误可用以下命令查看具体出错信息，再根据信息来调试：
 
 运用ssh -T -v git@github.com查看具体出错信息，再根据信息来调试 
-```
-# gitlab
-Host gitlab.com
-    HostName gitlab.com
-    PreferredAuthentications publickey
-    IdentityFile ~/.ssh/gitlab-rsa
+```bash
+ssh -T -v git@github.com
 ```
 
 
