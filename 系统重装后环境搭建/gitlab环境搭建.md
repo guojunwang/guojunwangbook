@@ -116,12 +116,9 @@ Are you sure you want to continue connecting (yes/no)?
 
 这是正常的，你输入 yes 回车既可，如果你创建 SSH key 的时候没有设置密码，就会看到提示
 
-
 ```
 Welcome to GitLab, maguo!
 ```
-
-
 
 如有其它错误可用以下命令查看具体出错信息，再根据信息来调试：
 
