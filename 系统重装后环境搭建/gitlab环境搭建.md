@@ -110,24 +110,23 @@ Git安装完成后，还需要进行一些基本信息设置
  
 7. 测试
 
-``` bash
-ssh -T git@gitlab.com
+ ``` bash
+ ssh -T git@gitlab.com
+ 
+ ```
+ 当你输入以上代码时，会有一段警告代码，如：
 
-```
-当你输入以上代码时，会有一段警告代码，如：
+  ```bash
+ The authenticity of host '120.25.195.31 (120.25.195.31)' can't be    established.
+ ECDSA key fingerprint is SHA256:hvr5FcWTXeBO0fIQ8F9GuhAWCAQVT6GtD5Qx3d8SNVE.
+ Are you sure you want to continue connecting (yes/no)?
+ ```
 
+ 这是正常的，你输入 yes 回车既可，如果你创建 SSH key 的时候没有设置密码，就会看到Welcome to GitLab, maguo!的提示，到此ssh就配置好了
 
-```bash
-The authenticity of host '120.25.195.31 (120.25.195.31)' can't be established.
-ECDSA key fingerprint is SHA256:hvr5FcWTXeBO0fIQ8F9GuhAWCAQVT6GtD5Qx3d8SNVE.
-Are you sure you want to continue connecting (yes/no)?
-```
-
-这是正常的，你输入 yes 回车既可，如果你创建 SSH key 的时候没有设置密码，就会看到提示，到此ssh就配置好了
-
-```
-Welcome to GitLab, maguo!
-```
+ ```
+ Welcome to GitLab, maguo!
+ ```
 
 如有其它错误可用以下命令查看具体出错信息，再根据信息来调试：
 
