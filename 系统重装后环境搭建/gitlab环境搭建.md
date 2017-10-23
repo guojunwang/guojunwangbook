@@ -114,7 +114,7 @@ ECDSA key fingerprint is SHA256:hvr5FcWTXeBO0fIQ8F9GuhAWCAQVT6GtD5Qx3d8SNVE.
 Are you sure you want to continue connecting (yes/no)?
 ```
 
-这是正常的，你输入 yes 回车既可，如果你创建 SSH key 的时候没有设置密码，就会看到提示
+这是正常的，你输入 yes 回车既可，如果你创建 SSH key 的时候没有设置密码，就会看到提示，到此ssh就配置好了
 
 ```
 Welcome to GitLab, maguo!
