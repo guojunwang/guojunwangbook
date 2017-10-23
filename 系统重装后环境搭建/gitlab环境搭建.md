@@ -43,18 +43,19 @@ github/gitlab环境搭建使用需要配置以下环境
 
 ## git配置
 Git安装完成后，还需要进行一些基本信息设置
+
 1. 注册GitLab或者GitHub账号
  * [gitlab官网](https://gitlab.com/users/sign_in)
  * [github官网](https://github.com/)
 
-1. 查看自己之前是否在本地生成过ssh密钥，输入以下命令：
+2. 查看自己之前是否在本地生成过ssh密钥，输入以下命令：
 
  ``` liunx
  cat ~/.ssh/id_rsa.pub
  ```
  如果出现带有: No such file or directory的提示，说明之前没有生成ssh密钥，如出现ssh-rsa开头，说明生成过ssh密钥，可以跳过2步骤
  
-2. 如果之前没有生成ssh密钥，本地创建ssh key秘钥，使用命令：
+3. 如果之前没有生成ssh密钥，本地创建ssh key秘钥，使用命令：
  
  ``` liunx
  ssh-keygen -t rsa -C "maguo@quanyibao.com" -f ~/.ssh/gitlab-rsa
@@ -63,11 +64,11 @@ Git安装完成后，还需要进行一些基本信息设置
  ```
  maguo@quanyibao.com邮箱是gitlab的登录邮箱,代码参数含义：-t 指定密钥类型，默认是 rsa ，可以省略。-C 设置注释文字，比如邮箱,-f 指定密钥文件存储文件名
  
-3. 把公钥文件内容放到服务器中  
+4. 把公钥文件内容放到服务器中  
  
  步骤2后，在~/.ssh/目录会生成gitlab-rsa（私钥）文件和gitlab-rsa.pub（公钥文件）。 我们需要将公钥文件gitlab-rsa.pub中的内容粘帖到公司gitlab服务器的SSH-key的配置中。
  
-4. 添加私钥
+5. 添加私钥
  
  ``` liunx
  $ ssh-add ~/.ssh/gitlab-rsa
@@ -87,7 +88,7 @@ Git安装完成后，还需要进行一些基本信息设置
 
   ``` 
   
-4. 修改配置文件
+6. 修改配置文件
  在 ~/.ssh 目录下新建一个config文件,命令和手动创建都可以
  
  ```
@@ -106,7 +107,7 @@ Git安装完成后，还需要进行一些基本信息设置
 
  其中Host对应的名称是一个别名，命名可以随意，用来进行远程连接，当然使用真实的主机名称也是可以的。HostName和IdentityFile就是各自主机名称以及对应的秘钥文件了~
  
-5. 测试
+7. 测试
 
 ``` bash
 ssh -T git@gitlab.com
