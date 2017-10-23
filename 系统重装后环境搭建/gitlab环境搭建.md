@@ -136,7 +136,7 @@ Welcome to GitLab, maguo!
 ssh -T -v git@github.com
 ```
 
-第二个配置（公司gitlab SSH-Key配置）
+第二个配置（自己项目GitHub SSH-Key配置）
 ***
 
 
@@ -155,7 +155,4 @@ ssh -T -v git@github.com
 注意：git  config --global 参数，有了这个参数表示你这台机器上所有的git仓库都会使用这个配置，当然你也可以对某个仓库指定不同的用户名和邮箱
 
 ## Git初始化及仓库创建和操作
-
-
-安装Git完成之后，会在桌面创建Git Bash快捷方式，在任意目录下右击鼠标可以找打Git Bash Here的选项。
 
