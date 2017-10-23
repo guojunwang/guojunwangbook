@@ -136,7 +136,7 @@ Welcome to GitLab, maguo!
 ssh -T -v git@github.com
 ```
 
-第二个配置（自己项目GitHub SSH-Key配置）
+第二个配置（自己项目`GitHub SSH-Key`配置）
 ***
 
 
