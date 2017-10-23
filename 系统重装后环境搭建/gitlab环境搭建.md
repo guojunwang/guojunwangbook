@@ -37,6 +37,22 @@ github/gitlab环境搭建使用需要配置以下环境
 ## git配置
 安装完成后，还需要最后一步设置，在命令行输入：
 
+1、Git安装之后需要进行一些基本信息设置
+
+　　a、设置用户名：git  config -- global  user.name  '你再github上注册的用户名';
+
+　　b、设置用户邮箱：git  config -- global  user.email  '注册时候的邮箱';
+
+注意：该配置会在github主页上显示谁提交了该文件
+
+ 　　c、配置ok之后，我们用如下命令来看看是否配置成功
+
+　　git config --list
+
+注意：git  config --global 参数，有了这个参数表示你这台机器上所有的git仓库都会使用这个配置，当然你也可以对某个仓库指定不同的用户名和邮箱
+
 ## Git初始化及仓库创建和操作
+首先在本地创建ssh key；
 
 安装Git完成之后，会在桌面创建Git Bash快捷方式，在任意目录下右击鼠标可以找打Git Bash Here的选项。
+
