@@ -86,9 +86,8 @@ $ ssh-add -l
 # 可以通过 ssh-add -D 来清空私钥列表
 $ ssh-add -D
 4，修改配置文件 
-在 ~/.ssh 目录下新建一个config文件
-
-命令和手动创建都可以
+在 ~/.ssh 目录下新建一个config文件,命令和手动创建都可以
+命令方式
 ```
 touch config
 ```
