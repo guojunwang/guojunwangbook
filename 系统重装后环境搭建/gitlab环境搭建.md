@@ -43,6 +43,9 @@ github/gitlab环境搭建使用需要配置以下环境
 
 ## git配置
 Git安装完成后，还需要进行一些基本信息设置
+1. 注册GitLab或者GitHub账号
+ 
+
 
 1. 查看自己之前是否在本地生成过ssh密钥，输入以下命令：
 
@@ -64,7 +67,7 @@ Git安装完成后，还需要进行一些基本信息设置
  
  步骤2后，在~/.ssh/目录会生成gitlab-rsa（私钥）文件和gitlab-rsa.pub（公钥文件）。 我们需要将公钥文件gitlab-rsa.pub中的内容粘帖到公司gitlab服务器的SSH-key的配置中。
  
-3. 添加私钥
+4. 添加私钥
  
  ``` liunx
  $ ssh-add ~/.ssh/gitlab-rsa
