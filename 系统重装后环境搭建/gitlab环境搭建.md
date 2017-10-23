@@ -53,7 +53,7 @@ Git安装完成后，还需要进行一些基本信息设置
  
  * 生成一个公司用的SSH-Key
  
- 邮箱是gitlab的登录邮箱
+ maguo@quanyibao.com邮箱是gitlab的登录邮箱
  
  ``` liunx
  ssh-keygen -t rsa -C "maguo@quanyibao.com" -f ~/.ssh/gitlab-rsa
