@@ -142,8 +142,8 @@ Git安装完成后，还需要进行一些基本信息设置
 1. 创建GitHub账号的ssh key秘钥
 
 ``` liunx
-ssh-keygen -t rsa -C "maguo@quanyibao.com" -f ~/.ssh/gitlab-rsa
-## ssh-keygen -t rsa -C "maguo@quanyibao.com"
+ssh-keygen -t rsa -C "1069804753@qq.com" -f ~/.ssh/github-rsa
+
 
 ```
 
