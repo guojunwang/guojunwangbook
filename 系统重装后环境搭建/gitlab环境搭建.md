@@ -37,7 +37,7 @@ github/gitlab环境搭建使用需要配置以下环境
 ## git配置
 Git安装完成后，还需要进行一些基本信息设置
 
-1. 查看自己之前是否生成过ssh密钥，输入以下命令：
+1. 查看自己之前是否在本地生成过ssh密钥，输入以下命令：
 
  ``` liunx
  cat ~/.ssh/id_rsa.pub
@@ -48,8 +48,12 @@ Git安装完成后，还需要进行一些基本信息设置
  没有生成ssh密钥截图：
  ![没有生成ssh密钥](/系统重装后环境搭建/images/2017-10-23_131043.png)
  
- 如果之前没有生成ssh密钥，使用命令：
+2. 如果之前没有生成ssh密钥，使用命令：
  
+ ``` liunx
+ ssh-keygen -t rsa -C "zy901002@gmail.com"
+
+ ```
  首先在本地创建ssh key秘钥；
  ssh-keygen -t rsa -C "zy901002@gmail.com"  
 来生成密钥。其中生成的文件，id_rsa为自己电脑上的私钥，id_rsa.pub为放在服务器上验证的公钥
