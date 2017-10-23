@@ -3,6 +3,7 @@
 github/gitlab环境搭建使用需要配置以下环境
 * [注册账户](#注册账户)
 * [创建仓库](#创建仓库)
+* [git下载](#git下载)
 * [git安装](#git安装)
 * [git配置](#git配置)
 * [链接](#链接)
@@ -17,8 +18,12 @@ github/gitlab环境搭建使用需要配置以下环境
 * [脚注](#脚注)
 * [内嵌HTML](#内嵌HTML)
 
+## git下载
+
+* [下载 git Windows 版](https://git-scm.com/download/win)
 
 ## git安装
+
 语法输入
 
 ## git配置
