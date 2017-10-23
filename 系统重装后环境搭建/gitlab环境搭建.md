@@ -139,7 +139,7 @@ Git安装完成后，还需要进行一些基本信息设置
 ***
 配置一样
 
-1. 创建GitHub账号是ssh key秘钥
+1. 创建GitHub账号的ssh key秘钥
 
 ``` liunx
 ssh-keygen -t rsa -C "maguo@quanyibao.com" -f ~/.ssh/gitlab-rsa
