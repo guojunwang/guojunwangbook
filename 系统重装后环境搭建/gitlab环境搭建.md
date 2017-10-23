@@ -87,6 +87,16 @@ touch config
 ```
 
 
+```
+# gitlab
+Host gitlab.com
+    HostName gitlab.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/gitlab-rsa
+```
+
+
+
 
 　　a、设置用户名：git  config -- global  user.name  '你再github上注册的用户名';
 
