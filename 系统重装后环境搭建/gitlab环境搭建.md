@@ -92,7 +92,7 @@ $ ssh-add -D
 touch config
 ```
 
-在config文件中添加以下内容
+在config文件中添加以下内容配置
 ```
 # gitlab
 Host gitlab.com
@@ -100,8 +100,9 @@ Host gitlab.com
     PreferredAuthentications publickey
     IdentityFile ~/.ssh/id_rsa
 ```
+其中Host对应的名称是一个别名，命名可以随意，用来进行远程连接，当然使用真实的主机名称也是可以的。HostName和IdentityFile就是各自主机名称以及对应的秘钥文件了~
 
-ssh-add ~/.ssh/gitlab-rsa
+
 
 运用ssh -T -v git@github.com查看具体出错信息，再根据信息来调试 
 ```
