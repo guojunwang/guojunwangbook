@@ -163,11 +163,11 @@ Git安装完成后，还需要进行一些基本信息设置
 
  然后在config文件中添加以下内容配置
  ```
- # github
- Host github.com
-    HostName github.com
-    PreferredAuthentications publickey
-    IdentityFile ~/.ssh/github-rsa
+# github
+Host github.com
+ HostName github.com
+ PreferredAuthentications publickey
+ IdentityFile ~/.ssh/github-rsa
  ```
 
 5. 测试
