@@ -80,21 +80,22 @@ Git安装完成后，还需要进行一些基本信息设置
 
   ``` 
   
-  4. 修改配置文件
-在 ~/.ssh 目录下新建一个config文件,命令和手动创建都可以
-命令方式
-```
-touch config
-```
+4. 修改配置文件
+ 在 ~/.ssh 目录下新建一个config文件,命令和手动创建都可以
+ 
+ ```
+ # 命令方式
+ touch config
+ ```
 
-在config文件中添加以下内容配置
-```
-# gitlab
-Host gitlab.com
+ 然后在config文件中添加以下内容配置
+ ```
+ # gitlab
+ Host gitlab.com
     HostName 120.25.195.31
     PreferredAuthentications publickey
     IdentityFile ~/.ssh/id_rsa
-```
+ ```
 
 其中Host对应的名称是一个别名，命名可以随意，用来进行远程连接，当然使用真实的主机名称也是可以的。HostName和IdentityFile就是各自主机名称以及对应的秘钥文件了~
 
