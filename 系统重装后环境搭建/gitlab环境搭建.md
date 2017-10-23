@@ -23,7 +23,7 @@ github/gitlab环境搭建使用需要配置以下环境
 * [下载 git Windows 版](https://git-scm.com/download/win)
 
 ## git下载安装
-
+1、git下载
 2.下载完之后，双击安装
 3、选择安装目录
 
