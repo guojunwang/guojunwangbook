@@ -48,15 +48,14 @@ Git安装完成后，还需要进行一些基本信息设置
  没有生成ssh密钥截图：
  ![没有生成ssh密钥](/系统重装后环境搭建/images/2017-10-23_131043.png)
  
-2. 如果之前没有生成ssh密钥，使用命令：
+2. 如果之前没有生成ssh密钥，本地创建ssh key秘钥，使用命令：
  
  ``` liunx
  ssh-keygen -t rsa -C "zy901002@gmail.com"
 
  ```
- 首先在本地创建ssh key秘钥；
- ssh-keygen -t rsa -C "zy901002@gmail.com"  
-来生成密钥。其中生成的文件，id_rsa为自己电脑上的私钥，id_rsa.pub为放在服务器上验证的公钥
+
+ 其中生成的文件，id_rsa为自己电脑上的私钥，id_rsa.pub为放在服务器上验证的公钥
 （3）将ssh的公钥放到gitlab上面，页面如下所示：
 
 
