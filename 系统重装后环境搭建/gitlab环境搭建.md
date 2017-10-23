@@ -176,6 +176,13 @@ Host github.com
  ssh -T git@github.com
  
  ```
+这是正常的，你输入 yes 回车看到下面提示，到此ssh就配置好了
+
+ ```
+ Hi guojunwang! You've successfully authenticated, but GitHub does not provide shell access.
+
+ ```
+
 
 
 
