@@ -137,7 +137,7 @@ Git安装完成后，还需要进行一些基本信息设置
 
 第二个配置（自己项目`GitHub SSH-Key`配置）
 ***
-配置一样
+配置和gitlab一样
 
 1. 创建GitHub账号的ssh key秘钥
 
@@ -145,6 +145,13 @@ Git安装完成后，还需要进行一些基本信息设置
   ssh-keygen -t rsa -C "1069804753@qq.com" -f ~/.ssh/github-rsa
 
   ```
+2. GitHub添加SSH key的方式如下图所示：
+
+3. 添加私钥
+
+``` liunx
+$ ssh-add ~/.ssh/github-rsa
+```
 
 　　a、设置用户名：git  config -- global  user.name  '你再github上注册的用户名';
 
