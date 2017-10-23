@@ -88,6 +88,13 @@ touch config
 
 
 ```
+
+```
+
+ssh-add ~/.ssh/gitlab-rsa
+
+运用shh -T -v git@github.com查看具体出错信息，再根据信息来调试 
+```
 # gitlab
 Host gitlab.com
     HostName gitlab.com
