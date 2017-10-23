@@ -144,7 +144,6 @@ Git安装完成后，还需要进行一些基本信息设置
   ``` liunx
   ssh-keygen -t rsa -C "1069804753@qq.com" -f ~/.ssh/github-rsa
 
-
   ```
 
 　　a、设置用户名：git  config -- global  user.name  '你再github上注册的用户名';
