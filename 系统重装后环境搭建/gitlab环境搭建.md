@@ -184,8 +184,6 @@ Host github.com
  ```
 
 
-
-
 　　a、设置用户名：git  config -- global  user.name  '你再github上注册的用户名';
 
 　　b、设置用户邮箱：git  config -- global  user.email  '注册时候的邮箱';
