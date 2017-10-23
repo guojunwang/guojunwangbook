@@ -43,14 +43,11 @@ Git安装完成后，还需要进行一些基本信息设置
  cat ~/.ssh/id_rsa.pub
  ```
  如果出现带有: No such file or directory的提示，说明之前没有生成ssh密钥，如出现ssh-rsa开头，说明生成过ssh密钥，可以跳过2步骤
-
  
 2. 如果之前没有生成ssh密钥，本地创建ssh key秘钥，使用命令：
 > 摘要: 我们在日常工作中会遇到公司有个gitlab，还有些自己的一些项目放在github上。这样就导致我们要配置不同的ssh-key对应不同的环境。所以这里配置多个SSH-Key。
  
  * 生成一个公司用的SSH-Key
- 
- 
  
  ``` liunx
  ssh-keygen -t rsa -C "maguo@quanyibao.com" -f ~/.ssh/gitlab-rsa
@@ -59,24 +56,30 @@ Git安装完成后，还需要进行一些基本信息设置
  ```
  maguo@quanyibao.com邮箱是gitlab的登录邮箱,代码参数含义：-t 指定密钥类型，默认是 rsa ，可以省略。-C 设置注释文字，比如邮箱,-f 指定密钥文件存储文件名
 
- 在~/.ssh/目录会生成id-rsa和id-rsa.pub私钥和公钥。 我们将id-rsa.pub中的内容粘帖到公司gitlab服务器的SSH-key的配置中
+ 在~/.ssh/目录会生成id-rsa和gitlab-rsa.pub私钥和公钥。 我们将gitlab-rsa.pub中的内容粘帖到公司gitlab服务器的SSH-key的配置中
 
  其中生成的文件，id_rsa为自己电脑上的私钥，id_rsa.pub为放在服务器上验证的公钥
- 3. 添加私钥
+ 
+3. 添加私钥
  
  ``` liunx
-$ ssh-add ~/.ssh/gitlab-rsa
+ $ ssh-add ~/.ssh/gitlab-rsa
 ```
-如果执行ssh-add时提示"Could not open a connection to your authentication agent"，可以现执行命令：
+如果执行ssh-add时提示"Could not open a connection to your authentication agent"，执行命令：
 
-``` liunx
-$ ssh-agent bash
+ ``` liunx
+ $ ssh-agent bash
 
-```
+ ```
+ 然后再运行$ ssh-add ~/.ssh/gitlab-rsa
 
-可以通过 ssh-add -l 来确私钥列表，可以通过 ssh-add -D 来清空私钥列表
+  ```
+  #其它相关命令
+  ssh-add -l #确私钥列表
+  ssh-add -D #清空私钥列表
 
-4，修改配置文件 
+  ```  
+  4. 修改配置文件
 在 ~/.ssh 目录下新建一个config文件,命令和手动创建都可以
 命令方式
 ```
