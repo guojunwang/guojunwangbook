@@ -45,7 +45,9 @@ github/gitlab环境搭建使用需要配置以下环境
  ``
  如果出现一段ssh-rsa开头的，表示已经生成了，可以跳过此步骤
  首先在本地创建ssh key秘钥；
- 
+ ssh-keygen -t rsa -C "zy901002@gmail.com"  
+来生成密钥。其中生成的文件，id_rsa为自己电脑上的私钥，id_rsa.pub为放在服务器上验证的公钥
+（3）将ssh的公钥放到gitlab上面，页面如下所示：
 
 
 　　a、设置用户名：git  config -- global  user.name  '你再github上注册的用户名';
