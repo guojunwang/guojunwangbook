@@ -128,11 +128,11 @@ Git安装完成后，还需要进行一些基本信息设置
  Welcome to GitLab, maguo!
  ```
 
-如有其它错误可用以下命令查看具体出错信息，再根据信息来调试：
+ 如有其它错误可用以下命令查看具体出错信息，再根据信息来调试：
 
  ```bash
-# 查看具体出错信息
-ssh -T -v git@github.com
+ # 查看具体出错信息
+ ssh -T -v git@github.com
  ```
 
 第二个配置（自己项目`GitHub SSH-Key`配置）
