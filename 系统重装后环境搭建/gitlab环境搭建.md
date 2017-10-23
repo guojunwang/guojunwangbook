@@ -51,7 +51,7 @@ Git安装完成后，还需要进行一些基本信息设置
  ```
  如果出现带有: No such file or directory的提示，说明之前没有生成ssh密钥，如出现ssh-rsa开头，说明生成过ssh密钥，可以跳过2步骤
  
-2. 如果之前没有生成ssh密钥，本地创建ssh key秘钥，使用命令（）：
+2. 如果之前没有生成ssh密钥，本地创建ssh key秘钥，使用命令：
  
  ``` liunx
  ssh-keygen -t rsa -C "maguo@quanyibao.com" -f ~/.ssh/gitlab-rsa
@@ -59,12 +59,10 @@ Git安装完成后，还需要进行一些基本信息设置
 
  ```
  maguo@quanyibao.com邮箱是gitlab的登录邮箱,代码参数含义：-t 指定密钥类型，默认是 rsa ，可以省略。-C 设置注释文字，比如邮箱,-f 指定密钥文件存储文件名
-
- 在~/.ssh/目录会生成id-rsa和gitlab-rsa.pub私钥和公钥。 我们将gitlab-rsa.pub中的内容粘帖到公司gitlab服务器的SSH-key的配置中
-
- 其中生成的文件，gitlab_rsa为自己电脑上的私钥，gitlab_rsa.pub为放在服务器上验证的公钥
  
-3. 把公钥文件内容放到 
+3. 把公钥文件内容放到服务器中  
+ 
+ 步骤2后，在~/.ssh/目录会生成gitlab-rsa（私钥）文件和gitlab-rsa.pub（公钥文件）。 我们需要将公钥文件gitlab-rsa.pub中的内容粘帖到公司gitlab服务器的SSH-key的配置中。
  
 3. 添加私钥
  
