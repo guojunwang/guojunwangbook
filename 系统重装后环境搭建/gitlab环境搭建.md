@@ -66,7 +66,7 @@ Git安装完成后，还需要进行一些基本信息设置
  
 4. 把公钥文件内容放到服务器中  
  
- 步骤2后，在~/.ssh/目录会生成gitlab-rsa（私钥）文件和gitlab-rsa.pub（公钥文件）。 我们需要将公钥文件gitlab-rsa.pub中的内容粘帖到公司gitlab服务器的SSH-key的配置中。
+ 步骤2后，在~/.ssh/目录会生成gitlab-rsa（私钥）文件和gitlab-rsa.pub（公钥文件）。 我们需要将公钥文件gitlab-rsa.pub中的内容粘帖到公司gitlab服务器的SSH-key的配置中。  
  具体位置在Profile Settings------》SSH keys------》Add an SSH Key的Key输入框中
  
 5. 添加私钥
