@@ -92,14 +92,14 @@ $ ssh-add -D
 touch config
 ```
 
-
+在文件夹中添加
 ```
 
 ```
 
 ssh-add ~/.ssh/gitlab-rsa
 
-运用shh -T -v git@github.com查看具体出错信息，再根据信息来调试 
+运用ssh -T -v git@github.com查看具体出错信息，再根据信息来调试 
 ```
 # gitlab
 Host gitlab.com
