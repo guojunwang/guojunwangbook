@@ -60,6 +60,13 @@ Git安装完成后，还需要进行一些基本信息设置
  ## ssh-keygen -t rsa -C "maguo@quanyibao.com"
 
  ```
+ 代码参数含义：
+
+-t 指定密钥类型，默认是 rsa ，可以省略。
+-C 设置注释文字，比如邮箱。
+-f 指定密钥文件存储文件名。
+
+以上代码省略了 -f 参数
  在~/.ssh/目录会生成id-rsa和id-rsa.pub私钥和公钥。 我们将id-rsa.pub中的内容粘帖到公司gitlab服务器的SSH-key的配置中
 
  其中生成的文件，id_rsa为自己电脑上的私钥，id_rsa.pub为放在服务器上验证的公钥
