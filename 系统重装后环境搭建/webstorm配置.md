@@ -37,7 +37,7 @@ File --> setting--> plugins-->Browse repositor
 ## git集成使用
 
 下载安装：
-1.主题下载地址![](HTTP:BAIDU)  
+1.[主题下载地址](https://plugins.jetbrains.com/idea)  
 1.主题下载(开发工具中下载)
 File --> setting--> plugins-->Browse repositor  
  
