@@ -13,6 +13,7 @@ webstorm的相关配置
 JetBrains下的开发工具都可以按照下面方法激活：
 使用方法：
 注册时，在打开的License Activation窗口中选择“License server”，在输入框输入下面的网址：http://idea.imsxm.com或者http://idea.iteblog.com/key.php 点击Active即可
+
 ## 鼠标代码缩放
 
 WebStorm设置Ctrl+滚轮调整代码字体大小
