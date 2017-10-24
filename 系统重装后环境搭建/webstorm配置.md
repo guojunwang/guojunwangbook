@@ -11,7 +11,8 @@ webstorm的相关配置
 
 ## 注册码
 JetBrains下的开发工具都可以按照下面方法激活：
-
+使用方法：
+激活时选择License server 填入http://idea.imsxm.com 点击Active即可
 ## 鼠标代码缩放
 
 WebStorm设置Ctrl+滚轮调整代码字体大小
