@@ -37,8 +37,8 @@ File --> setting--> plugins-->Browse repositor
 ## git集成使用
 
 下载安装：
-1.[主题下载地址](https://plugins.jetbrains.com/idea)  
-1.主题下载(开发工具中下载)
+地址1.[主题下载地址](https://plugins.jetbrains.com/idea)  
+地址2.主题下载(开发工具中下载)
 File --> setting--> plugins-->Browse repositor  
  
 然后输入Theme 看到Material Theme UI 后-->点击进行下载-->安装完成后重启
