@@ -38,6 +38,8 @@ File --> setting--> plugins-->Browse repositor
 
 下载安装：
 地址1.[主题下载地址](https://plugins.jetbrains.com/idea)  
+下载后导入即可
+
 地址2.主题下载(开发工具中下载)
 File --> setting--> plugins-->Browse repositor  
  
