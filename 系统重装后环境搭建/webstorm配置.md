@@ -9,5 +9,5 @@ webstorm的相关配置
 
 ## 鼠标代码缩放
 
-ctrl+鼠标滚轮缩放代码设置
+WebStorm设置Ctrl+滚轮调整代码字体大小
 
