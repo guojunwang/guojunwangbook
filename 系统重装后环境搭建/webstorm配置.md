@@ -19,3 +19,4 @@ WebStorm设置Ctrl+滚轮调整代码字体大小
 ## 主题设置
 
 1. 主题下载地址![](HTTP:BAIDU)
+Theme
