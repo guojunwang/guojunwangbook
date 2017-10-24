@@ -19,7 +19,8 @@ WebStorm设置Ctrl+滚轮调整代码字体大小
 
 ## 主题设置
 
-1. 主题下载地址![](HTTP:BAIDU)  
-
+1.主题下载地址![](HTTP:BAIDU)  
+1.主题下载(开发工具中下载)
+设置：
 1.点击左上角的File，再点击setting；
 2.Editor->Color Scheme，选择Material.Theme相关主题，背景立即改变；
