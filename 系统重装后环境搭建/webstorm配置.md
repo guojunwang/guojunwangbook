@@ -10,4 +10,7 @@ webstorm的相关配置
 ## 鼠标代码缩放
 
 WebStorm设置Ctrl+滚轮调整代码字体大小
+1.点击左上角的File，再点击setting；
+2.Editor->General，选择Change font size (Zoom) with Ctrl+Mouse Wheel；
+3.点击OK即可
 
