@@ -66,7 +66,7 @@ Git安装完成后，还需要进行一些基本信息设置
  
 4. 把公钥文件内容放到服务器中  
  
- 步骤2后，在~/.ssh/目录会生成gitlab-rsa（私钥）文件和gitlab-rsa.pub（公钥文件）。 我们需要将公钥文件gitlab-rsa.pub中的内容粘帖到公司gitlab服务器的SSH-key的配置中。  
+ 步骤2后，成功的话在~/.ssh/目录会生成gitlab-rsa（私钥）文件和gitlab-rsa.pub（公钥文件）。 我们需要将公钥文件gitlab-rsa.pub中的内容粘帖到公司gitlab服务器的SSH-key的配置中。  
   具体位置在Profile Settings------》SSH keys------》Add an SSH Key的Key输入框中
  
 5. 添加私钥
@@ -109,7 +109,6 @@ Git安装完成后，还需要进行一些基本信息设置
  其中Host对应的名称是一个别名，命名可以随意，用来进行远程连接，当然使用真实的主机名称也是可以的。HostName和IdentityFile就是各自主机名称以及对应的秘钥文件了~
  
 7. 测试
-
  ``` bash
  ssh -T git@gitlab.com
  
@@ -138,18 +137,23 @@ Git安装完成后，还需要进行一些基本信息设置
   如果clone 项目出现以下错误：
   ```
   $ git clone git@120.25.195.31:cnepaycd/chedai-m.git
- Cloning into 'chedai-m'...
-git@120.25.195.31's password:
-Permission denied, please try again.
-git@120.25.195.31's password:
-Permission denied, please try again.
-git@120.25.195.31's password:
-git@120.25.195.31: Permission denied (publickey,password).
-fatal: Could not read from remote repository.
-Please make sure you have the correct access rights
-and the repository exists.
+  Cloning into 'chedai-m'...
+  git@120.25.195.31's password:
+  Permission denied, please try again.
+  git@120.25.195.31's password:
+  Permission denied, please try again.
+  git@120.25.195.31's password:
+  git@120.25.195.31: Permission denied  (publickey,password).
+  fatal: Could not read from remote repository.
+  Please make sure you have the correct access rights
+  and the repository exists.
  ```
  解决方法：创建ssh key秘钥时候设置密码，不要为空即可。
+ 
+8. 命令下载项目
+  
+
+
 第二个配置（自己项目`GitHub SSH-Key`配置）
 ***
 配置和gitlab一样
@@ -202,8 +206,7 @@ Host github.com
 　　a、设置用户名：git  config -- global  user.name  '你再github上注册的用户名';
 
 　　b、设置用户邮箱：git  config -- global  user.email  '注册时候的邮箱';
-后面的your_email@youremail.com改为你在github上注册的邮箱，之后会要求确认路径和输入密码，我们这使用默认的一路回车就行。成功的话会在~/下生成.ssh文件夹，进去，打开id_rsa.pub，复制里面的key。
-回到github上，进入 Account Settings（账户配置），左边选择SSH Keys，Add SSH Key,title随便填，粘贴在你电脑上生成的key。
+
 注意：该配置会在github主页上显示谁提交了该文件
 
  　　c、配置ok之后，我们用如下命令来看看是否配置成功
