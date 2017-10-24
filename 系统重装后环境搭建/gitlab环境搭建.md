@@ -154,7 +154,7 @@ fatal: Could not read from remote repository.
 Please make sure you have the correct access rights
 and the repository exists.
 ```
-解决方法：创建ssh key秘钥时候设置密码，不要为空即可。
+解决方法：创建ssh key秘钥时候设置密码，这里的密码输入设置的密码即可。
 
 第二个配置（自己项目`GitHub SSH-Key`配置）
 ***
