@@ -37,7 +37,7 @@ github/gitlab环境搭建使用需要配置以下环境
 > 摘要: 我们在日常工作中会遇到公司有个gitlab，还有些自己的一些项目放在github上。这样就导致我们要配置不同的ssh-key对应不同的环境。所以这里配置多个SSH-Key
 
  
- 第一个配置（公司`Gitlab SSH-Key`配置）
+### 第一个配置（公司`Gitlab SSH-Key`配置）
 
  ***
 
@@ -156,7 +156,7 @@ and the repository exists.
 ```
 解决方法：删除之前的ssh key，重新创建，创建ssh key秘钥时候`要设置密码`，这里的密码输入设置的密码即可。
 
-第二个配置（自己项目`GitHub SSH-Key`配置）
+###第二个配置（自己项目`GitHub SSH-Key`配置）
 ***
 配置和gitlab一样
 
