@@ -155,7 +155,7 @@ Git安装完成后，还需要进行一些基本信息设置
 ```
 git clone git@120.25.195.31:cnepaycd/chedai-m.git
 ```
-
+如果git clone时候输入gitlab密码不对,并且有以下提示
 
 
 第二个配置（自己项目`GitHub SSH-Key`配置）
