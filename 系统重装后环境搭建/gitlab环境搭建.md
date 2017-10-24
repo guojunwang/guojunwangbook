@@ -152,6 +152,10 @@ Git安装完成后，还需要进行一些基本信息设置
  
 8. 命令下载项目
   
+```
+git clone git@120.25.195.31:cnepaycd/chedai-m.git
+```
+
 
 
 第二个配置（自己项目`GitHub SSH-Key`配置）
