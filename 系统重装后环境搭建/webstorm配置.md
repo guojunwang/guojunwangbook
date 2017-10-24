@@ -26,6 +26,6 @@ File --> setting--> plugins-->Browse repositor
  
 然后输入Theme 看到Material Theme UI 后-->点击进行下载-->安装完成后重启
 重启后会发现文件内容界面没有改变，需要设置下：
-设置：
+
 1.点击左上角的File，再点击setting；
 2.Editor->Color Scheme，选择Material.Theme相关主题，背景立即改变；
