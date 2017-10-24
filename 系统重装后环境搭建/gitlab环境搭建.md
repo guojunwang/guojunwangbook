@@ -133,8 +133,23 @@ Git安装完成后，还需要进行一些基本信息设置
  ```bash
  # 查看具体出错信息
  ssh -T -v git@github.com
+ 
+  ```
+  如果clone 项目出现以下错误：
+  ```
+  $ git clone git@120.25.195.31:cnepaycd/chedai-m.git
+ Cloning into 'chedai-m'...
+git@120.25.195.31's password:
+Permission denied, please try again.
+git@120.25.195.31's password:
+Permission denied, please try again.
+git@120.25.195.31's password:
+git@120.25.195.31: Permission denied (publickey,password).
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights
+and the repository exists.
  ```
-
+ 解决方法：创建ssh key秘钥时候设置密码，不要为空即可。
 第二个配置（自己项目`GitHub SSH-Key`配置）
 ***
 配置和gitlab一样
