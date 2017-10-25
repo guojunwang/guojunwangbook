@@ -49,7 +49,7 @@ File --> setting--> plugins-->Browse repositor
 1.点击左上角的File，再点击setting；
 2.Editor->Color Scheme，选择Material.Theme相关主题，背景立即改变；
 
-## node
+## node安装
 
 地址1.[中国下载地址](https://nodejs.org/zh-cn/)  
 
