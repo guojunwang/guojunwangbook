@@ -24,7 +24,7 @@ WebStorm设置Ctrl+滚轮调整代码字体大小
 ## 主题设置
 
 下载安装：
-1.主题下载地址![](HTTP:BAIDU)  
+[插件官方下载地址](https://plugins.jetbrains.com/)  
 1.主题下载(开发工具中下载)
 File --> setting--> plugins-->Browse repositor  
  
@@ -35,7 +35,7 @@ File --> setting--> plugins-->Browse repositor
 2.Editor->Color Scheme，选择Material.Theme相关主题，背景立即改变；
 
 ## git集成使用
-https://nodejs.org/zh-cn/
+
 下载安装：
 地址1.[主题下载地址](https://plugins.jetbrains.com/idea)  
 下载后导入即可
