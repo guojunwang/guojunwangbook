@@ -51,5 +51,5 @@ File --> setting--> plugins-->Browse repositor
 
 ## node安装
 
-地址1.[中国下载地址](http://nodejs.cn/)  
+地址1.[国内下载地址](http://nodejs.cn/)  
 
