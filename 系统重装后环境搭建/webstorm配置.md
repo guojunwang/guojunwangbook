@@ -7,7 +7,7 @@ webstorm的相关配置
 * [git集成使用](#git集成使用)
 * [git快捷键](#git快捷键)
 * [git配置](#git配置)
-* [其它配置](#其它配置)
+* [npm安装](#其它配置)
 
 ## 注册码
 JetBrains下的开发工具都可以按照下面方法激活：
@@ -35,7 +35,7 @@ File --> setting--> plugins-->Browse repositor
 2.Editor->Color Scheme，选择Material.Theme相关主题，背景立即改变；
 
 ## git集成使用
-
+https://nodejs.org/zh-cn/
 下载安装：
 地址1.[主题下载地址](https://plugins.jetbrains.com/idea)  
 下载后导入即可
@@ -49,4 +49,7 @@ File --> setting--> plugins-->Browse repositor
 1.点击左上角的File，再点击setting；
 2.Editor->Color Scheme，选择Material.Theme相关主题，背景立即改变；
 
+## node
+
+地址1.[中国下载地址](https://nodejs.org/zh-cn/)  
 
