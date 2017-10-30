@@ -4,10 +4,11 @@ webstorm的相关配置
 * [webstorm下载](#webstorm下载)
 * [注册码](#注册码)
 * [鼠标代码缩放](#鼠标代码缩放)
-* [主题设置](#ctrl+主题设置)
+* [主题设置](#主题设置)
 * [git集成使用](#git集成使用)
 * [git快捷键](#git快捷键)
 * [git配置](#git配置)
+* [Terminal样式配置](#Terminal样式配置)
 * [npm安装](#其它配置)
 
 ## webstorm下载
@@ -15,15 +16,17 @@ webstorm的相关配置
 
 ## 注册码
 JetBrains下的开发工具都可以按照下面方法激活：
-使用方法：
-注册时，在打开的License Activation窗口中选择“License server”，在输入框输入下面的网址：http://idea.imsxm.com或者http://idea.iteblog.com/key.php 点击Active即可
+1. 打开webstorm的
+2. 看到License Activation窗口中选择“License server”，
+3. 在输入框输入下面的网址：http://idea.imsxm.com或者http://idea.iteblog.com/key.php 
+4. 点击Active即可
 
 ## 鼠标代码缩放
 
 WebStorm设置Ctrl+滚轮调整代码字体大小
-1.点击左上角的File，再点击setting；
-2.Editor->General，选择Change font size (Zoom) with Ctrl+Mouse Wheel；
-3.点击OK即可
+1. 点击左上角的File，再点击setting；
+2. Editor->General，选择Change font size (Zoom) with Ctrl+Mouse Wheel；
+3. 点击OK即可
 
 ## 主题设置
 
@@ -51,6 +54,7 @@ File --> setting--> plugins-->Browse repositor
 
 1.点击左上角的File，再点击setting；
 2.Editor->Color Scheme，选择Material.Theme相关主题，背景立即改变；
+## Terminal样式配置
 
 ## node安装
 
