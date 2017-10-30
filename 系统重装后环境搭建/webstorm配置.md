@@ -11,7 +11,7 @@ webstorm的相关配置
 * [npm安装](#其它配置)
 
 ## 注册码
-JetBrains下的开发工具都可以按照下面方法激活：
+下载地址：[官网](https://www.jetbrains.com/webstorm/)
 
 ## 注册码
 JetBrains下的开发工具都可以按照下面方法激活：
