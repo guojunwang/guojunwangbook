@@ -204,6 +204,21 @@ Host github.com
  Hi guojunwang! You've successfully authenticated, but GitHub does not provide shell access.
 
  ```
+ 最终config文件中两个的配置文件代码为：
+ 
+ ```
+ # gitlab
+  Host gitlab.com
+  HostName 120.25.195.31
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/gitlab-rsa
+	
+ # github
+  Host github.com
+  HostName github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/github-rsa
+ ```
 
 ***
 　　a、设置用户名：git  config -- global  user.name  '你再github上注册的用户名';
