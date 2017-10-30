@@ -10,7 +10,7 @@ webstorm的相关配置
 * [git配置](#git配置)
 * [npm安装](#其它配置)
 
-## 注册码
+## webstorm下载
 下载地址：[官网](https://www.jetbrains.com/webstorm/)
 
 ## 注册码
