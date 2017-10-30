@@ -55,7 +55,10 @@ File --> setting--> plugins-->Browse repositor
 1.点击左上角的File，再点击setting；
 2.Editor->Color Scheme，选择Material.Theme相关主题，背景立即改变；
 ## Terminal样式配置
-Terminal默认是设置Windows系统命令行，重启webstorm即可
+1. 配置位置：
+ 在File --> setting-->Editor-->Color Scheme-->下的console color和console font
+
+2. 重启webstorm即可
 
 ## node安装
 
