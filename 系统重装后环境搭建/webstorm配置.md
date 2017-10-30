@@ -1,6 +1,7 @@
 # webstorm配置
 
 webstorm的相关配置
+* [webstorm下载](#webstorm下载)
 * [注册码](#注册码)
 * [鼠标代码缩放](#鼠标代码缩放)
 * [主题设置](#ctrl+主题设置)
@@ -8,6 +9,9 @@ webstorm的相关配置
 * [git快捷键](#git快捷键)
 * [git配置](#git配置)
 * [npm安装](#其它配置)
+
+## 注册码
+JetBrains下的开发工具都可以按照下面方法激活：
 
 ## 注册码
 JetBrains下的开发工具都可以按照下面方法激活：
