@@ -55,6 +55,7 @@ File --> setting--> plugins-->Browse repositor
 1.点击左上角的File，再点击setting；
 2.Editor->Color Scheme，选择Material.Theme相关主题，背景立即改变；
 ## Terminal样式配置
+设置Windows系统命令行，重启webstorm即可
 
 ## node安装
 
