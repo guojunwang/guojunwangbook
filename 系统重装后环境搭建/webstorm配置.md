@@ -56,6 +56,9 @@ File --> setting--> plugins-->Browse repositor
 1.点击左上角的File，再点击setting；
 2.Editor->Color Scheme，选择Material.Theme相关主题，背景立即改变；
 ## git快捷键
+1. add文件 ctrl + Alt + a （add后红色的文件名变为了蓝色）
+2. 添加commit注释 ctrl + k
+3. push提交 ctrl + shift + k
 
 ## Terminal样式配置
 1. 配置位置：
