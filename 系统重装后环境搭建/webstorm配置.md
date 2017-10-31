@@ -68,3 +68,11 @@ File --> setting--> plugins-->Browse repositor
 地址1.[国内下载地址](http://nodejs.cn/)  
 
 ## git. ./ 转路径
+新建
+
+```
+
+#!/bin/bash
+cd d:/project/chedai-bos-web
+```
+
