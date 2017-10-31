@@ -86,5 +86,16 @@ touch mg #创建mg文件
 cd d:/project/chedai-bos-web
 
 ```
+输入
+
+
+```
+. ./mg
+```
+
+
+即可跳转到d:/project/chedai-bos-web中
+
+
 
 
