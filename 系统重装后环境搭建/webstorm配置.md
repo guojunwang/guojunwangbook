@@ -76,16 +76,14 @@ File --> setting--> plugins-->Browse repositor
 
 ## git命令跳路径
 
-手动新建无后缀文件mg或mg.sh文件
+1. 手动新建无后缀文件mg或mg.sh文件、命令创建方式：
 
-命令创建
 ```
 touch mg.sh #创建mg.sh文件  
 也可以touch mg #创建mg文件
 
 ```
-加入bash环境及其指定跳转路径：  
-命令操作：vim mg --> insert--> :wq 保存并退出
+2. 加入bash环境及其指定跳转路径(命令操作：vim mg --> insert--> :wq 保存并退出)：
 
 ```
 #！/bin/bash
