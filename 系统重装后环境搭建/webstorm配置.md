@@ -68,9 +68,11 @@ File --> setting--> plugins-->Browse repositor
 
 2. 重启webstorm即可
 
-## node安装
+## npm安装
 
-地址1.[国内下载地址](http://nodejs.cn/)  
+支持npm操作，需要node环境支持，现在的node版本中已经集成安装npm，只需要安装node即可
+
+1. 下载地址1.[国内下载地址](http://nodejs.cn/)  
 
 ## git命令跳路径
 
