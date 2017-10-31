@@ -72,9 +72,8 @@ File --> setting--> plugins-->Browse repositor
 
 命令创建
 ```
-touch mg.sh #创建mg.sh文件
-# 也可以
-touch mg #创建mg文件
+touch mg.sh #创建mg.sh文件  
+也可以touch mg #创建mg文件
 
 ```
 加入bash环境及其指定跳转路径：  
