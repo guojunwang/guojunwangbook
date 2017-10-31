@@ -97,7 +97,7 @@ File --> setting--> plugins-->Browse repositor
  . ./mg
  ```
 
-
+## nginx配置
 
 
 
