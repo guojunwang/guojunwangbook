@@ -44,18 +44,7 @@ WebStorm设置Ctrl+滚轮调整代码字体大小：
 
 ## git集成使用
 
-下载安装：
-地址1.[主题下载地址](https://plugins.jetbrains.com/idea)  
-下载后导入即可
 
-地址2.主题下载(开发工具中下载)
-File --> setting--> plugins-->Browse repositor  
- 
-然后输入Theme 看到Material Theme UI 后-->点击进行下载-->安装完成后重启
-重启后会发现文件内容界面没有改变，需要设置下：
-
-1.点击左上角的File，再点击setting；
-2.Editor->Color Scheme，选择Material.Theme相关主题，背景立即改变；
 
 ## git快捷键
 
