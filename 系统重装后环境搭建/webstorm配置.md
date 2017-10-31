@@ -66,7 +66,7 @@ File --> setting--> plugins-->Browse repositor
 
 地址1.[国内下载地址](http://nodejs.cn/)  
 
-## git. ./ 转路径
+## git命令跳路径
 
 手动新建无后缀文件mg或mg.sh文件
 
