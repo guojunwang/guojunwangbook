@@ -9,9 +9,8 @@ webstorm的相关配置
 * [git快捷键](#git快捷键)
 * [git配置](#git配置)
 * [Terminal样式配置](#Terminal样式配置)
-* [npm安装](#其它配置)
-* [git. ./ 转路径](#git. ./ 转路径)
-
+* [npm安装](#npm安装)
+* [git命令跳路径](#git命令跳路径)
 
 
 ## webstorm下载
