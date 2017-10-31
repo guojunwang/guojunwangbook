@@ -7,7 +7,6 @@ webstorm的相关配置
 * [主题设置](#主题设置)
 * [git集成使用](#git集成使用)
 * [git快捷键](#git快捷键)
-* [git配置](#git配置)
 * [Terminal样式配置](#Terminal样式配置)
 * [npm安装](#npm安装)
 * [git命令跳路径](#git命令跳路径)
