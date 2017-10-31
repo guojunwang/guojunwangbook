@@ -10,6 +10,7 @@ webstorm的相关配置
 * [Terminal样式配置](#Terminal样式配置)
 * [npm安装](#npm安装)
 * [git命令跳路径](#git命令跳路径)
+* [nginx配置](#nginx配置)
 
 
 ## webstorm下载
