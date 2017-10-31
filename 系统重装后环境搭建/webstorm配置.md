@@ -10,6 +10,9 @@ webstorm的相关配置
 * [git配置](#git配置)
 * [Terminal样式配置](#Terminal样式配置)
 * [npm安装](#其它配置)
+* [git. ./ 转路径](#git. ./ 转路径)
+
+
 
 ## webstorm下载
 下载地址：[官网](https://www.jetbrains.com/webstorm/)
@@ -64,3 +67,4 @@ File --> setting--> plugins-->Browse repositor
 
 地址1.[国内下载地址](http://nodejs.cn/)  
 
+## git. ./ 转路径
