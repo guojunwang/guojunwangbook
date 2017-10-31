@@ -68,9 +68,16 @@ File --> setting--> plugins-->Browse repositor
 地址1.[国内下载地址](http://nodejs.cn/)  
 
 ## git. ./ 转路径
-新建
 
+手动新建无后缀文件mg或mg.sh文件
+
+命令创建
 ```
+touch mg.sh #创建mg.sh文件
+```
+
+
+
 
 #!/bin/bash
 cd d:/project/chedai-bos-web
