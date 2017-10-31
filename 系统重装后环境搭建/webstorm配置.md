@@ -21,9 +21,9 @@ JetBrains下的开发工具都可以按照下面方法激活：
 1. 打开webstorm软件
 2. 在看到的License Activation窗口中选择“License server”
 3. 在输入框输入下面的网址：
- ```
+  ```
   http://idea.iteblog.com/key.php #或者  http://idea.imsxm.com
- ```
+  ```
 4. 点击Active即可
 
 ## 鼠标代码缩放
