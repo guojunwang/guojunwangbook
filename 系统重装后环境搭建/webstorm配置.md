@@ -90,13 +90,13 @@ touch mg.sh #创建mg.sh文件
 cd d:/project/chedai-bos-web
 
 ```
-3. 使用：输入. ./mg按enter键即可
+3. 使用：输入. ./mg按enter键即可跳转到d:/project/chedai-bos-web中
 
 ```
 . ./mg
 ```
 
-即可跳转到d:/project/chedai-bos-web中
+
 
 
 
