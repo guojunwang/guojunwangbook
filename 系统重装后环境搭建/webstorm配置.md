@@ -93,8 +93,6 @@ cd d:/project/chedai-bos-web
 
 ```
 输入
-
-
 ```
 . ./mg
 ```
