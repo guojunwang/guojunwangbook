@@ -92,7 +92,8 @@ touch mg.sh #创建mg.sh文件
 cd d:/project/chedai-bos-web
 
 ```
-输入
+使用：输入. ./mg即可
+
 ```
 . ./mg
 ```
