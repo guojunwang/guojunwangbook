@@ -74,6 +74,7 @@ Git安装完成后，还需要进行一些基本信息设置
  
  ``` liunx
  $ ssh-add ~/.ssh/gitlab-rsa
+ ##  ssh-add ~/.ssh/id_rsa
 ```
 如果执行ssh-add时提示"Could not open a connection to your authentication agent"，执行命令：
 
@@ -82,6 +83,7 @@ Git安装完成后，还需要进行一些基本信息设置
 
  ```
  然后再运行$ ssh-add ~/.ssh/gitlab-rsa
+ 
 
   ```
   #其它相关命令
