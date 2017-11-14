@@ -15,6 +15,7 @@ vuewebstorm的相关配置
 1. vue:(view读法一样)
 2. install:(因私躲)
 3. run:( [rʌn])
+4. router:(入特尔)
 
 
 ## 注册码
