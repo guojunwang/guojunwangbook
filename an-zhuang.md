@@ -13,7 +13,7 @@ vuewebstorm的相关配置
 
 ## vue常用单词
 1. vue:(view读法一样)
-2. install:(in是躲)
+2. install:(因私躲)
 3. 在输入框输入下面的网址：
 
 
