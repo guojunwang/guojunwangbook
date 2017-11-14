@@ -12,7 +12,10 @@ vuewebstorm的相关配置
 
 
 ## vue常用单词
-vue:(view读法一样)
+1. vue:(view读法一样)
+2. install:(in是躲)
+3. 在输入框输入下面的网址：
+
 
 ## 注册码
 JetBrains下的开发工具都可以按照下面方法激活：
