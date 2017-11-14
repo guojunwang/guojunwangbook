@@ -1,5 +1,5 @@
-webstorm的相关配置
-* [webstorm下载](#webstorm下载)
+vuewebstorm的相关配置
+* [vue常用单词](#vue常用单词)
 * [注册码](#注册码)
 * [鼠标代码缩放](#鼠标代码缩放)
 * [主题设置](#主题设置)
@@ -11,7 +11,7 @@ webstorm的相关配置
 * [nginx配置](#nginx配置)
 
 
-## webstorm下载
+## vue常用单词
 下载地址：[官网](https://www.jetbrains.com/webstorm/)
 
 ## 注册码
