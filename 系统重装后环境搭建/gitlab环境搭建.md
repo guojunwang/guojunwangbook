@@ -58,7 +58,7 @@ Git安装完成后，还需要进行一些基本信息设置
 3. 如果之前没有生成ssh密钥，本地创建ssh key秘钥，使用命令：
  
  ``` liunx
- ssh-keygen -t rsa -C "maguo@quanyibao.com" -f ~/.ssh/gitlab-rsa
+ ssh-keygen -t rsa -C "maguo@quanyibao.com" -f ~/.ssh/gitlab_rsa
  ## ssh-keygen -t rsa -C "maguo@quanyibao.com"
 
  ```
@@ -73,7 +73,7 @@ Git安装完成后，还需要进行一些基本信息设置
 5. 添加私钥
  
  ``` liunx
- $ ssh-add ~/.ssh/gitlab-rsa
+ $ ssh-add ~/.ssh/gitlab_rsa
  ##  ssh-add ~/.ssh/id_rsa
 ```
 如果执行ssh-add时提示"Could not open a connection to your authentication agent"，执行命令：
