@@ -12,7 +12,7 @@ vuewebstorm的相关配置
 
 
 ## vue常用单词
-下载地址：[官网](https://www.jetbrains.com/webstorm/)
+vue:(view读法一样)
 
 ## 注册码
 JetBrains下的开发工具都可以按照下面方法激活：
