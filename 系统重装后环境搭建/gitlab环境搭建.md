@@ -82,7 +82,7 @@ Git安装完成后，还需要进行一些基本信息设置
  $ ssh-agent bash
 
  ```
- 然后再运行$ ssh-add ~/.ssh/gitlab-rsa
+ 然后再运行$ ssh-add ~/.ssh/gitlab_rsa
  
 
   ```
