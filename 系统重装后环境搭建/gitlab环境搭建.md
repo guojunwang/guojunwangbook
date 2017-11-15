@@ -134,7 +134,7 @@ Git安装完成后，还需要进行一些基本信息设置
 
  ```bash
  # 查看具体出错信息
- ssh -T -v git@github.com
+ ssh -T -v git@gitlab.com
  
   ``` 
   在服务器部署项目的时候，会一直提示服务器密码,这时候需要把gitlab_rsa.pub中的内容粘帖到公司服务器
