@@ -37,5 +37,5 @@ $ npm run dev
 ```
 
 
-2. 在看到的License Activation窗口中选择“License server”
+2. 纯手工搭建
 3. 在输入框输入下面的网址：
