@@ -167,7 +167,7 @@ and the repository exists.
 1. 创建GitHub账号的ssh key秘钥
 
   ``` liunx
-  ssh-keygen -t rsa -C "1069804753@qq.com" -f ~/.ssh/github-rsa
+  ssh-keygen -t rsa -C "1069804753@qq.com" -f ~/.ssh/github_rsa
 
   ```
 2. GitHub添加SSH key的方式如下图所示：
@@ -175,7 +175,7 @@ and the repository exists.
 3. 添加私钥
 
  ``` liunx
- $ ssh-add ~/.ssh/github-rsa
+ $ ssh-add ~/.ssh/github_rsa
  ```
 如果执行ssh-add时提示"Could not open a connection to your authentication agent"，执行命令：
 
@@ -183,7 +183,7 @@ and the repository exists.
  $ ssh-agent bash
 
  ```
- 然后再运行$ ssh-add ~/.ssh/github-rsa
+ 然后再运行$ ssh-add ~/.ssh/github_rsa
 4. 修改配置文件
 
  然后在config文件中添加以下内容配置
@@ -192,7 +192,7 @@ and the repository exists.
 Host github.com
  HostName github.com
  PreferredAuthentications publickey
- IdentityFile ~/.ssh/github-rsa
+ IdentityFile ~/.ssh/github_rsa
  ```
 
 5. 测试
