@@ -33,6 +33,7 @@ $ vue init webpack my-project
 $ cd my-project
 # 安装依赖
 $ npm install
+# 运行项目
 $ npm run dev
 ```
 
