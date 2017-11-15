@@ -29,8 +29,9 @@ Vue.js 提供一个[官方命令行工具](https://github.com/vuejs/vue-cli)，�
 $ npm install --global vue-cli
 # 创建一个基于 webpack 模板的新项目
 $ vue init webpack my-project
-# 安装依赖，走你
+# 进入创建的项目目录
 $ cd my-project
+# 安装依赖
 $ npm install
 $ npm run dev
 ```
