@@ -23,7 +23,7 @@ Vue.js 提供一个[官方命令行工具](https://github.com/vuejs/vue-cli)，�
 
 1. 使用vue-cli脚手架搭建
 先决条件：Node.js（> = 4.x，6.x首选），npm版本3+和Git。
-
+如果npm安装时间较长换成[cnpm](https://npm.taobao.org/)；
 ```shell
 # 全局安装 vue-cli
 $ npm install --global vue-cli
