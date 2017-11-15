@@ -23,7 +23,6 @@ Vue.js 提供一个[官方命令行工具](https://github.com/vuejs/vue-cli)，�
 先决条件：Node.js（> = 4.x，6.x首选），npm版本3+和Git。
 1. 安装vue-cli
 
-
 ```shell
 # 全局安装 vue-cli
 $ npm install --global vue-cli
