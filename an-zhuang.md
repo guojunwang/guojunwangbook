@@ -37,6 +37,5 @@ $ npm install
 $ npm run dev
 ```
 
-
 2. 纯手工搭建
-3. 在输入框输入下面的网址：
+
