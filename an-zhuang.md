@@ -18,7 +18,7 @@ vuewebstorm的相关配置
 4. router:(入特尔)
 
 
-## 注册码
+## 环境搭建
 JetBrains下的开发工具都可以按照下面方法激活：
 1. 打开webstorm软件
 2. 在看到的License Activation窗口中选择“License server”
