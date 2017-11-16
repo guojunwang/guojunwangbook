@@ -42,5 +42,6 @@ $ npm run dev
 build和config：webpack配置相关
 node-modules：npm install安装的依赖库
 src：存放源码项目
+static：存放第三方静态资源；里面的.gitkeep文件：代表的是目录为空也可以把目录提交的github仓库
 2. 纯手工搭建
 
