@@ -45,7 +45,7 @@ src：存放源码项目
 static：存放第三方静态资源；里面的.gitkeep文件：代表的是目录为空也可以把目录提交的github仓库
 
 2. 纯手工搭建
-3. 项目有标红提示
+3. 项目有标红提示,需要设置成es6
 解决方法：webstorm编辑器导入vue项目有标红或有警告信息，需要配置webstorm的JavaScript的版本，默认是es5，要设置成es6，
 操作步骤：File --> setting-->Languages & Frameworks-->Javascript--> 选择ECMAScript6-->apply-->save
 
