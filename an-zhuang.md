@@ -28,7 +28,7 @@ Vue.js 提供一个[官方命令行工具](https://github.com/vuejs/vue-cli)，�
 # 第一步:全局安装 vue-cli
 $ npm install --global vue-cli
 # 第二步:创建一个基于 webpack 模板的新项目
-# 执行如下命令后会有如下提示:项目名称（有默认）、描述、作者、是否需要es6代码风格检查器（需要）、模板（直接使用标准的standard）
+# 执行如下命令后会有如下提示:项目名称（有默认）、描述、作者、是否需要es6代码风格检查器（需要）、模板（直接使用标准的standard）、单元测试（不需要n）
 $ vue init webpack my-project
 # 第三步:进入创建的项目目录
 $ cd my-project
