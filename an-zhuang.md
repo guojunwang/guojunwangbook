@@ -38,6 +38,9 @@ $ npm install
 # 运行项目
 $ npm run dev
 ```
-
+项目目录介绍：
+build和config：webpack配置相关
+node-modules：npm install安装的依赖库
+src：存放源码项目
 2. 纯手工搭建
 
