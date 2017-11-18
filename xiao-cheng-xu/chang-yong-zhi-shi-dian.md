@@ -15,7 +15,7 @@ webstorm的相关配置
 下载地址：[官网](https://www.jetbrains.com/webstorm/)
 
 ## 注册码
-JetBrains下的开发工具都可以按照下面方法激活：
+我们通过开发者工具快速创建了一个 QuickStart 项目。你可以留意到这个项目里边生成了不同类型的文件:：
 1. json 后缀的 JSON 配置文件
 2. wxml 后缀的 WXML 模板文件
 3. wxss 后缀的 WXSS 样式文件
