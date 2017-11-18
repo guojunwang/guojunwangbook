@@ -11,7 +11,7 @@ webstorm的相关配置
 * [nginx配置](#nginx配置)
 
 
-## webstorm下载
+## WXSS
 下载地址：[官网](https://www.jetbrains.com/webstorm/)
 
 ## 注册码
