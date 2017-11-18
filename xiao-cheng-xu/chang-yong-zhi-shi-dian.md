@@ -16,9 +16,10 @@ webstorm的相关配置
 
 ## 注册码
 JetBrains下的开发工具都可以按照下面方法激活：
-1. 打开webstorm软件
-2. 在看到的License Activation窗口中选择“License server”
-3. 在输入框输入下面的网址：
+1. json 后缀的 JSON 配置文件
+2. wxml 后缀的 WXML 模板文件
+3. wxss 后缀的 WXSS 样式文件
+4. js 后缀的 JS 脚本逻辑文件
   ```
   http://idea.iteblog.com/key.php #或者  http://idea.imsxm.com
   ```
