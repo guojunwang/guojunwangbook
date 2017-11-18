@@ -20,6 +20,10 @@ webstorm的相关配置
 2. wxml 后缀的 WXML 模板文件
 3. wxss 后缀的 WXSS 样式文件
 4. js 后缀的 JS 脚本逻辑文件
+
+小程序配置 app.json
+app.json 是对当前小程序的全局配置，包括了小程序的所有页面路径、界面表现、网络超时时间、底部 tab 等
   ```
+  
   http://idea.iteblog.com/key.php #或者  http://idea.imsxm.com
   ```
