@@ -22,8 +22,19 @@ webstorm的相关配置
 4. js 后缀的 JS 脚本逻辑文件
 
 ####小程序配置 app.json
-app.json 是对当前小程序的全局配置，包括了小程序的所有页面路径、界面表现、网络超时时间、底部 tab 等
+app.json 是对当前小程序的全局配置，包括了小程序的所有页面路径、界面表现、网络超时时间、底部 tab 等。QuickStart 项目里边的 app.json 配置内容如下：
   ```
-  
-  http://idea.iteblog.com/key.php #或者  http://idea.imsxm.com
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}
   ```
+  配置项细节可以参考文档 小程序的[配置 app.json](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/config.html) 。
