@@ -34,6 +34,16 @@ rpx（responsive pixel）: 可以根据屏幕宽度进行自适应。规定屏�
 ```
 
 
+```
+/** app.wxss **/
+@import "common.wxss";
+.middle-p {
+  padding:15px;
+}
+```
+
+
+
 
 ## 注册码
 我们通过开发者工具快速创建了一个 QuickStart 项目。你可以留意到这个项目里边生成了不同类型的文件:：
