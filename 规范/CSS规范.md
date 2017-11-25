@@ -50,6 +50,7 @@ font-family: Arial, sans-serif;
 font: italic bold .8em/1.2 Arial, sans-serif;
 ```
 这个简写声明实际上等价于以上普通属性再加上 font-variant: normal 和 font-size-adjust: none (CSS2.0 / CSS3)，font-stretch: normal (CSS3)。
+`注意`种简写方法只有在同时指定font-size和font-family属性时才起作用
 
 > border 边框属性
 
