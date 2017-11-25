@@ -1,4 +1,4 @@
-# webstorm配置
+# CSS规范
 
 webstorm的相关配置
 * [webstorm下载](#webstorm下载)
