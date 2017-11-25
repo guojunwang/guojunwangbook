@@ -3,7 +3,7 @@
 复习css元素属性使用
 * [letter-spacing（间距设置）](#letter-spacing（间距设置）)
 * [csstext-indent （首行开头缩进）](#text-indent （首行开头缩进）)
-* [text-overflow](#text-overflow)
+* [text-overflow（文本溢出处理）](#text-overflow（文本溢出处理）)
 * [主题设置](#主题设置)
 * [git集成使用](#git集成使用)
 * [git快捷键](#git快捷键)
@@ -22,7 +22,7 @@ letter-spacing来设置字与字间距_字符间距离，字体间距css样式
 通常text-indent缩进属性将对段落首行开头文本文字进行缩进显示
 ![](/assets/css/1_130210003131_1.png)
 
-## text-overflow （首行开头缩进）
+## text-overflow（文本溢出处理）
 通常text-indent缩进属性将对段落首行开头文本文字进行缩进显示
 ![](/assets/css/1_130210003131_1.png)
 
