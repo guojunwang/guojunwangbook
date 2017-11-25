@@ -58,22 +58,32 @@ nowrap : 　强制在同一行内显示所有文本，直到文本结束或者�
 ![](/assets/css/1_130211165058_1.png)
 
 ## css sprites精灵图
-<style type="text/css">
+
+
+```css
 ul.Sprites{ margin:0 auto; border:1px solid #F00; width:300px; padding:10px;} 
 ul.Sprites li{ height:24px; font-size:14px;line-height:24px; text-align:left; overflow:hidden} 
 ul.Sprites li span{ float:left; width:17px;padding-top:5px;height:17px;  
-overflow:hidden;background:url(ico.png) no-repeat} 
+overflow:hidden;
+background:url(/assets/css/ico.png) no-repeat} 
 ul.Sprites li a{ padding-left:5px} 
 ul.Sprites li span.a1{ background-position: -62px -32px} 
 ul.Sprites li span.a2{ background-position: -86px -32px} 
 ul.Sprites li span.a3{ background-position: -110px -32px} 
 ul.Sprites li span.a4{ background-position: -133px -32px} 
-ul.Sprites li span.a5{ background-position: -158px -32px} 
-</style>
+ul.Sprites li span.a5{ background-position: -158px -32px}
+```
+
+
+```html
 <ul class="Sprites">
 	<li><span class="a1"></span><a href="#">WORD文章标题</a></li>
     <li><span class="a2"></span><a href="#">PPT内容标题</a></li>
 	<li><span class="a3"></span><a href="#">Excel内容标题</a></li>
     <li><span class="a4"></span><a href="#">PDF内容标题</a></li>
     <li><span class="a5"></span><a href="#">文本文档标题</a></li>
-</ul>
+</ul>
+```
+
+
+
