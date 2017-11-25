@@ -13,8 +13,27 @@ webstorm的相关配置
 * [nginx配置](#nginx配置)
 
 ## css缩写属性
+
 CSS有些属性是可以缩写的，比如padding,margin,font等等，简写属性是可以让你同时设置其他几个 CSS 属性值的 CSS 属性。使用简写属性，Web 开发人员可以编写更简洁、更具可读性的样式表，节省时间和精力。
 
+> Background 属性
+
+background 有以下属性：
+```css
+background-color: #000;
+background-image: url(images/bg.gif);
+background-repeat: no-repeat;
+background-position: top right;
+```
+
+可以简写成一行声明：
+
+```css
+background: #000 url(images/bg.gif) no-repeat top right;
+```
+
+
+background 有以下属性：
 ## 命名规则说明
 ##### 使用CSS缩写属性
 实例：
