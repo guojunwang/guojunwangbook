@@ -33,7 +33,9 @@ background: #000 url(images/bg.gif) no-repeat top right;
 ```
 简写的形式实际上等价于以上普通属性再加上 background-attachment: scroll  以及 CSS3 中的一些附加属性。
 
-> font 文本属性（不建议缩写）
+> font 文本属性
+
+`注意`种简写方法只有在同时指定font-size和font-family属性时才起作用。如果没有这两个值不建议缩写
 
 font 有以下属性：
 ```css
@@ -50,7 +52,6 @@ font-family: Arial, sans-serif;
 font: italic bold .8em/1.2 Arial, sans-serif;
 ```
 这个简写声明实际上等价于以上普通属性再加上 font-variant: normal 和 font-size-adjust: none (CSS2.0 / CSS3)，font-stretch: normal (CSS3)。
-`注意`种简写方法只有在同时指定font-size和font-family属性时才起作用
 
 > border 边框属性
 
