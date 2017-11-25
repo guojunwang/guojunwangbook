@@ -23,6 +23,14 @@ letter-spacing来设置字与字间距_字符间距离，字体间距css样式
 ![](/assets/css/1_130210003131_1.png)
 
 ## text-overflow（文本溢出处理）
-通常text-indent缩进属性将对段落首行开头文本文字进行缩进显示
-![](/assets/css/1_130210003131_1.png)
+text-overflow参数值和解释：
+
+
+```css
+clip : 　不显示省略标记（...），而是简单的裁切
+ellipsis : 　当对象内文本溢出时显示省略标记（...）
+
+```
+
+
 
