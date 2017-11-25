@@ -26,7 +26,7 @@ background-repeat: no-repeat;
 background-position: top right;
 ```
 
-可以简写成一行声明：
+简写成一行声明：
 
 ```css
 background: #000 url(images/bg.gif) no-repeat top right;
