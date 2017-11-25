@@ -4,8 +4,8 @@
 * [letter-spacing（间距设置）](#letter-spacing（间距设置）)
 * [csstext-indent （首行开头缩进）](#text-indent （首行开头缩进）)
 * [text-overflow（文本溢出处理）](#text-overflow（文本溢出处理）)
-* [主题设置](#主题设置)
-* [git集成使用](#git集成使用)
+* [font-variant](#font-variant)
+* [text-transform](#text-transform)
 * [git快捷键](#git快捷键)
 * [Terminal样式配置](#Terminal样式配置)
 * [npm安装](#npm安装)
@@ -31,6 +31,20 @@ clip : 　不显示省略标记（...），而是简单的裁切
 ellipsis : 　当对象内文本溢出时显示省略标记（...）
 
 ```
+## text-transform
+
+text-transform 值：
+* Capitalize 英文拼音的首字母大写
+* Uppercase 英文拼音字母全大写
+* Lowercase 英文拼音字母全小写
+
+效果图：
+![](/assets/css/1_130204122514_1.png)
+
+
+##  font-variant
+font-variant英文字母全大写后缩小字体
+
 
 
 
