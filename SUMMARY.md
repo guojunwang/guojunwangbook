@@ -7,9 +7,9 @@
   * [插件](gitbook使用/插件.md)
   * [配置](gitbook使用/ss.md)
 * [规范](gui-fan.md)
-  * [CSS规范](gui-fan/cssgui-fan.md)
-  * HTML规范
-  * 工程师规范
+  * [CSS规范](规范/CSS规范.md)
+  * [HTML规范](规范/HTML规范.md)
+  * [工程师规范](规范/工程师规范.md)
 * [react](react.md)
 * [vue](an-zhuang.md)
 * [python](cha-jian.md)
