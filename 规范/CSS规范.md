@@ -17,15 +17,11 @@ webstorm的相关配置
 ##### 使用类选择器，放弃ID选择器
 ID在一个页面中的唯一性导致了如果以ID为选择器来写CSS，就无法重用
 
-## 注册码
-JetBrains下的开发工具都可以按照下面方法激活：
-1. 打开webstorm软件
-2. 在看到的License Activation窗口中选择“License server”
-3. 在输入框输入下面的网址：
-  ```
-  http://idea.iteblog.com/key.php #或者  http://idea.imsxm.com
-  ```
-4. 点击Active即可
+##### 不建议使用下划线 _ 进行连接
+
+* 节省操作，输入的时候少按一个 shift 键
+* 能良好区分 JavaScript 变量命名
+
 
 ## 鼠标代码缩放
 
