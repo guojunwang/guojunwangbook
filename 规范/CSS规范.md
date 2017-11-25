@@ -16,7 +16,7 @@ webstorm的相关配置
 
 CSS有些属性是可以缩写的，比如padding,margin,font等等，简写属性是可以让你同时设置其他几个 CSS 属性值的 CSS 属性。使用简写属性，Web 开发人员可以编写更简洁、更具可读性的样式表，节省时间和精力。
 
-> Background 属性
+> background 背景属性
 
 background 有以下属性：
 ```css
@@ -33,9 +33,9 @@ background: #000 url(images/bg.gif) no-repeat top right;
 ```
 简写的形式实际上等价于以上普通属性再加上 background-attachment: scroll  以及 CSS3 中的一些附加属性。
 
-> Font 属性
+> font 文本属性
 
-Font 有以下属性：
+font 有以下属性：
 ```css
 font-style: italic;
 font-weight: bold;
@@ -51,7 +51,7 @@ font: italic bold .8em/1.2 Arial, sans-serif;
 ```
 这个简写声明实际上等价于以上普通属性再加上 font-variant: normal 和 font-size-adjust: none (CSS2.0 / CSS3)，font-stretch: normal (CSS3)。
 
-> Border 属性
+> border 边框属性
 
 对于 border 来说，宽度、颜色和类型是可以被简写到一个声明里的。比如：
 
@@ -66,33 +66,15 @@ border-color: #000;
 ```css
 border: 1px solid #000
 ```
-> Margin 和 Padding 属性
+> margin（外边距） 和 padding（内边距） 属性
 
 margin 和 padding 值的简写版本类似。  
-实例1：
-```css
-margin-top:5px;
-margin-bottom:10px; 
-margin-left:15px; 
-margin-right:20px
-```
-简写成一行：上右下左（顺时针）（下面值依次代表的意思为：top、right、bottom、left）
 
 ```css
-margin:5px 20px 10px 15px;
-```
-
-实例2：
-```css
-margin-top:5px; 
-margin-bottom:5px; 
-margin-left:10px; 
-margin-right:10px;
-```
-简写成一行：（下面值依次代表的意思为：top与bottom为5px、right与left为10px）
-
-```css
-margin:5px 10px;
+margin: 10px;（上、下、左、右各10px）
+margin: 10px 50px;（上、下10px；左、右50px）
+margin: 10px 50px 60px;（上10px；左、右50px；下60px）
+margin: 10px 50px 60px 70px;（上10px；右50px；下60px；左70px。（顺时针））
 ```
 
 
