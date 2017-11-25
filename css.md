@@ -12,6 +12,6 @@
 * [git命令跳路径](#git命令跳路径)
 * [nginx配置](#nginx配置)
 
-## css缩写属性
+## letter-spacing（间距设置）
 
 letter-spacing（间距设置）
