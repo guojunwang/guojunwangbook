@@ -76,7 +76,7 @@ margin-bottom:10px;
 margin-left:15px; 
 margin-right:20px
 ```
-简写成一行：（下面值依次代表的意思为：top、right、bottom、left）
+简写成一行：上右下左（顺时针）（下面值依次代表的意思为：top、right、bottom、left）
 
 ```css
 margin:5px 20px 10px 15px;
