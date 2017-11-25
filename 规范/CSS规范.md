@@ -14,7 +14,8 @@ webstorm的相关配置
 
 
 ## webstorm下载
-下载地址：[官网](https://www.jetbrains.com/webstorm/)
+#####使用类选择器，放弃ID选择器
+ID在一个页面中的唯一性导致了如果以ID为选择器来写CSS，就无法重用
 
 ## 注册码
 JetBrains下的开发工具都可以按照下面方法激活：
