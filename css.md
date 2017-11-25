@@ -54,3 +54,5 @@ text-transform 值：
 white-space参数：
 normal : 　默认处理方式
 nowrap : 　强制在同一行内显示所有文本，直到文本结束或者遭遇br标签对象才换行。DIVCSS5推荐使用white-space:nowrap强制不换行。
+效果图：
+![](/assets/css/1_130211165058_1.png)
