@@ -90,6 +90,8 @@ ul.Sprites li span.a5{ background-position: -158px -32px}
     <li><span class="a5"></span><a href="#">文本文档标题</a></li>
 </ul>
 ```
+效果图
+![](/assets/css/1_141201152210_1.png)
 
 
 
