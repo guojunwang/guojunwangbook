@@ -32,6 +32,70 @@ background-position: top right;
 background: #000 url(images/bg.gif) no-repeat top right;
 ```
 简写的形式实际上等价于以上普通属性再加上 background-attachment: scroll  以及 CSS3 中的一些附加属性。
+
+> Font 属性
+
+Font 有以下属性：
+```css
+font-style: italic;
+font-weight: bold;
+font-size: .8em;
+line-height: 1.2;
+font-family: Arial, sans-serif;
+```
+
+简写成一行声明：
+
+```css
+font: italic bold .8em/1.2 Arial, sans-serif;
+```
+这个简写声明实际上等价于以上普通属性再加上 font-variant: normal 和 font-size-adjust: none (CSS2.0 / CSS3)，font-stretch: normal (CSS3)。
+
+> Border 属性
+
+对于 border 来说，宽度、颜色和类型是可以被简写到一个声明里的。比如：
+
+```css
+border-width: 1px;
+border-style: solid;
+border-color: #000;
+```
+
+简写成一行声明：
+
+```css
+border: 1px solid #000
+```
+> Margin 和 Padding 属性
+
+margin 和 padding 值的简写版本类似。  
+实例1：
+```css
+margin-top:5px;
+margin-bottom:10px; 
+margin-left:15px; 
+margin-right:20px
+```
+简写成一行：（下面值依次代表的意思为：top、right、bottom、left）
+
+```css
+margin:5px 20px 10px 15px;
+```
+
+实例2：
+```css
+margin-top:5px; 
+margin-bottom:5px; 
+margin-left:10px; 
+margin-right:10px;
+```
+简写成一行：（下面值依次代表的意思为：top与bottom为5px、right与left为10px）
+
+```css
+margin:5px 10px;
+```
+
+
 ## 命名规则说明
 ##### 使用CSS缩写属性
 实例：
