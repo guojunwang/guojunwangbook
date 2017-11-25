@@ -31,7 +31,7 @@ background-position: top right;
 ```css
 background: #000 url(images/bg.gif) no-repeat top right;
 ```
-
+简写的形式实际上等价于以上普通属性再加上 background-attachment: scroll  以及 CSS3 中的一些附加属性。
 ## 命名规则说明
 ##### 使用CSS缩写属性
 实例：
