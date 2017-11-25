@@ -43,8 +43,9 @@ text-transform 值：
 
 
 ##  font-variant
-font-variant英文字母全大写后缩小字体
-
-
-
+参数： 
+* normal : 正常的字体
+* small-caps : 让字母变成小型的大写字母字体并缩小字母
+效果图：
+![](/assets/css/1_130204142255_1.png)
 
