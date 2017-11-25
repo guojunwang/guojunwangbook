@@ -7,7 +7,7 @@
 * [font-variant](#font-variant)
 * [text-transform](#text-transform)
 * [white-space](#white-space)
-* [Terminal样式配置](#Terminal样式配置)
+* [css sprites精灵图](#css sprites精灵图)
 * [npm安装](#npm安装)
 * [git命令跳路径](#git命令跳路径)
 * [nginx配置](#nginx配置)
@@ -56,3 +56,5 @@ normal : 　默认处理方式
 nowrap : 　强制在同一行内显示所有文本，直到文本结束或者遭遇br标签对象才换行。DIVCSS5推荐使用white-space:nowrap强制不换行。
 效果图：
 ![](/assets/css/1_130211165058_1.png)
+
+## css sprites精灵图
