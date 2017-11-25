@@ -33,7 +33,7 @@ background: #000 url(images/bg.gif) no-repeat top right;
 ```
 简写的形式实际上等价于以上普通属性再加上 background-attachment: scroll  以及 CSS3 中的一些附加属性。
 
-> font 文本属性
+> font 文本属性（不建议缩写）
 
 font 有以下属性：
 ```css
