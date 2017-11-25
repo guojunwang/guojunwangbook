@@ -32,8 +32,6 @@ background-position: top right;
 background: #000 url(images/bg.gif) no-repeat top right;
 ```
 
-
-background 有以下属性：
 ## 命名规则说明
 ##### 使用CSS缩写属性
 实例：
