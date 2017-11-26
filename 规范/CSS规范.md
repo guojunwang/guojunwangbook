@@ -10,7 +10,12 @@ webstorm的相关配置
 * [Terminal样式配置](#Terminal样式配置)
 * [npm安装](#npm安装)
 * [git命令跳路径](#git命令跳路径)
-* [nginx配置](#nginx配置)
+* [nginx配置](#nginx配置)  
+
+[参考1](https://www.zhihu.com/question/20100142)
+[参考2](https://www.zhihu.com/question/38773260)
+[参考3](https://www.zhihu.com/question/19586885)
+[参考4](http://nec.netease.com/standard/css-name.html)
 
 ## css缩写属性
 
