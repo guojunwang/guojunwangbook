@@ -47,7 +47,7 @@ webstorm的相关配置
 
 ####文件注释
 
-```
+```css
 /**
  * @name: 文件名或模块名
  * @description: 文件或模块描述
