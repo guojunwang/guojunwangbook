@@ -19,12 +19,15 @@ webstorm的相关配置
 [参考5](http://yujiangshui.com/)
 
 ## css注释
+
+### 单行注释
+
 星号与内容之间必须保留一个空格。
 
 ```css
 /* 表格隔行变色 */
 ```
-## 多行注释
+### 多行注释
 星号要一列对齐，星号与内容之间必须保留一个空格
 
 
@@ -33,9 +36,27 @@ webstorm的相关配置
  * 我是多行注释
  */
 ```
+### 规则声明块内注释
 
+使用 // 注释，// 后面加上一个空格，注释独立一行。
 
-####单行注释
+.foo{
+    border: 0;
+    // ....
+}
+
+####文件注释
+
+```
+/**
+ * @name: 文件名或模块名
+ * @description: 文件或模块描述
+ * @author: author-name(mail-name@domain.com)
+ *          author-name2(mail-name2@domain.com)
+ * @update: 2015-04-29 00:02
+ */
+```
+
 
 ## css缩写属性
 
