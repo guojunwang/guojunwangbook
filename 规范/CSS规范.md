@@ -132,32 +132,47 @@ ID在一个页面中的唯一性导致了如果以ID为选择器来写CSS，就�
 
 
 ## CSS书写顺序
-1. 位置属性　　
-```css
-position, top, right, z-index,
-display, float等
-```
-2. 大小(width, height, padding, margin)　
 
-```css
-width, height, padding, margin
+1. 位置属性
+
+ ```css
+ position, z-index,top,right,bottom,left
+
+ ```
+说明：z-index只能在position属性值为relative或absolute或fixed的元素上有效。
+
+2. 布局属性
+
+ ```css
+display,float,clear,visibility,overflow
 ```
+3. 自身属性
+
+ ```css
+  padding, margin,width, height,border,background
+
+ ```
+4. 文本属性
+
+ ```css
+ font, line-height, letter-spacing,color,text-align，text-decoration等
+
+ ```
+
+
 　
 3. 文字系列
-```css
-font, line-height, letter-spacing,
-color- text-align等
-```
+ ```css
+font, line-height, letter-spacing,color- text-align等
+
+ ```
 　　
-4. 背景
-```css
-background, border等
-```
+
 
 5. 其他
 
-```css
-animation, transition等
+ ```css
+ animation, transition等
 ```
 
 
