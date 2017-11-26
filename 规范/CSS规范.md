@@ -132,16 +132,34 @@ ID在一个页面中的唯一性导致了如果以ID为选择器来写CSS，就�
 
 
 ## CSS书写顺序
+1. 位置属性　　
+```css
+position, top, right, z-index,
+display, float等
+```
+2. 大小(width, height, padding, margin)　
 
-1. 方法1
+```css
+width, height, padding, margin
+```
+　
+3. 文字系列
+```css
+font, line-height, letter-spacing,
+color- text-align等
+```
+　　
+4. 背景
+```css
+background, border等
+```
 
- A. 下载安装：主题下载地址1：[插件官方下载地址](https://plugins.jetbrains.com/)
-  
-  B.  操作步骤：File --> setting--> plugins-->install plugins from disk-->选择下载到本地的插件即可导入
-2. 方法2
+5. 其他
 
- A.主题下载方式2(开发工具中下载):File --> setting--> plugins-->Browse repositor
- B.操作步骤：然后输入Theme 看到Material Theme UI 后-->点击进行下载-->安装完成后重启，重启后会发现文件内容界面没有改变，需要设置下：1.点击左上角的File，再点击setting；2.Editor->Color Scheme，选择Material.Theme相关主题，背景立即改变；
+```css
+animation, transition等
+```
+
 
 ## git集成使用
 
