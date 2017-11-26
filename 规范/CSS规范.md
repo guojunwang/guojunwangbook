@@ -122,20 +122,19 @@ ID在一个页面中的唯一性导致了如果以ID为选择器来写CSS，就�
 ##### 属性的值一定要用双引号("")括起来
 #####去掉小数点前的"0"
 
-实例：
-```css
- #不正确
- font-size: 0.32rem;
- #正确
- font-size: .32rem;
-```
+
+不正确：~~font-size: 0.32rem;~~
+
+正确写法：font-size: .32rem;
+
+
 ##### 当长度值为 0 时省略单位
 
-```css
-margin: 0px auto
 
-margin: 0 auto
-```
+不正确：~~margin: 0px auto~~
+
+正确写法：margin: 0 auto
+
 
 
 
