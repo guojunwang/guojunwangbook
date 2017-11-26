@@ -17,8 +17,17 @@ webstorm的相关配置
 [参考3](https://www.zhihu.com/question/19586885)
 [参考4](http://nec.netease.com/standard/css-name.html)
 [参考5](http://yujiangshui.com/)
-## css注释
 
+## css注释
+星号与内容之间必须保留一个空格。
+
+
+```css
+/* 表格隔行变色 */
+```
+
+
+####单行注释
 
 ## css缩写属性
 
