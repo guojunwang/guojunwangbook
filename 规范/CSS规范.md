@@ -129,6 +129,14 @@ ID在一个页面中的唯一性导致了如果以ID为选择器来写CSS，就�
  #正确
  font-size: .32rem;
 ```
+##### 当长度值为 0 时省略单位
+
+```css
+margin: 0px auto
+
+margin: 0 auto
+```
+
 
 
 ## CSS书写顺序
