@@ -155,25 +155,14 @@ display,float,clear,visibility,overflow
 4. 文本属性
 
  ```css
- font, line-height, letter-spacing,color,text-align，text-decoration等
+ font, line-height, letter-spacing,color,text-align,text-decoration等
 
  ```
-
-
-　
-3. 文字系列
- ```css
-font, line-height, letter-spacing,color- text-align等
-
- ```
-　　
-
-
 5. 其他
 
  ```css
  animation, transition等
-```
+ ```
 
 
 ## git集成使用
