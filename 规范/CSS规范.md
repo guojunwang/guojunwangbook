@@ -53,7 +53,7 @@ webstorm的相关配置
  * @description: 文件或模块描述
  * @author: author-name(mail-name@domain.com)
  *          author-name2(mail-name2@domain.com)
- * @update: 2015-04-29 00:02
+ * @update: 2017-04-29 00:02
  */
 ```
 
