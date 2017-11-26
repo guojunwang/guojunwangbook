@@ -4,7 +4,7 @@ webstorm的相关配置
 * [规范说明](#规范说明)
 * [css缩写属性](#css缩写属性)
 * [CSS书写顺序](#CSS书写顺序)
-* [主题设置](#主题设置)
+* [css注释](#css注释)
 * [git集成使用](#git集成使用)
 * [git快捷键](#git快捷键)
 * [Terminal样式配置](#Terminal样式配置)
@@ -17,6 +17,8 @@ webstorm的相关配置
 [参考3](https://www.zhihu.com/question/19586885)
 [参考4](http://nec.netease.com/standard/css-name.html)
 [参考5](http://yujiangshui.com/)
+## css注释
+
 
 ## css缩写属性
 
@@ -127,6 +129,7 @@ ID在一个页面中的唯一性导致了如果以ID为选择器来写CSS，就�
 ```
 
 ##### 属性的值一定要用双引号("")括起来
+属性的值一定要用双引号("")括起来，且一定要有值如 class="helloweb" , id="helloweb"
 #####去掉小数点前的"0"
 
 
