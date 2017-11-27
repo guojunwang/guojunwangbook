@@ -307,7 +307,7 @@ display,float,clear,visibility,overflow
 | 关键词：keyword| 博客：blog |论坛：forum |搜索：search|搜索输入框：search-input|
 | 搜索输出：search-output| 搜索结果：search-results |状态：status|按钮：btn|滚动：scroll|
 | 标签页：tab| 文章列表：list |提示信息：msg/message |当前的: current|小技巧：tips|
-| 标签页：tab| 文章列表：list |提示信息：msg/message |当前的: current|小技巧：tips|
+| 皮肤：skin| 文章列表：list |提示信息：msg/message |当前的: current|小技巧：tips|
 
 
 
