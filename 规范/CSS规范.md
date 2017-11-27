@@ -118,15 +118,19 @@ font 有以下属性：
 对于 border 来说，宽度、颜色和类型是可以被简写到一个声明里的。比如：
 
 ```css
-border-width: 1px;
-border-style: solid;
-border-color: #000;
+.class{
+ border-width: 1px;
+ border-style: solid;
+ border-color: #000;
+}
 ```
 
 简写成一行声明：
 
 ```css
-border: 1px solid #000
+.class{
+ border: 1px solid #000;
+}
 ```
 > margin（外边距） 和 padding（内边距） 属性
 
