@@ -95,11 +95,13 @@ background 有以下属性：
 
 font 有以下属性：
 ```css
-font-style: italic;
-font-weight: bold;
-font-size: .8em;
-line-height: 1.2;
-font-family: Arial, sans-serif;
+.class{
+ font-style: italic;
+ font-weight: bold;
+ font-size: .8em;
+ line-height: 1.2;
+ font-family: Arial, sans-serif;
+}
 ```
 
 简写成一行声明：
