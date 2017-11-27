@@ -5,7 +5,7 @@ webstorm的相关配置
 * [css缩写属性](#css缩写属性)
 * [CSS书写顺序](#CSS书写顺序)
 * [css注释](#css注释)
-* [git集成使用](#git集成使用)
+* [css常用命名](#css常用命名)
 * [git快捷键](#git快捷键)
 * [Terminal样式配置](#Terminal样式配置)
 * [npm安装](#npm安装)
