@@ -378,6 +378,15 @@ font-family: 'Microsoft YaHei', '黑体-简', '\5b8b\4f53';
 
 ##### 避免使用 !important
 
+##### 私有在前，标准在后
+先写带有浏览器私有标志的，后写W3C标准的。
+
+```
+.m-box{-webkit-box-shadow:0 0 0 #000;-moz-box-shadow:0 0 0 #000;box-shadow:0 0 0 #000;}
+```
+
+
+
 ## CSS书写顺序
 
 1. 位置属性
