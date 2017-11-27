@@ -107,7 +107,9 @@ font 有以下属性：
 简写成一行声明：
 
 ```css
-font: italic bold .8em/1.2 Arial, sans-serif;
+.class{
+ font: italic bold .8em/1.2 Arial, sans-serif;
+}
 ```
 这个简写声明实际上等价于以上普通属性再加上 font-variant: normal 和 font-size-adjust: none (CSS2.0 / CSS3)，font-stretch: normal (CSS3)。
 
