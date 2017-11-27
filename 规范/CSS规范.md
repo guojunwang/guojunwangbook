@@ -301,7 +301,7 @@ display,float,clear,visibility,overflow
 
 | 左对齐 | 居中对齐| 右对齐|居中对齐| 右对齐|
 |:------ |:-----:| -----:|:-----:|:-----:|
-| 标志：logo| 登陆：login | 登录条：loginbar |顶导航：topnav|边导航：sidebar|
+| 标志：logo| 登陆：login | 登录条：loginbar |注册：regsiter|边导航：sidebar|
 | 左导航：leftsidebar | rightsidebar | 边导航图标：sidebarIcon | 菜单：menu | 子菜单：submenu |
 
 
