@@ -317,5 +317,5 @@ display,float,clear,visibility,overflow
 | 产品定购：order| 版权：copyright |友情链接：friendlink |合作伙伴：partner|法律声明：siteinfo-legal|
 | 网站信息：siteinfo| 标签：tag |购物车：shop |当前位置：breadcrumb/loc|投票：vote|
 | 下载：download| 新闻：news |热点：hot |服务：service|指南：guild|
-| 下载：download| 新闻：news |热点：hot |服务：service|指南：guild|
+| 注释：note| 新闻：news |热点：hot |服务：service|指南：guild|
 | 下载：download| 新闻：news |热点：hot |服务：service|指南：guild|
