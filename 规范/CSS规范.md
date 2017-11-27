@@ -310,8 +310,8 @@ display,float,clear,visibility,overflow
 | 皮肤：skin| 充值：pay |活动：activities |推广：promotion|公告：announcement|
 | 排行：ranking| 公司简介：companyProfile |公司设备：equipment |公司荣誉：glories|企业文化：culture|
 | 企业规模：scaleScale| 营销网络：salesNetwork |组织机构：organization |技术力量：technology|分支机构：branches|
-| 企业资质：EnterpriseQualification| 公司实力：strengthStrength |经营理念：operationPrinciple|发展历程：developmentHistory|工程案例：EngineeringProjects|
-| 企业规模：scaleScale| 营销网络：salesNetwork |组织机构：organization |技术力量：technology|分支机构：branches|
+| 企业资质：EnterpriseQualification| 公司实力：strengthStrength |经营理念：operationPrinciple|经理致辞：manager_oratio|发展历程：developmentHistory|
+| 工程案例：EngineeringProjects| 营销网络：salesNetwork |组织机构：organization |技术力量：technology|分支机构：branches|
 | 企业规模：scaleScale| 营销网络：salesNetwork |组织机构：organization |技术力量：technology|分支机构：branches|
 
 
