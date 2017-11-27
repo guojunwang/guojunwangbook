@@ -282,9 +282,11 @@ display,float,clear,visibility,overflow
 
 ## css常用命名
 
-1. add文件 ctrl + Alt + a （add后红色的文件名变为了蓝色）
-2. 添加commit注释 ctrl + k
-3. push提交 ctrl + shift + k
+| 左对齐 | 居中对齐| 右对齐|
+|:------ |:-----:| -----:|
+| 果郡王 | 果郡王 | 果郡王 |
+| 果郡王 | 果郡王 | 果郡王 |
+| 果郡王 | 果郡王 | 果郡王 |
 
 ## Terminal样式配置
 1. 配置位置：
