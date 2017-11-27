@@ -47,7 +47,12 @@ webstorm的相关配置
 ```
 
 ## 选择器等级
-
+谈到CSS选择器可能大家最熟悉与常用的就是 标签、id、class选择器了，从效率上来说它们三个无疑最高的选择，我们确实也应优先使用，但在实际开发中，我们可能还有一些友好的选择器，下面列举一些常用css选择器（注意只包括常用有代表性的选择器，部分少用的未列举）：
+1、基本选择器，效率最高;  id 、class、标签、* 通用选择器
+2、组合选择器，效率相对来基本选择器来说较低，‘h1,p多类’、‘div  p后代’、‘div>p子’、‘div~p 同级’、‘div+p相邻（div同级的后一个元素）’选择器
+3、属性选择器，效率相对来说又低一层，E[arr]、E[att^=”val”]、E[att$=”val”]、E[att*=”val”]
+4、伪类选择器，效率最低，:hover  :active  :focus  :first-child :checked :enabled :nth-child(n) :nth-of-type(n)
+      (E:after E:before E:first-letter E:first-line伪元素）
 ```
 
 ```
