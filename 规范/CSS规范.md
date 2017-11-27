@@ -308,7 +308,7 @@ display,float,clear,visibility,overflow
 | 搜索输出：search-output| 搜索结果：search-results |状态：status|按钮：btn|滚动：scroll|
 | 标签页：tab| 文章列表：list |提示信息：msg/message |当前的: current|小技巧：tips|
 | 皮肤：skin| 充值：pay |活动：activities |推广：promotion|公告：announcement|
-| 排行：ranking| 充值：pay |活动：activities |推广：promotion|公告：announcement|
+| 排行：ranking| 公司简介：companyProfile |活动：activities |推广：promotion|公告：announcement|
 
 
 
