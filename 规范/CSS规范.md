@@ -71,10 +71,12 @@ CSS有些属性是可以缩写的，比如padding,margin,font等等，简写属�
 
 background 有以下属性：
 ```css
-background-color: #000;
-background-image: url(images/bg.gif);
-background-repeat: no-repeat;
-background-position: top right;
+.class{
+  background-color: #000;
+  background-image: url(images/bg.gif);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
 ```
 
 简写成一行声明：
