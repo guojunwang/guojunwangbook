@@ -309,38 +309,6 @@ display,float,clear,visibility,overflow
 | 标签页：tab| 文章列表：list |提示信息：msg/message |当前的: current|小技巧：tips|
 | 皮肤：skin| 充值：pay |活动：activities |推广：promotion|公告：announcement|
 | 排行：ranking| 公司简介：companyProfile |公司设备：equipment |公司荣誉：glories|企业文化：culture|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| 企业规模：scaleScale| 公司简介：companyProfile |公司设备：equipment |公司荣誉：glories|企业文化：culture|
 
 
