@@ -282,6 +282,8 @@ display,float,clear,visibility,overflow
 
 ## css常用命名
 
+页面结构
+
 | 左对齐 | 居中对齐| 右对齐|
 |:------ |:-----:| -----:|
 | 果郡王 | 果郡王 | 果郡王 |
