@@ -8,7 +8,7 @@ webstorm的相关配置
 * [css常用命名](#css常用命名)
 * [css最佳实践命名](#css最佳实践命名)
 * [选择器顺序](#选择器顺序)
-* [Terminal样式配置](#Terminal样式配置)
+* [选择器的权重及优先规则](#选择器的权重及优先规则)
 * [npm安装](#npm安装)
 * [git命令跳路径](#git命令跳路径)
 * [nginx配置](#nginx配置)  
@@ -20,6 +20,7 @@ webstorm的相关配置
 [参考5](http://yujiangshui.com/)
 [命名参考bootcss](http://v3.bootcss.com/css/)
 [常用参考命名](http://www1.qdfuns.com/blog-5445898-5398950.html)
+## 选择器的权重及优先规则
 ## 选择器顺序
 请综合考虑以下顺序依据：
 * 从大到小（以选择器的范围为准）
