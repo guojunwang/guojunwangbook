@@ -280,11 +280,7 @@ display,float,clear,visibility,overflow
  ```
 
 
-## git集成使用
-
-
-
-## git快捷键
+## css常用命名
 
 1. add文件 ctrl + Alt + a （add后红色的文件名变为了蓝色）
 2. 添加commit注释 ctrl + k
