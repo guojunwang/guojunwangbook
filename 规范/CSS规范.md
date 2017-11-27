@@ -306,7 +306,7 @@ display,float,clear,visibility,overflow
 | 摘要:summary| 生产商：publishe | 缩略图：screenshot |常见问题：faqs|产品：products|
 | 关键词：keyword| 博客：blog |论坛：forum |搜索：search|搜索输入框：search-input|
 | 搜索输出：search-output| 搜索结果：search-results |状态：status|按钮：btn|滚动：scroll|
-| 搜索输出：search-output| 搜索结果：search-results |加入我们：joinus |状态：status|按钮：btn|
+| 标签页：tab| 搜索结果：search-results |加入我们：joinus |状态：status|按钮：btn|
 
 
 
