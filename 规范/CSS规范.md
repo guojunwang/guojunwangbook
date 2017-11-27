@@ -24,10 +24,18 @@ webstorm的相关配置
 ## css最佳实践命名
 布局（.g-）
 
-| 左对齐 | 居中对齐| 右对齐|居中对齐| 右对齐|
-|:------ |:-----:| -----:|:-----:|:-----:|
-| 容器: container/wrap | 整体宽度：wrapper | 页头：header |内容：content|页面主体：main|
-| 页尾：footer | 导航：nav | 侧栏：sidebar | 栏目：column | 中间内容：center |
+| 语义 | 命名| 简写|
+|:-------:|:-------:|:------:|
+|文档|	doc	|doc|
+|头部	|head	|hd|
+|主体	|body	|bd|
+|尾部	|foot	|ft|
+|主栏	|main	|mn|
+|主栏子容器|mainc|	mnc|
+|侧栏	|side	|sd|
+|侧栏子容器	|sidec	|sdc|
+|盒容器	|wrap/box|	wrap/box|
+
 
 
 
