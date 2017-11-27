@@ -69,6 +69,23 @@ webstorm的相关配置
 |按钮	|button	|btn|
 |输入	|input	|ipt|
 
+功能（.f-）
+
+| 语义 | 命名| 简写|
+|:-------:|:-------:|:------:|
+|浮动清除	|clearboth	|cb|
+|向左浮动	|floatleft	|fl|
+|向右浮动	|floatright	|fr|
+|内联块级	|inlineblock	|ib|
+|文本居中	|textaligncenter	|tac|
+|文本居右	|textalignright	|tar
+|文本居左	|textalignleft|	tal|
+|垂直居中	|verticalalignmiddle	|vam|
+|溢出隐藏	|overflowhidden|	oh|
+|完全消失	|displaynone	|dn|
+|字体大小	|fontsize	|fs|
+|字体粗细	|fontweight	|fw|
+
 ## css注释
 
 ### 单行注释
