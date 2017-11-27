@@ -302,7 +302,7 @@ display,float,clear,visibility,overflow
 | 左对齐 | 居中对齐| 右对齐|居中对齐| 右对齐|
 |:------ |:-----:| -----:|:-----:|:-----:|
 | 标志：logo| 登陆：login | 登录条：loginbar |注册：regsiter|产品：products|
-| 产品价格：productsPrices | rightsidebar | 边导航图标：sidebarIcon | 菜单：menu | 子菜单：submenu |
+| 产品价格：productsPrices |产品评论：productsReview | 边导航图标：sidebarIcon | 菜单：menu | 子菜单：submenu |
 
 
 
