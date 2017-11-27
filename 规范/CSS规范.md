@@ -297,6 +297,14 @@ display,float,clear,visibility,overflow
 | 左导航：leftsidebar | rightsidebar | 边导航图标：sidebarIcon | 菜单：menu | 子菜单：submenu |
 |标题: title|
 
+功能
+
+| 左对齐 | 居中对齐| 右对齐|居中对齐| 右对齐|
+|:------ |:-----:| -----:|:-----:|:-----:|
+| 导航：nav| 导航：mainbav/globalnav | 子导航：subnav |顶导航：topnav|边导航：sidebar|
+| 左导航：leftsidebar | rightsidebar | 边导航图标：sidebarIcon | 菜单：menu | 子菜单：submenu |
+
+
 
 
 
