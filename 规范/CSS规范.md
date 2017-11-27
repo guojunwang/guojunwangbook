@@ -20,8 +20,9 @@ webstorm的相关配置
 [参考5](http://yujiangshui.com/)
 [命名参考bootcss](http://v3.bootcss.com/css/)
 [常用参考命名](http://www1.qdfuns.com/blog-5445898-5398950.html)
+
 ## css最佳实践命名
-页面结构
+布局（.g-）
 
 | 左对齐 | 居中对齐| 右对齐|居中对齐| 右对齐|
 |:------ |:-----:| -----:|:-----:|:-----:|
