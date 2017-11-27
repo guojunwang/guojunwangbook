@@ -20,6 +20,15 @@ webstorm的相关配置
 [参考5](http://yujiangshui.com/)
 [命名参考bootcss](http://v3.bootcss.com/css/)
 [常用参考命名](http://www1.qdfuns.com/blog-5445898-5398950.html)
+## css优先级分类
+css的优先级由高到低分为6组：
+1. 第一优先级：无条件优先的属性只需要在属性后面使用！important。它会覆盖页面内任何位置定义的元素样式。ie6不支持该属性。
+2. 第二优先级：在html中给元素标签加style，即内联样式。该方法会造成css难以管理，所以不推荐使用。
+3. 第三优先级：由一个或多个id选择器来定义。例如，#id{margin:0;}会覆盖.classname{margin:3pxl}
+4. 第四优先级：由一个或多个类选择器、属性选择器、伪类选择器定义。如.classname{margin:3px}会覆盖div{margin:6px;}
+5. 第五优先级：由一个或多个类型选择器定义。如div{marigin:6px;}覆盖*{margin:10px；}
+6. 第六优先级：通配选择器，如*{marigin:6px;}
+
 ## 选择器的权重及优先规则
 ## 选择器顺序
 请综合考虑以下顺序依据：
