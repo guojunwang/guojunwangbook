@@ -303,5 +303,5 @@ display,float,clear,visibility,overflow
 |:------ |:-----:| -----:|:-----:|:-----:|
 | 标志：logo| 登陆：login | 登录条：loginbar |注册：regsiter|产品：products|
 | 产品价格：productsPrices |产品评论：productsReview | 编辑评论：editor-review | 菜单：menu最新产品：news-release|广告/标语：banner
-| 标志：logo| 登陆：login | 登录条：loginbar |注册：regsiter|产品：products|
+| 摘要:summary| 登陆：login | 登录条：loginbar |注册：regsiter|产品：products|
 
