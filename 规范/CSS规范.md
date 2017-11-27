@@ -137,10 +137,12 @@ font 有以下属性：
 margin 和 padding 值的简写版本类似。  
 
 ```css
-margin: 10px;（上、下、左、右各10px）
-margin: 10px 50px;（上、下10px；左、右50px）
-margin: 10px 50px 60px;（上10px；左、右50px；下60px）
-margin: 10px 50px 60px 70px;（上10px；右50px；下60px；左70px。（顺时针））
+.class{
+ margin: 10px;（上、下、左、右各10px）
+ margin: 10px 50px;（上、下10px；左、右50px）
+ margin: 10px 50px 60px;（上10px；左、右50px；下60px）
+ margin: 10px 50px 60px 70px;（上10px；右50px；下60px；左70px。（顺时针））
+}
 ```
 
 
