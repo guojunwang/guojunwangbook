@@ -19,6 +19,7 @@ webstorm的相关配置
 [参考4](http://nec.netease.com/standard/css-name.html)
 [参考5](http://yujiangshui.com/)
 [命名参考bootcss](http://v3.bootcss.com/css/)
+[常用参考命名](http://www1.qdfuns.com/blog-5445898-5398950.html)
 ## css最佳实践命名
 页面结构
 
