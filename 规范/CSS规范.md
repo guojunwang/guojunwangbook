@@ -316,7 +316,7 @@ display,float,clear,visibility,overflow
 | 产品描述：productsDescription| 业务范围：businessScope |联系我们：contactUs |信息发布：Information|返回首页：homepage|
 | 产品定购：order| 版权：copyright |友情链接：friendlink |合作伙伴：partner|法律声明：siteinfo-legal|
 | 网站信息：siteinfo| 标签：tag |购物车：shop |当前位置：breadcrumb/loc|投票：vote|
-| 产品定购：order| 版权：copyright |友情链接：friendlink |合作伙伴：partner|法律声明：siteinfo-legal|
+| 下载：download| 版权：copyright |友情链接：friendlink |合作伙伴：partner|法律声明：siteinfo-legal|
 
 
 
