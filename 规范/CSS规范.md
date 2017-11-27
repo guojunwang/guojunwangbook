@@ -311,7 +311,7 @@ display,float,clear,visibility,overflow
 | 排行：ranking| 公司简介：companyProfile |公司设备：equipment |公司荣誉：glories|企业文化：culture|
 | 企业规模：scaleScale| 营销网络：salesNetwork |组织机构：organization |技术力量：technology|分支机构：branches|
 | 企业资质：EnterpriseQualification| 公司实力：strengthStrength |经营理念：operationPrinciple|经理致辞：manager_oratio|发展历程：developmentHistory|
-| 工程案例：EngineeringProjects|分类浏览：browseByCategory |应用领域：applicationFields |技术力量：technology|分支机构：branches|
+| 工程案例：EngineeringProjects|分类浏览：browseByCategory |应用领域：applicationFields |人力资源：humanResourceHr|分支机构：branches|
 | 企业规模：scaleScale| 营销网络：salesNetwork |组织机构：organization |技术力量：technology|分支机构：branches|
 
 
