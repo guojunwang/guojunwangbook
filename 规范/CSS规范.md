@@ -318,4 +318,4 @@ display,float,clear,visibility,overflow
 | 网站信息：siteinfo| 标签：tag |购物车：shop |当前位置：breadcrumb/loc|投票：vote|
 | 下载：download| 新闻：news |热点：hot |服务：service|指南：guild|
 | 注释：note| 图标: icon|常见问题：FAQ |意见反馈：feedback|下载中心：download|
-| 下载：download| 新闻：news |热点：hot |服务：service|指南：guild|
+| 提交：submit| 重写：reset |社区：community |行业：Industry|环境：environment|
