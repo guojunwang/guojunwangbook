@@ -86,6 +86,31 @@ webstorm的相关配置
 |字体大小	|fontsize	|fs|
 |字体粗细	|fontweight	|fw|
 
+
+
+皮肤（.s-）
+
+| 语义 | 命名| 简写|
+|:-------:|:-------:|:------:|
+|字体颜色	|fontcolor	|fc|
+|背景	|background	|bg|
+|背景颜色	|backgroundcolor	|bgc|
+|背景图片	|backgroundimage	|bgi|
+|背景定位	|backgroundposition	|bgp|
+|边框颜色	|bordercolor	|bdc|
+
+状态（.z-）
+
+| 语义 | 命名| 简写|
+|:-------:|:-------:|:------:|
+|选中	|selected	|sel|
+|当前	|current	|crt|
+|显示	|show|	show|
+|隐藏	|hide|	hide|
+|打开	|open	|open|
+|关闭	|close|	close|
+|出错	|error	|err|
+|不可用	|disabled	|dis|
 ## css注释
 
 ### 单行注释
