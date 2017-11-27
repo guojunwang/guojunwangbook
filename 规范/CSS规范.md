@@ -314,7 +314,7 @@ display,float,clear,visibility,overflow
 | 工程案例：EngineeringProjects|分类浏览：browseByCategory |应用领域：applicationFields |人力资源：humanResourceHr|领导致辞： leader_oration|
 | 客户留言：customerMessage| 客户服务：customerService |您的要求：yourRequirements |销售信息：salesInformation|招商：EnterpriseEstablishing|
 | 产品描述：productsDescription| 业务范围：businessScope |联系我们：contactUs |信息发布：Information|返回首页：homepage|
-| 产品定购：order| 版权：copyright |友情链接：friendlink |合作伙伴：partner|招商：EnterpriseEstablishing|
+| 产品定购：order| 版权：copyright |友情链接：friendlink |合作伙伴：partner|法律声明：siteinfo-legal|
 
 
 
