@@ -287,9 +287,18 @@ display,float,clear,visibility,overflow
 | 左对齐 | 居中对齐| 右对齐|居中对齐| 右对齐|
 |:------ |:-----:| -----:|:-----:|:-----:|
 | 容器: container/wrap | 整体宽度：wrapper | 页头：header |内容：content|页面主体：main|
-| 果郡王 | 果郡王 | 果郡王 | 果郡王 | 果郡王 |
+| 页尾：footer | 导航：nav | 侧栏：sidebar | 栏目：column | 中间内容：center |
 
-| 果郡王 | 果郡王 | 果郡王 |果郡王 | 果郡王 |
+导航
+
+| 左对齐 | 居中对齐| 右对齐|居中对齐| 右对齐|
+|:------ |:-----:| -----:|:-----:|:-----:|
+| 容器: container/wrap | 整体宽度：wrapper | 页头：header |内容：content|页面主体：main|
+| 页尾：footer | 导航：nav | 侧栏：sidebar | 栏目：column | 中间内容：center |
+
+
+
+
 
 
 
