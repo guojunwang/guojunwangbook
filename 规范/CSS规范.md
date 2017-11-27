@@ -293,7 +293,7 @@ display,float,clear,visibility,overflow
 
 | 左对齐 | 居中对齐| 右对齐|居中对齐| 右对齐|
 |:------ |:-----:| -----:|:-----:|:-----:|
-| 导航：nav| 导航：mainbav/globalnav | 子导航：subnav |顶导航：topnav|页面主体：main|
+| 导航：nav| 导航：mainbav/globalnav | 子导航：subnav |顶导航：topnav|边导航：sidebar|
 | 页尾：footer | 导航：nav | 侧栏：sidebar | 栏目：column | 中间内容：center |
 
 
