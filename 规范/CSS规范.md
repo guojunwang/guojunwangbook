@@ -20,6 +20,13 @@ webstorm的相关配置
 [参考5](http://yujiangshui.com/)
 [命名参考bootcss](http://v3.bootcss.com/css/)
 ## css最佳实践命名
+页面结构
+
+| 左对齐 | 居中对齐| 右对齐|居中对齐| 右对齐|
+|:------ |:-----:| -----:|:-----:|:-----:|
+| 容器: container/wrap | 整体宽度：wrapper | 页头：header |内容：content|页面主体：main|
+| 页尾：footer | 导航：nav | 侧栏：sidebar | 栏目：column | 中间内容：center |
+
 
 
 ## css注释
