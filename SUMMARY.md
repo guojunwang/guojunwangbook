@@ -9,7 +9,7 @@
 * [规范](gui-fan.md)
   * [CSS规范](规范/CSS规范.md)
   * [HTML规范](规范/HTML规范.md)
-  * [工程师规范](规范/工程师规范.md)
+  * [开发规范](规范/工程师规范.md)
 * [react](react.md)
 * [vue](an-zhuang.md)
 * [python](cha-jian.md)
