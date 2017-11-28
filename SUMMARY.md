@@ -10,6 +10,7 @@
   * [CSS规范](规范/CSS规范.md)
   * [HTML规范](规范/HTML规范.md)
   * [前端开发规范](规范/工程师规范.md)
+  * [JavaScript编码规范](规范/javascriptbian-ma-gui-fan.md)
 * [react](react.md)
 * [vue](an-zhuang.md)
 * [python](cha-jian.md)
