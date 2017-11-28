@@ -167,9 +167,6 @@ CSS选择器的效率从高到低做了一个排序：
 3. 属性选择器，效率相对来说又低一层，E[arr]、E[att^=”val”]、E[att$=”val”]、E[att*=”val”]
 4. 伪类选择器，效率最低，:hover  :active  :focus  :first-child :checked :enabled :nth-child(n) :nth-of-type(n)
       (E:after E:before E:first-letter E:first-line伪元素）
-```
-
-```
 
 
 ## css最佳实践命名
