@@ -12,7 +12,7 @@ webstorm的相关配置
 * [css优先级分类](#css优先级分类)
 * [css选择器分类](#css选择器分类)
 * [CSS中可以和不可以继承的属性](#CSS中可以和不可以继承的属性)  
-* [readMe](#readMe)  
+* [readMe说明](#readMe说明)  
 
 
 
