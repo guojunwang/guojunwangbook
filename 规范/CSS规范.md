@@ -10,8 +10,8 @@ webstorm的相关配置
 * [选择器顺序](#选择器顺序)
 * [选择器的权重及优先规则](#选择器的权重及优先规则)
 * [css优先级分类](#css优先级分类)
-* [git命令跳路径](#git命令跳路径)
-* [nginx配置](#nginx配置)  
+* [css选择器分类](#css选择器分类)
+* [CSS中可以和不可以继承的属性](#CSS中可以和不可以继承的属性)  
 
 [参考1](https://www.zhihu.com/question/20100142)
 [参考2](https://www.zhihu.com/question/38773260)
@@ -20,6 +20,112 @@ webstorm的相关配置
 [参考5](http://yujiangshui.com/)
 [命名参考bootcss](http://v3.bootcss.com/css/)
 [常用参考命名](http://www1.qdfuns.com/blog-5445898-5398950.html)
+## CSS中可以和不可以继承的属性
+一、无继承性的属性
+
+1、display：规定元素应该生成的框的类型
+
+2、文本属性：
+
+vertical-align：垂直文本对齐
+
+text-decoration：规定添加到文本的装饰
+
+text-shadow：文本阴影效果
+
+white-space：空白符的处理
+
+unicode-bidi：设置文本的方向
+
+3、盒子模型的属性：width、height、margin 、margin-top、margin-right、margin-bottom、margin-left、border、border-style、border-top-style、border-right-style、border-bottom-style、border-left-style、border-width、border-top-width、border-right-right、border-bottom-width、border-left-width、border-color、border-top-color、border-right-color、border-bottom-color、border-left-color、border-top、border-right、border-bottom、border-left、padding、padding-top、padding-right、padding-bottom、padding-left
+
+4、背景属性：background、background-color、background-image、background-repeat、background-position、background-attachment
+
+5、定位属性：float、clear、position、top、right、bottom、left、min-width、min-height、max-width、max-height、overflow、clip、z-index
+
+6、生成内容属性：content、counter-reset、counter-increment
+
+7、轮廓样式属性：outline-style、outline-width、outline-color、outline
+
+8、页面样式属性：size、page-break-before、page-break-after
+
+9、声音样式属性：pause-before、pause-after、pause、cue-before、cue-after、cue、play-during
+
+ 
+
+二、有继承性的属性
+
+1、字体系列属性
+
+font：组合字体
+
+font-family：规定元素的字体系列
+
+font-weight：设置字体的粗细
+
+font-size：设置字体的尺寸
+
+font-style：定义字体的风格
+
+font-variant：设置小型大写字母的字体显示文本，这意味着所有的小写字母均会被转换为大写，但是所有使用小型大写字体的字母与其余文本相比，其字体尺寸更小。
+
+font-stretch：对当前的 font-family 进行伸缩变形。所有主流浏览器都不支持。
+
+font-size-adjust：为某个元素规定一个 aspect 值，这样就可以保持首选字体的 x-height。
+
+2、文本系列属性
+
+text-indent：文本缩进
+
+text-align：文本水平对齐
+
+line-height：行高
+
+word-spacing：增加或减少单词间的空白（即字间隔）
+
+letter-spacing：增加或减少字符间的空白（字符间距）
+
+text-transform：控制文本大小写
+
+direction：规定文本的书写方向
+
+color：文本颜色
+
+3、元素可见性：visibility
+
+4、表格布局属性：caption-side、border-collapse、border-spacing、empty-cells、table-layout
+
+5、列表布局属性：list-style-type、list-style-image、list-style-position、list-style
+
+6、生成内容属性：quotes
+
+7、光标属性：cursor
+
+8、页面样式属性：page、page-break-inside、windows、orphans
+
+9、声音样式属性：speak、speak-punctuation、speak-numeral、speak-header、speech-rate、volume、voice-family、pitch、pitch-range、stress、richness、、azimuth、elevation
+
+ 
+
+三、所有元素可以继承的属性
+
+1、元素可见性：visibility
+
+2、光标属性：cursor
+
+ 
+
+四、内联元素可以继承的属性
+
+1、字体系列属性
+
+2、除text-indent、text-align之外的文本系列属性
+
+ 
+
+五、块级元素可以继承的属性
+
+1、text-indent、text-align
 ## css优先级分类
 css的优先级由高到低分为6组：
 1. 第一优先级：无条件优先的属性只需要在属性后面使用！important。它会覆盖页面内任何位置定义的元素样式。ie6不支持该属性。
@@ -37,59 +143,29 @@ css的优先级由高到低分为6组：
 3. 第三等级：代表类，伪类和属性选择器，如.content，权值为10
 4. 第四等级：代表标签选择器和伪元素选择器，如div p，权值为1
 注意：通用选择器（*），子选择器（>），和相邻同胞选择器（+）并不在这个等级中，所以他们的权值为0
-## 选择器顺序
-请综合考虑以下顺序依据：
-* 从大到小（以选择器的范围为准）
-* 从低到高（以等级上的高低为准）
-* 从先到后（以结构上的先后为准）
-* 从父到子（以结构上的嵌套为准）  
 
-以下仅为简单示范：
-
-
-```css
-/* 从大到小 */
-.m-list p{margin:0;padding:0;}
-.m-list p.part{margin:1px;padding:1px;}
-/* 从低到高 */
-.m-logo a{color:#f00;}
-.m-logo a:hover{color:#fff;}
-/* 从先到后 */
-.g-hd{height:60px;}
-.g-bd{height:60px;}
-.g-ft{height:60px;}
-/* 从父到子 */
-.m-list{width:300px;}
-.m-list .itm{float:left;}
 ```
 
-## 选择器等级
-[选择器分类参考](https://zhuanlan.zhihu.com/p/22341291)
+## 选择器分类
+[选择器分类参考1](https://zhuanlan.zhihu.com/p/22341291)
+[选择器分类参考2](http://www.runoob.com/cssref/css-selectors.html)
 选择器分类：
 CSS选择器的效率从高到低做了一个排序：
 
-1.id选择器（#myid）
-
-2.类选择器（.myclassname）
-
-3.标签选择器（div,h1,p）
-
-4.相邻选择器（h1+p）
-
-5.子选择器（ul < li）
-
-6.后代选择器（li a）
-
-7.通配符选择器（*）
-
-8.属性选择器（a[rel="external"]）
-
-9.伪类选择（a:hover,li:nth-child）
+1. id选择器（#myid）
+2. 类选择器（.myclassname）
+3. 标签选择器（div,h1,p）
+4. 相邻选择器（h1+p）
+5. 子选择器（ul  > li）
+6. 后代选择器（li a）
+7. 通配符选择器（*）
+8. 属性选择器（a[rel="external"]）
+9. 伪类选择（a:hover,li:nth-child）
 谈到CSS选择器可能大家最熟悉与常用的就是 标签、id、class选择器了，从效率上来说它们三个无疑最高的选择，我们确实也应优先使用，但在实际开发中，我们可能还有一些友好的选择器，下面列举一些常用css选择器（注意只包括常用有代表性的选择器，部分少用的未列举）：
-1、基本选择器，效率最高;  id 、class、标签、* 通用选择器
-2、组合选择器，效率相对来基本选择器来说较低，‘h1,p多类’、‘div  p后代’、‘div>p子’、‘div~p 同级’、‘div+p相邻（div同级的后一个元素）’选择器
-3、属性选择器，效率相对来说又低一层，E[arr]、E[att^=”val”]、E[att$=”val”]、E[att*=”val”]
-4、伪类选择器，效率最低，:hover  :active  :focus  :first-child :checked :enabled :nth-child(n) :nth-of-type(n)
+1. 基本选择器，效率最高;  id 、class、标签、* 通用选择器
+2. 组合选择器，效率相对来基本选择器来说较低，‘h1,p多类’、‘div  p后代’、‘div>p子’、‘div~p 同级’、‘div+p相邻（div同级的后一个元素）’选择器
+3. 属性选择器，效率相对来说又低一层，E[arr]、E[att^=”val”]、E[att$=”val”]、E[att*=”val”]
+4. 伪类选择器，效率最低，:hover  :active  :focus  :first-child :checked :enabled :nth-child(n) :nth-of-type(n)
       (E:after E:before E:first-letter E:first-line伪元素）
 ```
 
@@ -459,6 +535,36 @@ font-family: 'Microsoft YaHei', '黑体-简', '\5b8b\4f53';
 ```
 .m-box{-webkit-box-shadow:0 0 0 #000;-moz-box-shadow:0 0 0 #000;box-shadow:0 0 0 #000;}
 ```
+## css选择器书写顺序
+请综合考虑以下顺序依据：
+* 从大到小（以选择器的范围为准）
+* 从低到高（以等级上的高低为准）
+* 从先到后（以结构上的先后为准）
+* 从父到子（以结构上的嵌套为准）  
+
+以下仅为简单示范：
+
+
+
+
+```
+
+/* 从大到小 */
+.m-list p{margin:0;padding:0;}
+.m-list p.part{margin:1px;padding:1px;}
+/* 从低到高 */
+.m-logo a{color:#f00;}
+.m-logo a:hover{color:#fff;}
+/* 从先到后 */
+.g-hd{height:60px;}
+.g-bd{height:60px;}
+.g-ft{height:60px;}
+/* 从父到子 */
+.m-list{width:300px;}
+.m-list .itm{float:left;}
+
+```
+
 
 
 
