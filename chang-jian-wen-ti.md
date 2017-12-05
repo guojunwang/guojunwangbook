@@ -8,3 +8,5 @@
 vue.http.jsonp({...})
 
 jsonp的应该是出现在chrome  -> network -> js 返回里。
+
+## php生成html简单代码实例
