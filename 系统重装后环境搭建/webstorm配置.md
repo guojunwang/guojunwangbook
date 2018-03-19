@@ -13,9 +13,7 @@ webstorm的相关配置
 * [nginx配置](#nginx配置)
 * [Emmet预先显示HTML代码结构](#Emmet预先显示HTML代码结构)
 * [实时双向同步插件](#实时双向同步插件)
-
-
-
+* [编码快捷键](#编码快捷键)
 
 
 
@@ -108,7 +106,7 @@ Edit  > Emmet > HTML > enable abbreviation preview
 1. JetBrains IDE Support
 2. Emmet LiveStyle
 
-
+## 编码快捷键
 
 
 
