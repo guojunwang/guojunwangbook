@@ -147,7 +147,8 @@ var number = 1;
 第三步：Ctrl + Alt + space得到所有文件提示  
 第四步：输入搜索或者选中自己需要的引用资源文件 
 
-4.实现图片路径提示+图片预览
+4.实现图片路径提示+图片预览  
+
 第一步：按照3的步骤配置好Code completion  
 第二步：在css 背景设置url中或者img的src中" "里面按Ctrl + Alt + space得到图片资源提示  
 第三步：按快捷键：Ctrl + shift + I 即可看到图片预览  
