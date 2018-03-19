@@ -32,8 +32,11 @@
   * [软件下载](系统重装后环境搭建/软件下载.md)
   * [环境搭建](系统重装后环境搭建/环境搭建.md)
   * [github/gitlab环境搭建](系统重装后环境搭建/gitlab环境搭建.md)
+  * [webstorm中JavaScript调试](系统重装后环境搭建/webstormzhong-javascript-diao-shi.md)
   * [webstorm配置](系统重装后环境搭建/webstorm配置.md)
 * [css编写规范](cssbian-xie-gui-fan.md)
 * [规范](gui-fan.md)
 * [常见问题](chang-jian-wen-ti.md)
+* [ps使用](psshi-yong.md)
+  * [ps常用快捷键](psshi-yong/pschang-yong-kuai-jie-jian.md)
 
