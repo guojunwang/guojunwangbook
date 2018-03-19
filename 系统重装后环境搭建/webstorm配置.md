@@ -107,7 +107,7 @@ Edit  > Emmet > HTML > enable abbreviation preview
 
 ## 编码快捷键
 
-1.变量声明 Ctrl + Alt + V
+1. 变量声明 Ctrl + Alt + V
 
 
 ```JavaScript
@@ -124,9 +124,9 @@ var number = 1;
 ```
 
 
-2.对象声明
+2. 对象声明
 
-.对象声明 Ctrl + Alt + V
+对象声明 Ctrl + Alt + V
 
 ```
 /*
@@ -135,11 +135,21 @@ var number = 1;
  * 第二步:点击 Car() 得到 new Car ()
  * 第三步:Ctrl + Alt + V 得到 var car = new Car(); 
  */
+ var car = new Car();
+
 ```
 
 
+3. js、css、图片路径全局自动补全及其提示
 
+第一步：在设置中搜索 Code completion  
+第二步：在Code completion 右边面板中的Case sensitive completion 右边的下拉列表中选中None 
+第三步：Ctrl + Alt + space得到所有文件提示  
+第四步：输入搜索或者选中自己需要的引用资源文件 
 
-
+4. 实现图片路径提示+图片预览
+第一步：按照3的步骤配置好Code completion  
+第二步：在css 背景设置url中或者img的src中" "里面按Ctrl + Alt + space得到图片资源提示  
+第三步：按快捷键：Ctrl + shift + I 即可看到图片预览  
 
 
