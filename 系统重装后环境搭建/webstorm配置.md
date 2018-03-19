@@ -107,17 +107,49 @@ Edit  > Emmet > HTML > enable abbreviation preview
 
 ## 编码快捷键
 
-1.变量声明
+1. 变量声明 Ctrl + Alt + V
 
 
 ```JavaScript
-let test = 1;
+/*
+ * webStorm 快捷键方式得到 var number = 1;
+ * 第一步:输入 1
+ * 第二步:Ctrl + Alt + V 得到 var number = 1; //说明：es6有let var const 三种变量声明方式 点击选择一种 以后声明默认就是选中的，es5只有var一种
+ * 第三步:修改变量名number，快捷键按完后直接到变量名number，直接修改即可
+ * 第四步：按下enter确认
+ * 第五步：shift + enter到下一行
+ */
+
+var number = 1;
 ```
 
 
-2. Emmet LiveStyle
+2. 对象声明
+
+对象声明 Ctrl + Alt + V
+
+```
+/*
+ * webStorm 快捷键方式得到 var car = new Car();
+ * 第一步:输入 new Ca
+ * 第二步:点击 Car() 得到 new Car ()
+ * 第三步:Ctrl + Alt + V 得到 var car = new Car(); 
+ */
+ var car = new Car();
+
+```
 
 
+3. js、css、图片路径全局自动补全及其提示
 
+第一步：在设置中搜索 Code completion  
+第二步：在Code completion 右边面板中的Case sensitive completion 右边的下拉列表中选中None 
+第三步：Ctrl + Alt + space得到所有文件提示  
+第四步：输入搜索或者选中自己需要的引用资源文件 
+
+4. 实现图片路径提示+图片预览
+第一步：按照3的步骤配置好Code completion  
+第二步：在css 背景设置url中或者img的src中" "里面按Ctrl + Alt + space得到图片资源提示  
+第三步：按快捷键：Ctrl + shift + I 即可看到图片预览  
 
 
