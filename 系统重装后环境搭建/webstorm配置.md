@@ -12,6 +12,10 @@ webstorm的相关配置
 * [git命令跳路径](#git命令跳路径)
 * [nginx配置](#nginx配置)
 * [Emmet预先显示HTML代码结构](#Emmet预先显示HTML代码结构)
+* [实时双向同步插件](#实时双向同步插件)
+
+
+
 
 
 
@@ -99,6 +103,14 @@ Edit  > Emmet > HTML > enable abbreviation preview
 
 ## Emmet预先显示HTML代码结构
 在 setting-->Editor> Emmet> HTML>选中 enable abbreviation preview
+
+## 实时双向同步插件
+1. JetBrains IDE Support
+2. Emmet LiveStyle
+
+
+
+
 
 
 
