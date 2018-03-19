@@ -11,6 +11,10 @@ webstorm的相关配置
 * [npm安装](#npm安装)
 * [git命令跳路径](#git命令跳路径)
 * [nginx配置](#nginx配置)
+* [Emmet预先显示HTML代码结构](#Emmet预先显示HTML代码结构)
+
+
+
 
 
 ## webstorm下载
@@ -91,6 +95,10 @@ WebStorm设置Ctrl+滚轮调整代码字体大小：
 
 ## nginx配置
 
+Edit  > Emmet > HTML > enable abbreviation preview
+
+## Emmet预先显示HTML代码结构
+在 setting-->Editor> Emmet> HTML>选中 enable abbreviation preview
 
 
 

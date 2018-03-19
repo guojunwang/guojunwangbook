@@ -15,7 +15,7 @@
 * [vue](an-zhuang.md)
 * [python](cha-jian.md)
 * php
-* jsp
+* [jsp](jsp.md)
 * [服务器](服务器.md)
   * [阿里云Nginx配置](服务器/阿里云Nginx配置.md)
   * [阿里云服务器问题集锦](服务器/a-li-yun-fu-wu-qi-wen-ti-jie-jue.md)
