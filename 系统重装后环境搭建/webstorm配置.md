@@ -18,7 +18,6 @@ webstorm的相关配置
 
 
 
-
 ## webstorm下载
 下载地址：[官网](https://www.jetbrains.com/webstorm/)
 
@@ -107,6 +106,16 @@ Edit  > Emmet > HTML > enable abbreviation preview
 2. Emmet LiveStyle
 
 ## 编码快捷键
+
+1.变量声明
+
+
+```JavaScript
+let test = 1;
+```
+
+
+2. Emmet LiveStyle
 
 
 
