@@ -19,10 +19,10 @@ ps常用快捷键的目录，点击可跳转对应模块
 * [内嵌HTML](#内嵌HTML)
 
 ## PS填充颜色
-JetBrains下的开发工具都可以按照下面方法激活：
-1. 打开webstorm软件
-2. 在看到的License Activation窗口中选择“License server”
-3. 在输入框输入下面的网址：
+填充颜色快捷键
+1. 填充前景色的快捷键：Alt+Delete
+2. 填充背景色，那快捷键就是：Ctrl+Delete
+
 
 
 
