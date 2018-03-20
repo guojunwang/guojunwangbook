@@ -199,5 +199,6 @@ Shift + Enter：另起一行
 Ctrl + Shift + U：光标所在位置大小写转换
 Ctrl + +/-：扩展/缩减代码块
 Ctrl + Shift+ +/- 扩张/缩减所有
-
+Ctrl + F:当前文件内快速查找代码
+Ctrl + Shift + F: 指定文件内寻找路径(搜狗输入法有热键冲突,记得关掉)
 
