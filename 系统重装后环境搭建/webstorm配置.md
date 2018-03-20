@@ -185,6 +185,11 @@ window+左右方向键 就可以一边编码一边在浏览器看效果
 找回代码的好办法：项目文件夹/单个文件右键点击local history即可
 
 ## 常用快捷键
+
+
+```
+Ctrl + / : 单行注释
+Ctrl  + shift + /: 多行注释
 Ctrl + W：选择代码块，一般是增量选择  
 Ctrl + Shift + W：上个快捷键的回退，减量选择代码  
 Ctrl + Alt + L：代码格式化
@@ -197,7 +202,7 @@ Ctrl + Shift + U：光标所在位置大小写转换
 Ctrl + +/-：扩展/缩减代码块
 Ctrl + Shift+ +/- 扩张/缩减所有
 Ctrl + F:当前文件内快速查找代码
-Ctrl + Shift + F: 指定文件内寻找路径(搜狗输入法有热键冲突,记得关掉)
+Ctrl + Shift + F: 全局搜索内容(搜狗输入法有热键冲突,记得关掉)
 `Ctrl + Shift + Backspace `:向最近编辑定位导航
 Alt + Home:显示导航栏
 F5： 拷贝
@@ -205,6 +210,9 @@ F6： 移动
 Ctrl + Alt + M：提取函数
 Ctrl + Alt + F11:切换全屏模式
 Ctrl + Shift + F12: 切换最大化编辑器
+```
+
+
 
 ## 全屏模式切换
 在工具栏中的view中设置：
