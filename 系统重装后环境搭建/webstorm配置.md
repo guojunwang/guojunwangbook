@@ -143,7 +143,7 @@ var number = 1;
 
 对象声明 Ctrl + Alt + V
 
-```
+```JavaScript
 /*
  * webStorm 快捷键方式得到 var car = new Car();
  * 第一步:输入 new Ca
