@@ -12,7 +12,7 @@ webstorm的相关配置
 * [git命令跳路径](#git命令跳路径)
 * [nginx配置](#nginx配置)
 * [Emmet预先显示HTML代码结构](#Emmet预先显示HTML代码结构)
-* [实时双向同步插件](#实时双向同步插件)
+* [同步热加载插件](#同步热加载插件)
 * [编码快捷键](#编码快捷键)
 * [开发工具/浏览器分屏](#开发工具/浏览器分屏)
 
@@ -106,9 +106,17 @@ Edit  > Emmet > HTML > enable abbreviation preview
 ## Emmet预先显示HTML代码结构
 在 setting-->Editor> Emmet> HTML>选中 enable abbreviation preview
 
-## 实时双向同步插件
-1. JetBrains IDE Support
+## 同步热加载插件
+1. Live Edit + JetBrains IDE Support  
+第一步：Live Edit webstorm2018自带安装（如果没安装，在插件位置安装重启即可）  
+第二步：选中Live Edit中除了第一个nodejs的其他多选框（有node使用，选中nodejs）  
+第三步：在chrome 应用商店中安装JetBrains IDE Support插件  
+第四步：在需要编辑的html页面选择debug在chrome打开即可   
+说明：
+1、运行后，底部debug下会出现 console,这个可浏览器 中的是一样的，但是js再次修改js输出不会更新  
+2、 color字段颜色不会及时更改，需要点下space空格键
 2. Emmet LiveStyle
+
 
 ## 编码快捷键
 
