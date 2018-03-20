@@ -117,6 +117,7 @@ Edit  > Emmet > HTML > enable abbreviation preview
 2、 color字段颜色不会及时更改，需要点下space空格键
 2. Emmet LiveStyle
 3. webpack热加载
+4. 浏览器自动定时刷新（如360浏览器自带并可以设置）
 
 
 ## 编码快捷键
