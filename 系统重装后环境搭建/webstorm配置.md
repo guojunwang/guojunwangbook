@@ -116,6 +116,7 @@ Edit  > Emmet > HTML > enable abbreviation preview
 1、运行后，底部debug下会出现 console,这个可浏览器 中的是一样的，但是js再次修改js输出不会更新  
 2、 color字段颜色不会及时更改，需要点下space空格键
 2. Emmet LiveStyle
+3. webpack热加载
 
 
 ## 编码快捷键
