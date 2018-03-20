@@ -71,6 +71,9 @@ WebStorm设置Ctrl+滚轮调整代码字体大小：
 1. add文件 ctrl + Alt + a （add后红色的文件名变为了蓝色）
 2. 添加commit注释 ctrl + k
 3. push提交 ctrl + shift + k
+4. 从VCS 更新项目:Ctrl + T 
+5. 查看最新改变 Alt + Shift + C 
+
 
 ## Terminal样式配置
 1. 配置位置：
@@ -201,4 +204,8 @@ Ctrl + +/-：扩展/缩减代码块
 Ctrl + Shift+ +/- 扩张/缩减所有
 Ctrl + F:当前文件内快速查找代码
 Ctrl + Shift + F: 指定文件内寻找路径(搜狗输入法有热键冲突,记得关掉)
-
+`Ctrl + Shift + Backspace `:向最近编辑定位导航
+Alt + Home:显示导航栏
+F5： 拷贝
+F6： 移动
+Ctrl + Alt + M：提取函数
