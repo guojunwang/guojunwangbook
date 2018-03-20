@@ -109,7 +109,7 @@ Edit  > Emmet > HTML > enable abbreviation preview
 ## 同步热加载插件
 1. Live Edit + JetBrains IDE Support  
 第一步：Live Edit webstorm2018自带安装（如果没安装，在插件位置安装重启即可）  
-第二步：选中Live Edit中除了第一个nodejs的其他多选框（有node使用，选中nodejs）  
+第二步：在setting中选中Live Edit中除了第一个nodejs的其他多选框（有node使用，选中nodejs）  
 第三步：在chrome 应用商店中安装JetBrains IDE Support插件  
 第四步：在需要编辑的html页面选择debug在chrome打开即可   
 说明：
