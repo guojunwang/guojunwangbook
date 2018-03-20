@@ -209,3 +209,5 @@ Alt + Home:显示导航栏
 F5： 拷贝
 F6： 移动
 Ctrl + Alt + M：提取函数
+Ctrl + Alt + F11:切换全屏模式
+Ctrl + Shift + F12: 切换最大化编辑器
