@@ -197,5 +197,7 @@ Ctrl + X ：剪切当前行或所选代码块到剪切板
 Ctrl + Y：删除光标所在位置行
 Shift + Enter：另起一行
 Ctrl + Shift + U：光标所在位置大小写转换
-Ctrl + NumPad+/-：扩展/缩减代码块
+Ctrl + +/-：扩展/缩减代码块
+Ctrl + Shift+ +/- 扩张/缩减所有
+
 
