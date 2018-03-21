@@ -34,6 +34,7 @@
   * [github/gitlab环境搭建](系统重装后环境搭建/gitlab环境搭建.md)
   * [webstorm中JavaScript调试](系统重装后环境搭建/webstormzhong-javascript-diao-shi.md)
   * [webstorm配置](系统重装后环境搭建/webstorm配置.md)
+  * [phpstorm配置](系统重装后环境搭建/phpstormpei-zhi.md)
 * [css编写规范](cssbian-xie-gui-fan.md)
 * [规范](gui-fan.md)
 * [常见问题](chang-jian-wen-ti.md)
