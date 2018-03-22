@@ -6,6 +6,7 @@ webstorm的相关配置
 * [鼠标代码缩放](#鼠标代码缩放)
 * [主题设置](#主题设置)
 * [设置背景图片](#设置背景图片)
+* [设置JS文件头部注释](#设置JS文件头部注释)
 * [git集成使用](#git集成使用)
 * [git快捷键](#git快捷键)
 * [Terminal样式配置](#Terminal样式配置)
@@ -57,6 +58,22 @@ WebStorm设置Ctrl+滚轮调整代码字体大小：
 ## 设置背景图片
 版本要求：2017.3版本及其以上  
 Settings ——> Appearance 页面下——>Background images
+
+## 设置JS文件头部注释
+此方法也可以设置默认代码  
+Settings ——> Editor ——>File  and  Code Template ——>JavaScript File的里面输入以下代码即可
+
+```JavaScript
+/**
+ * @fileName: ${NAME}
+ * @author: guoKing
+ * @date: ${DATE} ${TIME}
+ * @desc:
+ */
+```
+
+
+
 ## git集成使用
 
 
