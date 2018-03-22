@@ -217,4 +217,10 @@ Ctrl + Shift + F12: 切换最大化编辑器
 2. 进入全屏模式view--》enter full model  
 3. 进入免打扰模式 view--》Enter Distraction Free Mode  
 
-## 
+## 必备插件
+
+常用的webstorm插件：
+1. 进入演示模式view--》enter presentation model  
+2. 进入全屏模式view--》enter full model  
+3. 进入免打扰模式 view--》Enter Distraction Free Mode  
+
