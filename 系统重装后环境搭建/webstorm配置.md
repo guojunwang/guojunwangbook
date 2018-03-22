@@ -220,7 +220,7 @@ Ctrl + Shift + F12: 切换最大化编辑器
 ## 必备插件
 
 常用的webstorm插件：
-1. [Quokka](https://quokkajs.com/docs/)是编辑器中的快速原型操场，可以实时反馈结果、快速安装包、实时性能测试、项目文件导入、实时评论（false/true），实时记录/比较、内联报告，代码覆盖范围和丰富的输出格式等。  
-2. 进入全屏模式view--》enter full model  
+1. [Quokka](https://quokkajs.com/docs/)能够实时看到 js 代码中元素的类型以及运行的结果，可以实时反馈结果、快速安装包、实时性能测试、项目文件导入、实时评论（false/true），实时记录/比较、内联报告，代码覆盖范围和丰富的输出格式等。  
+2. CodeGlance 代码区右侧有缩放图，可用于快速定位代码
 3. 进入免打扰模式 view--》Enter Distraction Free Mode  
 
