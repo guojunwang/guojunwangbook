@@ -220,7 +220,7 @@ Ctrl + Shift + F12: 切换最大化编辑器
 ## 必备插件
 
 常用的webstorm插件：
-1. 进入演示模式view--》enter presentation model  
+1. [Quokka](https://quokkajs.com/docs/)是编辑器中的快速原型操场，可以实时反馈结果、快速安装包、实时性能测试、项目文件导入、实时评论（false/true），实时记录/比较、内联报告，代码覆盖范围和丰富的输出格式等。  
 2. 进入全屏模式view--》enter full model  
 3. 进入免打扰模式 view--》Enter Distraction Free Mode  
 
