@@ -7,6 +7,7 @@ webstorm的相关配置
 * [主题设置](#主题设置)
 * [设置背景图片](#设置背景图片)
 * [设置JS文件头部注释](#设置JS文件头部注释)
+* [TODO使用](#TODO使用)
 * [git集成使用](#git集成使用)
 * [git快捷键](#git快捷键)
 * [Terminal样式配置](#Terminal样式配置)
@@ -72,7 +73,23 @@ Settings ——> Editor ——>File  and  Code Template ——>JavaScript File�
  */
 ```
 
+## TODO使用
+我们经常会使用TODO来标记我们的代码，一般是用来表示待完成，或者待解决的部分。下面介绍一下TODO的用法，及一些相关的扩展。  
 
+1. 添加TODO
+```
+ // TODO 2018-03-22 待重构
+ // FIXME 2018-03-22 需要修正的功能
+// XXX 需要改进的功能
+
+ 说明：1.TODO等待实现的功能  
+ 2.FIXME 需要修正的功能  
+ 3.XXX 需要改进的功能
+
+```
+2. 查看TODO
+* 在webstorm左下角，有一个TODO按钮，可以查看
+* 如果没有 TODO tab，你可以通过左上角的菜单打开：View -> Tool windows -> TODO
 
 ## git集成使用
 
