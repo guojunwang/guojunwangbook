@@ -19,10 +19,7 @@ webstorm的相关配置
 * [本地历史功能](#本地历史功能)
 * [常用快捷键](#常用快捷键)
 * [全屏模式切换](#全屏模式切换)
-
-
-
-
+* [必备插件](#必备插件)
 
 ## webstorm下载
 下载地址：[官网](https://www.jetbrains.com/webstorm/)
@@ -219,3 +216,5 @@ Ctrl + Shift + F12: 切换最大化编辑器
 1. 进入演示模式view--》enter presentation model  
 2. 进入全屏模式view--》enter full model  
 3. 进入免打扰模式 view--》Enter Distraction Free Mode  
+
+## 
