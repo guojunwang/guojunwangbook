@@ -5,6 +5,7 @@ webstorm的相关配置
 * [注册码](#注册码)
 * [鼠标代码缩放](#鼠标代码缩放)
 * [主题设置](#主题设置)
+* [设置背景图片](#设置背景图片)
 * [git集成使用](#git集成使用)
 * [git快捷键](#git快捷键)
 * [Terminal样式配置](#Terminal样式配置)
@@ -53,6 +54,9 @@ WebStorm设置Ctrl+滚轮调整代码字体大小：
  A.主题下载方式2(开发工具中下载):File --> setting--> plugins-->Browse repositor
  B.操作步骤：然后输入Theme 看到Material Theme UI 后-->点击进行下载-->安装完成后重启，重启后会发现文件内容界面没有改变，需要设置下：1.点击左上角的File，再点击setting；2.Editor->Color Scheme，选择Material.Theme相关主题，背景立即改变；
 
+## 设置背景图片
+版本要求：2017.3版本及其以上  
+Settings ——> Appearance 页面下——>Background images
 ## git集成使用
 
 
