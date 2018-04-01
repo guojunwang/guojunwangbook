@@ -29,4 +29,51 @@ ctrl + E:打开最近使用的文件（可搜索）
 ctrl + 左上角波浪线 + 选择color scheme：快速切换主题  
 ##调试
 php调试使用xdebug
+1. 下载xdebug[地址](https://xdebug.org/download.php)  
+技巧（如何选择下载对应自己php版本的xdebug）： 
+
+
+* 进入https://xdebug.org/download.php页面
+* 点击Releases --》custom installation instructions进入页面（[或者直接进入](https://xdebug.org/wizard.php)）
+* 新建php文件输入phpinfo并进入页面--》查看源码——》复制所有代码
+* 粘贴代码到第二步页面的输入框中--》点击输入框下面的Analyse my phpinfo() output得到如下提示
+
+
+
+```
+Instructions
+
+Download php_xdebug-2.6.0-7.1-vc14.dll
+Move the downloaded file to D:\xampp\php\ext
+Edit D:\xampp\php\php.ini and add the line
+zend_extension = D:\xampp\php\ext\php_xdebug-2.6.0-7.1-vc14.dll
+Restart the webserver
+```
+   
+* 安装XDebug按照上面提示下载“php_xdebug-2.6.0-7.1-vc14.dll
+”，将其复制到d:\xampp\php\ext\目录中。
+* 按照上面提示在php.ini中配置zend_extension = D:\xampp\php\ext\php_xdebug-2.6.0-7.1-vc14.dll
+这里复制下面到php.ini中文件底部即可
+
+```
+
+[Xdebug]
+zend_extension = D:\xampp\php\ext\php_xdebug-2.6.0-7.1-vc14.dll
+xdebug.remote_enable =1
+xdebug.remote_handler = "dbgp"
+xdebug.remote_host = "localhost"
+xdebug.remote_mode = "req"
+xdebug.remote_port = 9000
+xdebug.idekey = "PHPSTORM"
+```
+* 重启Apache   
+需要注意的是xdebug.idekey配置，这里配置的值（当前为“PHPSTORM”）在phpstorm中及浏览器中都需要设置（下面有相关描述），可以改为其它值，但必须保证在这三处设置统一。
+* 验证xdebug是否成功
+
+
+
+
+
+
+
 
