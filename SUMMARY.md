@@ -14,7 +14,6 @@
 * [react](react.md)
 * [vue](an-zhuang.md)
 * [python](cha-jian.md)
-* php
 * [jsp](jsp.md)
 * [服务器](服务器.md)
   * [阿里云Nginx配置](服务器/阿里云Nginx配置.md)
@@ -40,4 +39,6 @@
 * [常见问题](chang-jian-wen-ti.md)
 * [ps使用](psshi-yong.md)
   * [ps常用快捷键](psshi-yong/pschang-yong-kuai-jie-jian.md)
+* [php](php.md)
+  * [ThinkPHP框架](php/thinkphpkuang-jia.md)
 
