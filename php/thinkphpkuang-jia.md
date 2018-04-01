@@ -66,9 +66,14 @@ xdebug.remote_mode = "req"
 xdebug.remote_port = 9000
 xdebug.idekey = "PHPSTORM"
 ```
-* 重启Apache   
+* 重启Apache
 需要注意的是xdebug.idekey配置，这里配置的值（当前为“PHPSTORM”）在phpstorm中及浏览器中都需要设置（下面有相关描述），可以改为其它值，但必须保证在这三处设置统一。
 * 验证xdebug是否成功：在phpinfo页面中输入xdebug看看能不能找到，找到即p位置成功
+
+ `PHPstorm配置xdebug`
+ ***
+ 
+ 
 
 
 
