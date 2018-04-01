@@ -6,7 +6,7 @@ ThinkPHP框架的目录，点击可跳转对应模块
 * [下载](#工具箱)
 * [pstorm快捷键操作](#pstorm快捷键操作)
 * [调试](#调试)
-* [选择功能](#选择功能)
+* [ 配置虚拟域名简化URL路径](#配置虚拟域名简化URL路径)
 * [滤镜](#滤镜)
 * [视图操作](#视图操作)
 * [编辑操作](#编辑操作)
@@ -74,8 +74,9 @@ xdebug.idekey = "PHPSTORM"
  ***
  
  * 在run ——》edit configuration ——》 php web pag——》+
- ——》选择三个点 然后弹出server界面 输入名称（Xampp Apache自己随便输入）和host（localhost） port （默认80，如果不是就更改为自己的 为这里为89）——》ok——》start url输入/yaohao/public/index.php（调试的页面，自己输入)——》ok
+ ——》选择三个点 然后弹出server界面 输入名称（Xampp Apache自己随便输入）和host（localhost） port （默认80，如果不是就更改为自己的 为这里为89）——》ok——》start url输入/yaohao/public/index.php（调试的页面，自己输入)——》ok 然后打断点即可调试
 
+##  配置虚拟域名简化URL路径
 
 
 
