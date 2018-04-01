@@ -73,7 +73,8 @@ xdebug.idekey = "PHPSTORM"
  `PHPstorm配置xdebug`
  ***
  
- 
+ * 在run ——》edit configuration ——》 php web pag——》+
+ ——》选择三个点 然后弹出server界面 输入名称（Xampp Apache自己随便输入）和host（localhost） port （默认80，如果不是就更改为自己的 为这里为89）——》ok——》start url输入/yaohao/public/index.php（调试的页面，自己输入)
 
 
 
