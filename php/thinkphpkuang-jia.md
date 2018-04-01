@@ -27,7 +27,7 @@ ThinkPHP框架的目录，点击可跳转对应模块
 Alt + 上下方向键 ：用于切换方法  
 ctrl + E:打开最近使用的文件（可搜索）  
 ctrl + 左上角波浪线 + 选择color scheme：快速切换主题  
-##调试
+## PHPstorm配置调试工具
 php调试使用xdebug
 1. 下载xdebug[地址](https://xdebug.org/download.php)  
 技巧（如何选择下载对应自己php版本的xdebug）： 
@@ -68,7 +68,7 @@ xdebug.idekey = "PHPSTORM"
 ```
 * 重启Apache   
 需要注意的是xdebug.idekey配置，这里配置的值（当前为“PHPSTORM”）在phpstorm中及浏览器中都需要设置（下面有相关描述），可以改为其它值，但必须保证在这三处设置统一。
-* 验证xdebug是否成功
+* 验证xdebug是否成功：在phpinfo页面中输入xdebug看看能不能找到，找到即p位置成功
 
 
 
