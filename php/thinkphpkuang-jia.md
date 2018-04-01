@@ -78,6 +78,25 @@ xdebug.idekey = "PHPSTORM"
 
 ##  配置虚拟域名简化URL路径
 
+1. 在D:\xampp\apache\conf\extra下的httpd-vhosts.conf文件中加入
+
+```
+##配置虚拟域名简化本地URL路径
+<VirtualHost *:80>
+    DocumentRoot "D:/xampp/htdocs/yaohao/public"
+    ServerName g.com
+</VirtualHost>
+```
+重启Apache服务器
+
+2. 在C:\Windows\System32\drivers\etc下的hosts文件中底部加入
+
+```
+127.0.0.1 g.com
+
+```
+
+
 
 
 
