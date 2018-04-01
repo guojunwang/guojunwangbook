@@ -25,3 +25,6 @@ ThinkPHP框架的目录，点击可跳转对应模块
 
 ## pstorm快捷键操作
 Alt + 上下方向键 ：用于切换方法
+ctrl + E:打开最近使用的文件（可搜索）
+ctrl + 左上角波浪线 + 选择color scheme：快速切换主题
+
