@@ -47,9 +47,10 @@ netstat -ano | findstr "80" （注80是你想要看查看的端口号）
 找到 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\HTTP    
 找到项Start，将其值改为0
 
-## phpstorm命名空间名称记住设置
+## phpstorm补全命名空间
 
 
+在设置中搜索directories——》application——》source——》点击右边小p——》弹出框输入app即可；设置完成后如果新建php class就会补全命名空间
 
 
 
