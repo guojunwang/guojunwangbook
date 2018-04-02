@@ -40,16 +40,14 @@ ThinkPHP框架的目录，点击可跳转对应模块
 用户——》root@localhost双击——》密码和确认密码位置重新输入自己想修改的——》点击保存即可  完成后重新新建连接
 
 ## Windows平台下80端口被System占用解决办法
-netstat -ano | findstr ":80 "  
-
-发现：tasklist /fi "PID eq 4"
-表示这个80端口被系统占用
-找到 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\HTTP  
+查看端口：在开始-运行，输入CMD打开命令行界面，输入命令
+netstat -ano | findstr "80" （注80是你想要看查看的端口号）  
+发现：tasklist /fi "PID eq 4"  
+表示这个80端口被系统占用  
+找到 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\HTTP    
 找到项Start，将其值改为0
 
-## 查看端口
-在开始-运行，输入CMD打开命令行界面，输入命令
-netstat -ano | findstr "80" （注80是你想要看查看的端口号）
+
 
 
 
