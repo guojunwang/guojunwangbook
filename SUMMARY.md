@@ -41,6 +41,7 @@
   * [ps常用快捷键](psshi-yong/pschang-yong-kuai-jie-jian.md)
 * [php](php.md)
   * [ThinkPHP框架](php/thinkphpkuang-jia.md)
+* [thinkphp api开发](thinkphp-apikai-fa.md)
 * [软件安装](ruan-jian-an-zhuang.md)
   * [Axure安装](ruan-jian-an-zhuang/axurean-zhuang.md)
 
