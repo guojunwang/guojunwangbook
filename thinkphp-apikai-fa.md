@@ -1,4 +1,4 @@
-# ThinkPHP框架
+``# ThinkPHP框架
 
 ThinkPHP框架的目录，点击可跳转对应模块
 
@@ -60,5 +60,17 @@ http://serverName/new/5
 2. Validate验证器(开发都采用验证器方式进行验证，thinkphp自带验证如email邮箱验证等)
 
 3. 自定义验证规则（thinkphp框架没有的自己需要验证，这时候就需要自定义）
+
+
+
+```
+请求参数调用check()返回后，tp5会返回如下数据：
+$data ——》 就是传的参数名称和值
+$field ——》做验证的参数名称
+$value——》做验证的参数名称
+$rule ——》用不到
+
+
+```
 
 
