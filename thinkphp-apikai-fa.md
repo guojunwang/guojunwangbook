@@ -181,8 +181,18 @@ http://z.com/banner/1
 3. 处理（记录日志，不用tp5自带记录日志，自定义只记录服务器异常日志）
 tp5框架默认会记录错误日志，但是它会记录所有的日志，包括用户行为异常和服务器异常日志和一些无用的日志，而且还会占大量空间。所以关闭掉tp5默认的记录日志，自定义
 4. 全局异常处理类（aop）如果不处理就是状态码，还有就是验证后的返回格式不正确， api这样不能这样，所有需要用全局异常处理
+
 5. 自定义异常
-要启用自定义错误处理页面，首先得把config.php文件中的debug设置为false，否则将无法正常使用自定义错误页面。
+要启用自定义错误处理页面，首先得把config.php文件中的exception_handle设置为重写Handle的render方法的类的命名空间地址，默认为空，如我这里写的如下
+
+
+
+```
+   // 异常处理handle类 留空使用 \think\exception\Handle
+    'exception_handle'       => 'app\lib\exception\ExceptionHandler',
+```
+
+
 
 
 ## 上线需要修改的
