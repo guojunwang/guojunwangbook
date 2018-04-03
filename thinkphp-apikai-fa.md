@@ -16,6 +16,28 @@ ThinkPHP框架的目录，点击可跳转对应模块
 * [取消操作](#取消操作)
 ## 接口
 在application下对应的模块下写对应的接口
+
+例如
+```
+class Banner
+{
+    /**
+     * 获取指定id的banner信息
+     * @url /banner/:id
+     * @http GET
+     * @id banner的id号
+     *
+     */
+    public function getBanner($id)
+    {
+        
+    }
+
+
+}
+```
+
+
 ## 路由
 写完接口后，要动态注册路由：  
 路由定义采用\think\Route类的rule方法注册，通常是在应用的路由配置文件application/route.php进行注册，格式是：Route::rule('路由表达式','路由地址','请求类型','路由参数（数组）','变量规则（数组）');  
