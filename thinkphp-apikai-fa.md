@@ -68,7 +68,7 @@ http://serverName/new/5
 $data ——》 数据
 $field ——》做验证的参数名称
 $value——》做验证的参数名称
-$rule ——》用不到
+$rule ——》一般用不到
 
 
 ```
