@@ -85,6 +85,87 @@ $rule ——》一般用不到
 ## 异常处理方式
 1. 抛出异常
 
+
+```php
+<?php
+/**
+ * desc:.
+ * User: 果郡王
+ * Date: 2018-04-03
+ * Time: 17:41
+ */
+
+namespace app\api\model;
+
+
+class Banner
+{
+    public static function getBannerById($id)
+    {
+        try{
+            3/0;
+        }catch (Exception $exception){
+
+            throw  $exception;
+        }
+        //TODO 根据banner id获取banner信息
+        return "这是banner获取的信息";
+
+    }
+
+}
+```
+
+控制器调用
+```php
+<?php
+/**
+ * desc: Banner接口
+ * User: 果郡王
+ * Date: 2018-04-03
+ * Time: 11:12
+ * ——————————————————快捷键——————————————
+ *  pubf(prif、prof私有、保护前缀一样) 生成 public function (){}
+ *  pubsf (prisf、prosf私有、保护前缀一样) 生成 public static function () {}
+ *
+ * ——————————————————开发笔记—————————————
+ * 1 .方法function前面没有写public 默认为public
+ */
+
+namespace app\api\controller\v1;
+//因为banner两个一样开发工具感应引入有问题，需要手动写一个，并且给别名区分
+use app\api\model\Banner as BannerModel;
+
+class Banner
+{
+    /**
+     * 获取指定banner的信息
+     * @url /banner/:id
+     * @http GET
+     * @id banner的id号
+     */
+    public function getBanner($id)
+    {
+        //(new IDMustBePostiveInt())->goCheck();//进行验证
+        //id获取到后并且校验符合要求后就需要进行业务处理
+        //这时候就需要放到单独的业务层，建立controller同级的model文件夹，新建与当前文件名相同的类，这样看着结构比较清晰
+        $banner = BannerModel::getBannerById($id);
+        return $banner;
+
+    }
+
+}
+```
+请求地址：
+
+
+```
+http://z.com/banner/1
+```
+
+
+
+
 2. 捕获异常处理
 3. 处理（记录日志）
 4.全局异常处理类（aop）如果不处理就是状态码，还有就是验证后的返回格式不正确， api这样不能这样，所有需要用全局异常处理
