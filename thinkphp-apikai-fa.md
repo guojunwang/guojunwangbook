@@ -79,4 +79,7 @@ $rule ——》一般用不到
 1. 致命错误: Class 'app\api\validate\Request' not found  
 解决方法：没有引入Request库
 
+## 常见快捷键
+1. 移除没有使用的库 ctrl+alt+o
+
 
