@@ -17,10 +17,17 @@ ThinkPHP框架的目录，点击可跳转对应模块
 ## 接口
 ## 路由
 写完接口后，要动态注册路由：  
-路由定义采用\think\Route类的rule方法注册，通常是在应用的路由配置文件application/route.php进行注册，格式是：
+路由定义采用\think\Route类的rule方法注册，通常是在应用的路由配置文件application/route.php进行注册，格式是：Route::rule('路由表达式','路由地址','请求类型','路由参数（数组）','变量规则（数组）');  
+例如注册如下路由规则：
+
 
 ```
-Route::rule('路由表达式','路由地址','请求类型','路由参数（数组）','变量规则（数组）');
+use think\Route;
+// 注册路由到index模块的News控制器的read操作
+Route::rule('new/:id','index/News/read');
+
+我们访问：
+http://serverName/new/5
 ```
 
 
