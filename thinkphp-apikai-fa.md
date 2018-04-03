@@ -78,7 +78,8 @@ $rule ——》一般用不到
 ##常见错误
 1. 致命错误: Class 'app\api\validate\Request' not found  
 解决方法：没有引入Request库
-
+2. variable type error： array
+需要把数组转json
 ## 常见快捷键
 1. 移除没有使用的库 ctrl+alt+o
 
