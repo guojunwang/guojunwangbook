@@ -75,4 +75,8 @@ $rule ——》一般用不到
 ## 拦截器
 （new Test()）代表拦截器
 
+##常见错误
+1. 致命错误: Class 'app\api\validate\Request' not found  
+解决方法：没有引入Request库
+
 
