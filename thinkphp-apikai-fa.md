@@ -65,7 +65,7 @@ http://serverName/new/5
 
 ```
 请求参数调用check()返回后，tp5会返回如下数据：
-$data ——》 就是传的参数名称和值
+$data ——》 数据
 $field ——》做验证的参数名称
 $value——》做验证的参数名称
 $rule ——》用不到
