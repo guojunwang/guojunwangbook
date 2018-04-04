@@ -480,6 +480,8 @@ class Banner extends Model
 }
 
 ```
+## url路径处理
+
 
 
 
