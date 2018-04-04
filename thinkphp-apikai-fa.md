@@ -336,8 +336,8 @@ $result = Db::table("banner_item")
 模型分层：模型可以在model、server中
 ## 模型
 
-模型是orm的一个对象
-
+模型是orm的一个对象  
+优势:
 ### 模型定义
 
 定义一个User模型类：
