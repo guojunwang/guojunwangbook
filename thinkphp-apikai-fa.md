@@ -330,7 +330,52 @@ $result = Db::table("banner_item")
 模型：这里是指tp5中的m模型：包含数据库查询、包含相关业务逻辑操作  
 简单理解：一个表是一个对象，模型可能对应多个表、多个对象
 模型分层：模型可以在model、server中
-###
+## 模型
+
+模型是orm的一个对象
+
+### 模型使用
+
+定义一个User模型类：
+```
+namespace app\index\model;
+
+use think\Model;
+
+class User extends Model
+{
+}
+```
+
+默认数据表名自动识别为类名，如上面代码的User对应数据库中user表。如果需要指定表名，可以设置当前模型对应的完整数据表名称，如下代码
+
+
+
+```
+namespace app\index\model;
+
+class User extends \think\Model
+{
+    // 设置当前模型对应的完整数据表名称
+    protected $table = 'think_user';
+  }
+```
+
+
+默认为主键为自动识别，如果需要指定，可以设置属性：
+
+
+```
+namespace app\index\model;
+
+use think\Model;
+
+class User extends Model
+{
+    protected $pk = 'uid';
+}
+```
+调用模型
 
 
 
