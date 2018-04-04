@@ -425,10 +425,56 @@ $user->save();
  
 ` 模型自带隐藏`
 
-在模型类中
+在模型类中 声明 protected $hidden=["id"];即可隐藏
 
 ```
+<?php
+/**
+ * desc:.
+ * User: 果郡王
+ * Date: 2018-04-03
+ * Time: 17:41
+ */
 
+namespace app\api\model;
+
+
+use think\Db;
+use think\Model;
+
+class Banner extends Model
+{
+    protected $hidden=["id"];
+
+    //定义Banner与BannerItem关联
+    public function items()
+    {
+        //this指代Banner  hasMany()是模型关联自带函数 参考https://www.kancloud.cn/manual/thinkphp5/142358
+        //语义化理解：Banner模型包含多个BannerItem模型 通过banner_item表中的banner_id和banner表中id进行关联
+        // BannerItem关联模型名 banner_id关联模型外键 id当前模型的主键
+        return $this->hasMany("BannerItem","banner_id","id");
+    }
+
+
+    public static function getBannerById($id)
+    {
+
+        //原生sql查询数据库
+       // $result = Db::query('select * from banner_item where banner_id=?',[$id]);
+
+        // 查询构造器查询数据库
+        // db代表数据库类，需要数据库库操作必须用Db，select()前面都是链式方法，select()这些才是真正查询的方法
+        $result = Db::table("banner_item")->where("banner_id",'=',$id)->select();
+
+
+
+
+
+        return $result;
+
+    }
+
+}
 
 ```
 
