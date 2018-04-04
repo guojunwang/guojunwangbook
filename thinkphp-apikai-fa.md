@@ -375,7 +375,30 @@ class User extends Model
     protected $pk = 'uid';
 }
 ```
-调用模型
+调用模型  
+模型类可以使用静态调用或者实例化调用两种方式，例如：
+
+
+
+```
+// 静态调用
+$user = User::get(1);
+$user->name = 'thinkphp';
+$user->save();
+
+// 实例化模型
+$user = new User;
+$user->name= 'thinkphp';
+$user->save();
+
+// 使用 Loader 类实例化（单例）
+$user = Loader::model('User');
+
+// 或者使用助手函数`model`
+$user = model('User');
+$user->name= 'thinkphp';
+$user->save();
+```
 
 
 
