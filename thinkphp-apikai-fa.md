@@ -482,7 +482,7 @@ class Banner extends Model
 ```
 ## url路径处理
 
-配置成相对路径
+数据库url配置成相对路径
 
 
 
