@@ -404,6 +404,20 @@ $user = model('User');
 $user->name= 'thinkphp';
 $user->save();
 ```
+### 模型关联
+ 定义模型关联
+
+```
+ //定义Banner与BannerItem关联
+  public function items()
+  {
+      //this指代Banner  hasMany()是模型关联自带函数 参考https://www.kancloud.cn/manual/thinkphp5/142358
+      //语义化理解：Banner模型包含多个BannerItem模型 通过banner_item表中的banner_id和banner表中id进行关联
+      return $this->hasMany("BannerItem","banner_id","id");
+  }
+
+```
+模型关联使用
 
 
 
